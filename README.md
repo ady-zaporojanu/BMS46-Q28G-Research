@@ -4,11 +4,11 @@ Reproducible, **offline** reverse-engineering workspace for the BMW/Siemens BMS4
 firmware revision **01119700F000Q28G**. Share and review annotations in Git, then
 rebuild a local Ghidra project from a firmware image you are entitled to use.
 
-**Complete companion bundle:** the original ready-to-open Ghidra project, packed
-program, full/partial BIN collection, TunerPro XDF/XML definitions, map packs and
-historical research are now prepared separately as release/review materials.
-See [MATERIALS.md](docs/MATERIALS.md). The packed project preserves the original
-signatures and variables; the text-only reconstruction below has a narrower scope.
+**Download and browse the actual research materials:**
+[full/partial BINs, XDF/XML and annotated Ghidra program](materials/README.md) are
+included in this repository. The [complete v0.2.0 collection](https://github.com/ady-zaporojanu/BMS46-Q28G-Research/releases/tag/v0.2.0) also
+contains the ready-to-open Ghidra project and historical research.
+See [MATERIALS.md](docs/MATERIALS.md) for usage and provenance.
 
 [Română](README.ro.md) · [Quick start](docs/QUICKSTART.md) ·
 [Findings](docs/FINDINGS.md) · [Contributing](CONTRIBUTING.md) ·
@@ -55,11 +55,11 @@ Language:  68000:BE:32:CPU32_STATUS_V2
 Ghidra:    12.1.2 (pinned reconstruction baseline)
 ```
 
-Firmware and Ghidra databases are not stored in this text-source repository;
-they are organized in the separate companion collection with provenance and
-publication-review status. Private identity data and proprietary software installers
-are not intended for public redistribution. Do not substitute another BMS46
-revision. The public annotations alone do not reconstruct the ROM bytes.
+The exact canonical image and matching partial layouts are linked in
+[the material quick start](materials/catalog/Q28G_START_HERE.md). The packed Ghidra
+program is under `materials/ghidra/`; mutable project databases are release assets.
+Do not substitute another BMS46 revision. Annotations alone do not reconstruct ROM bytes.
+The material manifest preserves provenance and unresolved third-party license status.
 
 ## Start here
 

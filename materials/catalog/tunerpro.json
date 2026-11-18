@@ -1,0 +1,4562 @@
+[
+  {
+    "source_sha256": "2d99ceefecbdcc28a730b216a024964b55a19e502cbdb384873f5ffc70684d32",
+    "sha256": "2d99ceefecbdcc28a730b216a024964b55a19e502cbdb384873f5ffc70684d32",
+    "bytes": 973551,
+    "distributed_bytes": 973551,
+    "name": "BMS46_Q28G_v1.09_STABLE_LAMBDA2_DTC76.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/2d99ceefecbd_BMS46_Q28G_v1.09_STABLE_LAMBDA2_DTC76.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "master",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.09 STABLE - Lambda2 + DTC Catalog (76)",
+    "file_version": "BMS46-Q28G-v1.09-STABLE",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 451,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "378d3cc7c94ea93473cedc0e67885f215addcc431de2609da08fbc568c76c63e",
+    "sha256": "378d3cc7c94ea93473cedc0e67885f215addcc431de2609da08fbc568c76c63e",
+    "bytes": 912818,
+    "distributed_bytes": 912818,
+    "name": "BMS46_Q28G_v1.09_STABLE_GALLETTO_32KB.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/378d3cc7c94e_BMS46_Q28G_v1.09_STABLE_GALLETTO_32KB.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "master",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.09 STABLE - FULL-DERIVED GALLETTO 32KB",
+    "file_version": "BMS46-Q28G-v1.09-STABLE-GALLETTO32",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G Galletto 32KB calibration",
+        "desc": "32KB Galletto calibration layout; full Q28G addresses rebased by -0x8010."
+      }
+    ],
+    "tables": 240,
+    "constants": 439,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "d7eb094bb369b29e51b31fbaf64d52f0a8e7031991c9b7c7db5c4d8093170180",
+    "sha256": "d7eb094bb369b29e51b31fbaf64d52f0a8e7031991c9b7c7db5c4d8093170180",
+    "bytes": 913295,
+    "distributed_bytes": 913295,
+    "name": "BMS46_Q28G_v1.09_STABLE_PARTIAL_32KB.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/d7eb094bb369_BMS46_Q28G_v1.09_STABLE_PARTIAL_32KB.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "master",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.09 STABLE - FULL-DERIVED PARTIAL 32KB",
+    "file_version": "BMS46-Q28G-v1.09-STABLE-PARTIAL32",
+    "baseoffset": [
+      {
+        "offset": "32768",
+        "subtract": "1"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G 32KB partial calibration",
+        "desc": "32KB calibration/parameter partial image; absolute XDF addresses use BASEOFFSET 0x8000 subtract."
+      }
+    ],
+    "tables": 240,
+    "constants": 439,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "17c319ed70b16f6fac5c904f6e2ce7b63fea5f6ed494043ab797139fa43737f6",
+    "sha256": "17c319ed70b16f6fac5c904f6e2ce7b63fea5f6ed494043ab797139fa43737f6",
+    "bytes": 55473,
+    "distributed_bytes": 55473,
+    "name": "Bms46_32kb_Galletto.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/17c319ed70b1_Bms46_32kb_Galletto.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "diagnostic-definitions",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 318/316",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 38,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "02ecdfc2510e8ad05a114955afe5712e11f1a316e1d583ce643c4fa15100a8e5",
+    "sha256": "02ecdfc2510e8ad05a114955afe5712e11f1a316e1d583ce643c4fa15100a8e5",
+    "bytes": 57178,
+    "distributed_bytes": 57178,
+    "name": "BMS46_FULL.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/02ecdfc2510e_BMS46_FULL.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "diagnostic-definitions",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 318/316",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x80000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 39,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "d77a704b659fcc7ff8b7921e4c8cf33827ea90476d8f77e3cb1eb2fac03521f9",
+    "sha256": "d77a704b659fcc7ff8b7921e4c8cf33827ea90476d8f77e3cb1eb2fac03521f9",
+    "bytes": 55748,
+    "distributed_bytes": 55748,
+    "name": "BMS46_PARTIAL.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/d77a704b659f_BMS46_PARTIAL.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "diagnostic-definitions",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 318/316",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "32768",
+        "subtract": "1"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x80000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 38,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "736405be5004f065a747180e828cb8148ae816c5a18afcbe58ec6460e3b2c3f5",
+    "sha256": "736405be5004f065a747180e828cb8148ae816c5a18afcbe58ec6460e3b2c3f5",
+    "bytes": 15381,
+    "distributed_bytes": 15381,
+    "name": "BMS46_PARTIAL_1430633.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/736405be5004_BMS46_PARTIAL_1430633.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "diagnostic-definitions",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 318/316",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "34388",
+        "subtract": "1"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x80000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 10,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "b545b3481c346381dd5d971da821ddc747fbf65729d4cfec9e493d16875fef48",
+    "sha256": "b545b3481c346381dd5d971da821ddc747fbf65729d4cfec9e493d16875fef48",
+    "bytes": 59947,
+    "distributed_bytes": 59947,
+    "name": "BMS46_PARTIAL_ENRICHED_ALEX.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b545b3481c34_BMS46_PARTIAL_ENRICHED_ALEX.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "diagnostic-definitions",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 32KB PARTIAL - Enriched Alex",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 39,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "dd0b3704c31b594b966ee1337d7e8885e8144d515a60f3b66a9d23c92edf4735",
+    "sha256": "dd0b3704c31b594b966ee1337d7e8885e8144d515a60f3b66a9d23c92edf4735",
+    "bytes": 387187,
+    "distributed_bytes": 387187,
+    "name": "mss52.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/dd0b3704c31b_mss52.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "reference to invalid character number: line 4562, column 59"
+  },
+  {
+    "source_sha256": "36e5b472e185d5bcb2c27e2efb3df3ad7fab66ca16810c6087e785ded4b12d3f",
+    "sha256": "36e5b472e185d5bcb2c27e2efb3df3ad7fab66ca16810c6087e785ded4b12d3f",
+    "bytes": 751045,
+    "distributed_bytes": 751045,
+    "name": "hw0301_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/36e5b472e185_hw0301_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "9beaa7070bc2b121dde7ef51690aa46f940152e78d2247a6a41e26f874f09c31",
+    "sha256": "9beaa7070bc2b121dde7ef51690aa46f940152e78d2247a6a41e26f874f09c31",
+    "bytes": 778017,
+    "distributed_bytes": 778017,
+    "name": "hw0401_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/9beaa7070bc2_hw0401_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "3c9ea32c600eefa130eef58b3b34ef2450126b9275654e1b1c86482316fbb09f",
+    "sha256": "3c9ea32c600eefa130eef58b3b34ef2450126b9275654e1b1c86482316fbb09f",
+    "bytes": 753814,
+    "distributed_bytes": 753814,
+    "name": "hw1101_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/3c9ea32c600e_hw1101_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 334"
+  },
+  {
+    "source_sha256": "4b01d8b22b00c9b9c7b86f8debfefa352ca45b3029d138a4682fb8391d321956",
+    "sha256": "4b01d8b22b00c9b9c7b86f8debfefa352ca45b3029d138a4682fb8391d321956",
+    "bytes": 778099,
+    "distributed_bytes": 778099,
+    "name": "hw1301_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4b01d8b22b00_hw1301_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "81c7cc307a302105cc4ea550ad4ddae4c8c0353206ce5bd7f58c78ee2f211095",
+    "sha256": "81c7cc307a302105cc4ea550ad4ddae4c8c0353206ce5bd7f58c78ee2f211095",
+    "bytes": 778539,
+    "distributed_bytes": 778539,
+    "name": "hw1401_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/81c7cc307a30_hw1401_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "4419e8d40dba72ef98f510b4978c0e58d0ecb752fbdbf2035eb29124075b1ae4",
+    "sha256": "4419e8d40dba72ef98f510b4978c0e58d0ecb752fbdbf2035eb29124075b1ae4",
+    "bytes": 754390,
+    "distributed_bytes": 754390,
+    "name": "hw1501_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4419e8d40dba_hw1501_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 338"
+  },
+  {
+    "source_sha256": "c674ced76210b601ac9cac3c89e52fffe0f64638c949c58d0ed2ed6cec8a71d9",
+    "sha256": "c674ced76210b601ac9cac3c89e52fffe0f64638c949c58d0ed2ed6cec8a71d9",
+    "bytes": 778528,
+    "distributed_bytes": 778528,
+    "name": "hw1701_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/c674ced76210_hw1701_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "4afb99b50aa8721e1b64d6053ba2bce306f259d99d53d27b24d8b2f266691bfb",
+    "sha256": "4afb99b50aa8721e1b64d6053ba2bce306f259d99d53d27b24d8b2f266691bfb",
+    "bytes": 778595,
+    "distributed_bytes": 778595,
+    "name": "hw1801_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4afb99b50aa8_hw1801_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "eb825aabd4bb2a1065e6dc104fdce4c4cdfbe06f1c65fbda033d92f50c0649b1",
+    "sha256": "eb825aabd4bb2a1065e6dc104fdce4c4cdfbe06f1c65fbda033d92f50c0649b1",
+    "bytes": 754310,
+    "distributed_bytes": 754310,
+    "name": "hw1901_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/eb825aabd4bb_hw1901_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 338"
+  },
+  {
+    "source_sha256": "066931a50de1801f4e2ddedc5b200a03f06925ac2ba97acfaef419c26c1cbc6a",
+    "sha256": "066931a50de1801f4e2ddedc5b200a03f06925ac2ba97acfaef419c26c1cbc6a",
+    "bytes": 783275,
+    "distributed_bytes": 783275,
+    "name": "hw2001_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/066931a50de1_hw2001_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "M3 MSS54HP DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 147,
+    "constants": 374,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "bdc249b6202854532700fd9a41ca7c92400d6ffcd5977cb9f409f1d36cf14485",
+    "sha256": "bdc249b6202854532700fd9a41ca7c92400d6ffcd5977cb9f409f1d36cf14485",
+    "bytes": 778526,
+    "distributed_bytes": 778526,
+    "name": "hw2101_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/bdc249b62028_hw2101_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "b5c6df609c94d11f76da72fcfc2df54b5b7cc3abaf1a5314f1f6c1b83eda9d04",
+    "sha256": "b5c6df609c94d11f76da72fcfc2df54b5b7cc3abaf1a5314f1f6c1b83eda9d04",
+    "bytes": 754223,
+    "distributed_bytes": 754223,
+    "name": "hw2501_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b5c6df609c94_hw2501_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 334"
+  },
+  {
+    "source_sha256": "369485170cdba8c496ec2d563c1ff996347465009b17ad71736d96602c374bcf",
+    "sha256": "369485170cdba8c496ec2d563c1ff996347465009b17ad71736d96602c374bcf",
+    "bytes": 778745,
+    "distributed_bytes": 778745,
+    "name": "hw2601_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/369485170cdb_hw2601_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "4223429f5e28a755565ec5071641a763da010d087c3ad19cfa8ffc06152f7f7c",
+    "sha256": "4223429f5e28a755565ec5071641a763da010d087c3ad19cfa8ffc06152f7f7c",
+    "bytes": 754380,
+    "distributed_bytes": 754380,
+    "name": "hw2701_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4223429f5e28_hw2701_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "99f11e945f2b8855432c38b8772e585ae217d0e1c854326c2f23acb129f7fd33",
+    "sha256": "99f11e945f2b8855432c38b8772e585ae217d0e1c854326c2f23acb129f7fd33",
+    "bytes": 754129,
+    "distributed_bytes": 754129,
+    "name": "hw2801_V4_Basic.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/99f11e945f2b_hw2801_V4_Basic.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 334"
+  },
+  {
+    "source_sha256": "278a29e11f398cf968f71954c889b899c3598b4062aa6ff047eff8619bad7486",
+    "sha256": "278a29e11f398cf968f71954c889b899c3598b4062aa6ff047eff8619bad7486",
+    "bytes": 2876468,
+    "distributed_bytes": 2876468,
+    "name": "hw0301_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/278a29e11f39_hw0301_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "102f011a2f4ff360fab3418f2df5db879252b3df781f4122da816f2d4746baf7",
+    "sha256": "102f011a2f4ff360fab3418f2df5db879252b3df781f4122da816f2d4746baf7",
+    "bytes": 2592029,
+    "distributed_bytes": 2592029,
+    "name": "hw0401_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/102f011a2f4f_hw0401_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": " MSS54HP DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 145,
+    "constants": 1913,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "20449f1db1131fd113ad80fe3d9b5c4b1481625f82a81ea32bedf8c7b921bc0f",
+    "sha256": "20449f1db1131fd113ad80fe3d9b5c4b1481625f82a81ea32bedf8c7b921bc0f",
+    "bytes": 2994346,
+    "distributed_bytes": 2994346,
+    "name": "hw1301_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/20449f1db113_hw1301_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "ab8cf92906775e55eb98cf7b5d572b2ffbb134885237e45b81d5370d1ab1d7e8",
+    "sha256": "ab8cf92906775e55eb98cf7b5d572b2ffbb134885237e45b81d5370d1ab1d7e8",
+    "bytes": 2996256,
+    "distributed_bytes": 2996256,
+    "name": "hw1401_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ab8cf9290677_hw1401_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 336"
+  },
+  {
+    "source_sha256": "b96de7ad69864c1d3edd7cf377746c7323b8ab5d84c5c3a5adce047dd7234a69",
+    "sha256": "b96de7ad69864c1d3edd7cf377746c7323b8ab5d84c5c3a5adce047dd7234a69",
+    "bytes": 2893250,
+    "distributed_bytes": 2893250,
+    "name": "hw1501_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b96de7ad6986_hw1501_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "M3 MSS54 DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 228,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "6d5ed7b0d30d2b8a9ede8df2dd92eacae21f39c8f464dfaf64607171cf360162",
+    "sha256": "6d5ed7b0d30d2b8a9ede8df2dd92eacae21f39c8f464dfaf64607171cf360162",
+    "bytes": 3051929,
+    "distributed_bytes": 3051929,
+    "name": "hw1701_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/6d5ed7b0d30d_hw1701_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": " MSS54 DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "67c9879687e6b62933359a417a82cccc9d0e0be4a066026a05bc4270e3caf1bf",
+    "sha256": "67c9879687e6b62933359a417a82cccc9d0e0be4a066026a05bc4270e3caf1bf",
+    "bytes": 3001615,
+    "distributed_bytes": 3001615,
+    "name": "hw1801_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/67c9879687e6_hw1801_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": " MSS54HP DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "e85c2a720596692bb9941d16f54702cf373786290f416672d8fb1a8d081866ed",
+    "sha256": "e85c2a720596692bb9941d16f54702cf373786290f416672d8fb1a8d081866ed",
+    "bytes": 2879825,
+    "distributed_bytes": 2879825,
+    "name": "hw1901_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/e85c2a720596_hw1901_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 244, column 338"
+  },
+  {
+    "source_sha256": "a102cc1d602c01f56d20e44f9501e916c737eea363e3f492d49459c9144b50ba",
+    "sha256": "a102cc1d602c01f56d20e44f9501e916c737eea363e3f492d49459c9144b50ba",
+    "bytes": 2939836,
+    "distributed_bytes": 2939836,
+    "name": "hw2001_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/a102cc1d602c_hw2001_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "M3 MSS54HP DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "06c6bf443760728424f053e7239004d9cbf1a782264488c31416d48616dd64bd",
+    "sha256": "06c6bf443760728424f053e7239004d9cbf1a782264488c31416d48616dd64bd",
+    "bytes": 3051826,
+    "distributed_bytes": 3051826,
+    "name": "hw2101_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/06c6bf443760_hw2101_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": " MSS54 DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "448f9b2d1c04712b1543b0d9cefbefabb19457d7b20f9e9494f6a98fd4e0a535",
+    "sha256": "448f9b2d1c04712b1543b0d9cefbefabb19457d7b20f9e9494f6a98fd4e0a535",
+    "bytes": 2939045,
+    "distributed_bytes": 2939045,
+    "name": "hw2501_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/448f9b2d1c04_hw2501_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "M3 MSS54HP DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "ec3c1b06ce8387c1731144bef2541cab9076f0aec35422f82643dff31786d1f2",
+    "sha256": "ec3c1b06ce8387c1731144bef2541cab9076f0aec35422f82643dff31786d1f2",
+    "bytes": 3052309,
+    "distributed_bytes": 3052309,
+    "name": "hw2601_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ec3c1b06ce83_hw2601_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": " MSS54 DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "cd7dbc7aba211cf4e837cc54e90614751259b7b9b5c62b5b65a0163d336ad843",
+    "sha256": "cd7dbc7aba211cf4e837cc54e90614751259b7b9b5c62b5b65a0163d336ad843",
+    "bytes": 2939633,
+    "distributed_bytes": 2939633,
+    "name": "hw2701_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/cd7dbc7aba21_hw2701_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "M3 MSS54HP DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "ff6427c14bc5e90ce8f744995749c0ce8e8b79eaf9e6d43c65826cdbdc5609a0",
+    "sha256": "ff6427c14bc5e90ce8f744995749c0ce8e8b79eaf9e6d43c65826cdbdc5609a0",
+    "bytes": 2939448,
+    "distributed_bytes": 2939448,
+    "name": "hw2801_V4_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ff6427c14bc5_hw2801_V4_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "M3 MSS54 DME",
+    "file_version": "0.01",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 226,
+    "constants": 2109,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "af14bc09a3857139cd51148185a684af742e7d079e740a051c6bd3e01d34781f",
+    "sha256": "af14bc09a3857139cd51148185a684af742e7d079e740a051c6bd3e01d34781f",
+    "bytes": 61050,
+    "distributed_bytes": 61050,
+    "name": "DTC 0301 0401 Method1.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/af14bc09a385_DTC_0301_0401_Method1.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "DTC Patches 1801/1901/2001/2501/2701",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 1,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "7abe406ee1a66e51c0ff88d816ca892131f83ed4ed4881d03272691bf61cb38c",
+    "sha256": "7abe406ee1a66e51c0ff88d816ca892131f83ed4ed4881d03272691bf61cb38c",
+    "bytes": 61050,
+    "distributed_bytes": 61050,
+    "name": "DTC 0301 0401 Method4.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/7abe406ee1a6_DTC_0301_0401_Method4.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "DTC Patches 1801/1901/2001/2501/2701",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 1,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "358c40f70f58f700c07cf804044ff7de09f0950a3948c9043babc667087fbbea",
+    "sha256": "358c40f70f58f700c07cf804044ff7de09f0950a3948c9043babc667087fbbea",
+    "bytes": 61047,
+    "distributed_bytes": 61047,
+    "name": "DTC 0901  1101  1301  1501  1701  2101  2401  2601  2801.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/358c40f70f58_DTC_0901_1101_1301_1501_1701_2101_2401_2601_2801.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "DTC Patches 1801/1901/2001/2501/2701",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 1,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "f2b3de212876654f81402aba45c283fcb61d19d09d9b1344c4618a37fc5b3bf7",
+    "sha256": "f2b3de212876654f81402aba45c283fcb61d19d09d9b1344c4618a37fc5b3bf7",
+    "bytes": 61050,
+    "distributed_bytes": 61050,
+    "name": "DTC 1801  1901  2001  2501  2701.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/f2b3de212876_DTC_1801_1901_2001_2501_2701.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "DTC Patches 1801/1901/2001/2501/2701",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 1,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "287190abcd1589bb57b252517659527b2940a9e701556e1899eb9cd70de3d837",
+    "sha256": "287190abcd1589bb57b252517659527b2940a9e701556e1899eb9cd70de3d837",
+    "bytes": 35998,
+    "distributed_bytes": 35998,
+    "name": "MSS54 v2601 v2801 E30 Swap Items.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/287190abcd15_MSS54_v2601_v2801_E30_Swap_Items.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "MSS54 v2801 E30 Swap Items",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 2,
+    "constants": 39,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "e8e8abb69ab442e26ae2020e17849fecaf8c1ec18a45f8a495c74fb9e1811fc0",
+    "sha256": "e8e8abb69ab442e26ae2020e17849fecaf8c1ec18a45f8a495c74fb9e1811fc0",
+    "bytes": 36057,
+    "distributed_bytes": 36057,
+    "name": "MSS54HP v1801 v2001 v2501 v2701 E30 Swap Items.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/e8e8abb69ab4_MSS54HP_v1801_v2001_v2501_v2701_E30_Swap_Items.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "MSS54HP v2501",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 2,
+    "constants": 39,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "a214c8960039fe192727cb6bea457d0d6234a05268beddb98b0f191319aa1815",
+    "sha256": "a214c8960039fe192727cb6bea457d0d6234a05268beddb98b0f191319aa1815",
+    "bytes": 2866915,
+    "distributed_bytes": 2866915,
+    "name": "XDFoutA2LV3_hw0901_V3_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/a214c8960039_XDFoutA2LV3_hw0901_V3_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 7, column 127"
+  },
+  {
+    "source_sha256": "412154c78a98794b52f9edbb6198ffbea34f2839757dd4ca64b4d1bf7821aca1",
+    "sha256": "412154c78a98794b52f9edbb6198ffbea34f2839757dd4ca64b4d1bf7821aca1",
+    "bytes": 2885540,
+    "distributed_bytes": 2885540,
+    "name": "XDFoutBFMV3_hw0901_V3_Complete.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/412154c78a98_XDFoutBFMV3_hw0901_V3_Complete.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 7, column 127"
+  },
+  {
+    "source_sha256": "35e6471fdf055930ea174754fef7f07a62047258887a85645ecbfed1b1d8740e",
+    "sha256": "35e6471fdf055930ea174754fef7f07a62047258887a85645ecbfed1b1d8740e",
+    "bytes": 2878973,
+    "distributed_bytes": 2878973,
+    "name": "CSL_0401_Karter16_v3_6_publish.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/35e6471fdf05_CSL_0401_Karter16_v3_6_publish.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "comparison-ecus",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "Karter16's CSL MSS54HP '0401' XDF",
+    "file_version": "3.00",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x10000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 394,
+    "constants": 1782,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "acdb5c58d85b0e1e1aae0e2b045a59ea4b0e780ae449a28caa91d620c9ef24fa",
+    "sha256": "acdb5c58d85b0e1e1aae0e2b045a59ea4b0e780ae449a28caa91d620c9ef24fa",
+    "bytes": 465461,
+    "distributed_bytes": 465461,
+    "name": "BMS46_Q28G_VERIFIED_CONSERVATIVE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/acdb5c58d85b_BMS46_Q28G_VERIFIED_CONSERVATIVE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-checkpoints",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G verified conservative catalog",
+    "file_version": "BMS46-Q28G-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 239,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "e3c7fadb0836d7db80e00d648c6651f4adf392049a7d5528d75a8a6ce6481886",
+    "sha256": "e3c7fadb0836d7db80e00d648c6651f4adf392049a7d5528d75a8a6ce6481886",
+    "bytes": 184403,
+    "distributed_bytes": 184403,
+    "name": "BMS46_Q28G_AUTO.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/e3c7fadb0836_BMS46_Q28G_AUTO.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-checkpoints",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 01119700F000 Q28G - AUTO (from this calibration's own descriptors)",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Calibration",
+        "desc": "32KB partial calibration"
+      }
+    ],
+    "tables": 224,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "28ef8592aa797fe7f64af8e71463b7e4f80ca68f6b6765b12e8cd7755ec82ad7",
+    "sha256": "28ef8592aa797fe7f64af8e71463b7e4f80ca68f6b6765b12e8cd7755ec82ad7",
+    "bytes": 396345,
+    "distributed_bytes": 396345,
+    "name": "01119700F000Q28G_AUTO_DISCOVERED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/28ef8592aa79_01119700F000Q28G_AUTO_DISCOVERED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-evidence",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Auto Discovered - full256k",
+    "file_version": "Auto-0.3.0",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "Analyzed BIN"
+      }
+    ],
+    "tables": 240,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "f16a5b7ab252c57e8b88c0eee05aa2c82cd8d8644e681ae392469a51dd6bf8e8",
+    "sha256": "f16a5b7ab252c57e8b88c0eee05aa2c82cd8d8644e681ae392469a51dd6bf8e8",
+    "bytes": 391142,
+    "distributed_bytes": 391142,
+    "name": "ecuBMW46_AUTO_DISCOVERED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/f16a5b7ab252_ecuBMW46_AUTO_DISCOVERED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-evidence",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Auto Discovered - partial32k",
+    "file_version": "Auto-0.3.0",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "Analyzed BIN"
+      }
+    ],
+    "tables": 237,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "4c9484b62759f5f48cafec7af078aeeecd0c5a21754147bac0877b8f92782789",
+    "sha256": "4c9484b62759f5f48cafec7af078aeeecd0c5a21754147bac0877b8f92782789",
+    "bytes": 2554,
+    "distributed_bytes": 2554,
+    "name": "synthetic_3d_partial_AUTO_DISCOVERED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4c9484b62759_synthetic_3d_partial_AUTO_DISCOVERED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-evidence",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Auto Discovered - partial32k",
+    "file_version": "Auto-0.3.0",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "Analyzed BIN"
+      }
+    ],
+    "tables": 1,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "bd7c6d557787783bab480c993f961eae5e71987f34062e4dd788cd26270ca8ae",
+    "sha256": "bd7c6d557787783bab480c993f961eae5e71987f34062e4dd788cd26270ca8ae",
+    "bytes": 10671,
+    "distributed_bytes": 10671,
+    "name": "synthetic_decel_partial_AUTO_DISCOVERED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/bd7c6d557787_synthetic_decel_partial_AUTO_DISCOVERED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-evidence",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Auto Discovered - partial32k",
+    "file_version": "Auto-0.3.0",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "Analyzed BIN"
+      }
+    ],
+    "tables": 6,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "95453ca4f974d22abb52bbbdf900ae771e4c923d5bb39746e4a4e833176a2a9d",
+    "sha256": "95453ca4f974d22abb52bbbdf900ae771e4c923d5bb39746e4a4e833176a2a9d",
+    "bytes": 421603,
+    "distributed_bytes": 421603,
+    "name": "BMS46_Q28G_FULL_VERIFIED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/95453ca4f974_BMS46_Q28G_FULL_VERIFIED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-xdf",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 239,
+    "constants": 1,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "2e3ce214b7ee6a4983833f0709d3e25abd1e2f2bf70e71092a3026162017a82c",
+    "sha256": "2e3ce214b7ee6a4983833f0709d3e25abd1e2f2bf70e71092a3026162017a82c",
+    "bytes": 500129,
+    "distributed_bytes": 500129,
+    "name": "Q28G_RESEARCH_CONSERVATIVE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/2e3ce214b7ee_Q28G_RESEARCH_CONSERVATIVE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "work-xdf",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G research conservative",
+    "file_version": "BMS46-Q28G-RESEARCH-CONSERVATIVE-2",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 239,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "0206533b5f702f0e8fbeb2e28a70be7b8d50012e07a4d1ec50aef29d6f744511",
+    "sha256": "0206533b5f702f0e8fbeb2e28a70be7b8d50012e07a4d1ec50aef29d6f744511",
+    "bytes": 744696,
+    "distributed_bytes": 744696,
+    "name": "0206533b5f702f0e_BMS46_Q28G_v0.60_SINGLE_XREF_THROTTLE_POSITION_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/0206533b5f70_0206533b5f702f0e_BMS46_Q28G_v0.60_SINGLE_XREF_THROTTLE_POSITION_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.60 - throttle-position internal adaptation cluster",
+    "file_version": "BMS46-Q28G-FULL-v0.60-SINGLE-XREF-THROTTLE-POSITION",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 213,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "02fa680bef777c5cb77d4db4bc144e2ef731ebeaee962f6e3ed578c40a06bebe",
+    "sha256": "02fa680bef777c5cb77d4db4bc144e2ef731ebeaee962f6e3ed578c40a06bebe",
+    "bytes": 554350,
+    "distributed_bytes": 554350,
+    "name": "02fa680bef777c5c_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.2.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/02fa680bef77_02fa680bef777c5c_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.2.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.8.2 axis-scaling audit]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "0622cef0b3318084e5f5db7b6276fda625dacb95f02fc3c57ddf82df1279169a",
+    "sha256": "0622cef0b3318084e5f5db7b6276fda625dacb95f02fc3c57ddf82df1279169a",
+    "bytes": 325303,
+    "distributed_bytes": 325303,
+    "name": "0622cef0b3318084_1514808951047192576__BMS46_M43B19_enriched.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/0622cef0b331_0622cef0b3318084_1514808951047192576__BMS46_M43B19_enriched.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 - 01119700F000 (Partial 32KB)",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Calibration Area",
+        "desc": "32KB partial calibration dump"
+      }
+    ],
+    "tables": 236,
+    "constants": 3,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "070f050e7ca18033ce19ed661b8e22b335e71e68fc9954251fb2d1584e5325d6",
+    "sha256": "070f050e7ca18033ce19ed661b8e22b335e71e68fc9954251fb2d1584e5325d6",
+    "bytes": 868893,
+    "distributed_bytes": 868893,
+    "name": "070f050e7ca18033_BMS46_Q28G_v0.68_STRUCTURED_VECTOR_BITFIELD_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/070f050e7ca1_070f050e7ca18033_BMS46_Q28G_v0.68_STRUCTURED_VECTOR_BITFIELD_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.68 - structured vector/bitfield closure",
+    "file_version": "BMS46-Q28G-FULL-v0.68-STRUCTURED-VECTORS-BITFIELDS",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 370,
+    "flags": 2,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "10e38594410b5eb36bbf2b77e50977f7d54e944fc863f1a00e2a70b3d1592fa6",
+    "sha256": "10e38594410b5eb36bbf2b77e50977f7d54e944fc863f1a00e2a70b3d1592fa6",
+    "bytes": 579819,
+    "distributed_bytes": 579819,
+    "name": "10e38594410b5eb3_BMS46_Q28G_v0.32_PHASE2_CONTROLLED_Z_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/10e38594410b_10e38594410b5eb3_BMS46_Q28G_v0.32_PHASE2_CONTROLLED_Z_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY] [v0.11.0 LABELS ONLY] [v0.12.0 LABELS ONLY] [v0.16.0 AXES COMPLETE CANDIDATE] [v0.31 PHASE1 validated-Z candidate] [v0.32 PHASE2 controlled-Z candidate]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V032-PHASE2",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "1827ff5c56dfba6a6692dcb147b49a12a8c4cfa62fad968e13a59ae6d69e0e9e",
+    "sha256": "1827ff5c56dfba6a6692dcb147b49a12a8c4cfa62fad968e13a59ae6d69e0e9e",
+    "bytes": 576735,
+    "distributed_bytes": 576735,
+    "name": "1827ff5c56dfba6a_BMS46_Q28G_STABLE_v0.10.1_LABELS_ONLY.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/1827ff5c56df_1827ff5c56dfba6a_BMS46_Q28G_STABLE_v0.10.1_LABELS_ONLY.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "1847610cb124c51fe1382f7435b1aef45c629513eabc6146772336673dd31f2b",
+    "sha256": "1847610cb124c51fe1382f7435b1aef45c629513eabc6146772336673dd31f2b",
+    "bytes": 676016,
+    "distributed_bytes": 676016,
+    "name": "1847610cb124c51f_BMS46_Q28G_v0.55_SINGLE_XREF_LTFT_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/1847610cb124_1847610cb124c51f_BMS46_Q28G_v0.55_SINGLE_XREF_LTFT_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.55 - single-xref exhaustiveness audit / LTFT batch 9",
+    "file_version": "BMS46-Q28G-FULL-v0.55-SINGLE-XREF-LTFT-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 129,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "19cbf0098e36c71e5ccdbed87965aba5f98e2b705c267eee6f89d3ecf258cdee",
+    "sha256": "19cbf0098e36c71e5ccdbed87965aba5f98e2b705c267eee6f89d3ecf258cdee",
+    "bytes": 6555,
+    "distributed_bytes": 6555,
+    "name": "19cbf0098e36c71e_BMS46_Q28G_MINIMAL_IGNITION_TEST_v0.8.5.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/19cbf0098e36_19cbf0098e36c71e_BMS46_Q28G_MINIMAL_IGNITION_TEST_v0.8.5.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.8.2 axis-scaling audit]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 2,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "1af5761cc1160362f58bfcdf7f9a4fba4be4de7d75f408b563727e1e8d3fb150",
+    "sha256": "1af5761cc1160362f58bfcdf7f9a4fba4be4de7d75f408b563727e1e8d3fb150",
+    "bytes": 86881,
+    "distributed_bytes": 86881,
+    "name": "1af5761cc1160362_BMS46_M43B19_Q28G_FULL_RESEARCH_v2.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/1af5761cc116_1af5761cc1160362_BMS46_M43B19_Q28G_FULL_RESEARCH_v2.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 FULL MERGED KP + Galletto",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 59,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "2000cebff22cbb1c98bb1aa19630de33616a740392bbeb3bf96800f8343b17e7",
+    "sha256": "2000cebff22cbb1c98bb1aa19630de33616a740392bbeb3bf96800f8343b17e7",
+    "bytes": 363405,
+    "distributed_bytes": 363405,
+    "name": "2000cebff22cbb1c_BMS46_M43B19_Q28G_CODE_CONFIRMED_AXIS_FACTOR_REVIEW_GALLETTO32_v3.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/2000cebff22c_2000cebff22cbb1c_BMS46_M43B19_Q28G_CODE_CONFIRMED_AXIS_FACTOR_REVIEW_GALLETTO32_v3.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G CODE CONFIRMED AXIS FACTOR REVIEW GALLETTO 32KB",
+    "file_version": "CODE_CONFIRMED_AXIS_FACTOR_REVIEW_v3",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Galletto 32KB calibration partial",
+        "desc": "BMS46 calibration partial; addresses are Galletto file offsets."
+      }
+    ],
+    "tables": 230,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "26510edf4d38f2b1f0d542fa920a7259b3a36c7f24a18f10b24cb65545e8965d",
+    "sha256": "26510edf4d38f2b1f0d542fa920a7259b3a36c7f24a18f10b24cb65545e8965d",
+    "bytes": 457275,
+    "distributed_bytes": 457275,
+    "name": "26510edf4d38f2b1_BMS46_Q28G_GALLETTO32_v36_1D_TABLES_FIXED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/26510edf4d38_26510edf4d38f2b1_BMS46_Q28G_GALLETTO32_v36_1D_TABLES_FIXED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G CODE-ONLY MASTER REBASED v34 AXIS ANNOTATED PREVIEW GALLETTO 32KB",
+    "file_version": "CODE_ONLY_MASTER_REBASED_v34_AXIS_ANNOTATED_PREVIEW",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Galletto 32KB calibration partial",
+        "desc": "Full ROM 0x008010 maps to file offset 0x0000"
+      }
+    ],
+    "tables": 233,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "2a99efd744442aa38580e3b3e8d9f2605ba115d94f86578b499778628c88bcce",
+    "sha256": "2a99efd744442aa38580e3b3e8d9f2605ba115d94f86578b499778628c88bcce",
+    "bytes": 704061,
+    "distributed_bytes": 704061,
+    "name": "2a99efd744442aa3_BMS46_Q28G_v0.57_SINGLE_XREF_IGNITION_SLEW_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/2a99efd74444_2a99efd744442aa3_BMS46_Q28G_v0.57_SINGLE_XREF_IGNITION_SLEW_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.57 - single-xref ignition slew / diagnostic closure",
+    "file_version": "BMS46-Q28G-FULL-v0.57-SINGLE-XREF-IGNITION-SLEW",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 163,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "3310e875e9d7163b64897d1745fe68fbe19cb17ce364b5a3cc724840c871364a",
+    "sha256": "3310e875e9d7163b64897d1745fe68fbe19cb17ce364b5a3cc724840c871364a",
+    "bytes": 456734,
+    "distributed_bytes": 456734,
+    "name": "3310e875e9d7163b_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v29_v35_SCALAR_REVIEW_COMPANION.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/3310e875e9d7_3310e875e9d7163b_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v29_v35_SCALAR_REVIEW_COMPANION.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 64, column 196"
+  },
+  {
+    "source_sha256": "396e5137dd413a01dccbc65ca2fc2348762c746d712ae9f36a4b5c86b088c04f",
+    "sha256": "396e5137dd413a01dccbc65ca2fc2348762c746d712ae9f36a4b5c86b088c04f",
+    "bytes": 788145,
+    "distributed_bytes": 788145,
+    "name": "396e5137dd413a01_BMS46_Q28G_v0.64_SINGLE_XREF_LAMBDA_CORE_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/396e5137dd41_396e5137dd413a01_BMS46_Q28G_v0.64_SINGLE_XREF_LAMBDA_CORE_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.64 - lambda core and state gating",
+    "file_version": "BMS46-Q28G-FULL-v0.64-SINGLE-XREF-LAMBDA-CORE",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 269,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "3e3c13a73f88d291445153b7e3b92d97352d85c28034ff463e106d0444916a2e",
+    "sha256": "3e3c13a73f88d291445153b7e3b92d97352d85c28034ff463e106d0444916a2e",
+    "bytes": 559108,
+    "distributed_bytes": 559108,
+    "name": "3e3c13a73f88d291_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.3.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/3e3c13a73f88_3e3c13a73f88d291_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.3.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.8.3 3D+ignition resolution]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "44233f713ff97e7f02e77ce446e691a0d0ca66558089a08a53aa693a98125181",
+    "sha256": "44233f713ff97e7f02e77ce446e691a0d0ca66558089a08a53aa693a98125181",
+    "bytes": 47628,
+    "distributed_bytes": 47628,
+    "name": "44233f713ff97e7f_BMS46_440_partial (1).xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/44233f713ff9_44233f713ff97e7f_BMS46_440_partial_1_.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 D100Q20F PARTIAL MAX",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Partial Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 33,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "4cf03468c3f812f8d590a5e2d4253f74771a07793013cc1529599a2b835fc407",
+    "sha256": "4cf03468c3f812f8d590a5e2d4253f74771a07793013cc1529599a2b835fc407",
+    "bytes": 581649,
+    "distributed_bytes": 581649,
+    "name": "4cf03468c3f812f8_BMS46_Q28G_v0.35_PHASE5_EARLY_LAMBDA1_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4cf03468c3f8_4cf03468c3f812f8_BMS46_Q28G_v0.35_PHASE5_EARLY_LAMBDA1_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image candidate [v0.34 PHASE4 transient+knock Z integration]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V034-PHASE4",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "4d309201776d27106e98bf62ccdc71a2fc35eb8f41fe3e634c4cd53ffdc61145",
+    "sha256": "4d309201776d27106e98bf62ccdc71a2fc35eb8f41fe3e634c4cd53ffdc61145",
+    "bytes": 360009,
+    "distributed_bytes": 360009,
+    "name": "4d309201776d2710_BMS46_Q28G_GALLETTO32_v34_FIXED_LOADABLE (1).xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4d309201776d_4d309201776d2710_BMS46_Q28G_GALLETTO32_v34_FIXED_LOADABLE_1_.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G CODE-ONLY MASTER REBASED v34 AXIS ANNOTATED PREVIEW GALLETTO 32KB",
+    "file_version": "CODE_ONLY_MASTER_REBASED_v34_AXIS_ANNOTATED_PREVIEW",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Galletto 32KB calibration partial",
+        "desc": "Full ROM 0x008010 maps to file offset 0x0000"
+      }
+    ],
+    "tables": 233,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "4dc953797a76c4768257f7845849edfaf2ab0fd1b59dd4f1418e4d0c14cfd871",
+    "sha256": "4dc953797a76c4768257f7845849edfaf2ab0fd1b59dd4f1418e4d0c14cfd871",
+    "bytes": 651304,
+    "distributed_bytes": 651304,
+    "name": "4dc953797a76c476_BMS46_Q28G_v0.53_BITFIELD_LINKED_STATE_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/4dc953797a76_4dc953797a76c476_BMS46_Q28G_v0.53_BITFIELD_LINKED_STATE_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.53 - linked-state + bitfield audit batch 7",
+    "file_version": "BMS46-Q28G-FULL-v0.53-BITFIELD-LINKED-STATE-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 104,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "544eb8d8e95cd85bb8cdb0a94b7feff3c9e76746083a76947a6bc0ae00c59260",
+    "sha256": "544eb8d8e95cd85bb8cdb0a94b7feff3c9e76746083a76947a6bc0ae00c59260",
+    "bytes": 578603,
+    "distributed_bytes": 578603,
+    "name": "544eb8d8e95cd85b_BMS46_Q28G_v0.16.0_AXES_COMPLETE_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/544eb8d8e95c_544eb8d8e95cd85b_BMS46_Q28G_v0.16.0_AXES_COMPLETE_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY] [v0.11.0 LABELS ONLY] [v0.12.0 LABELS ONLY] [v0.16.0 AXES COMPLETE CANDIDATE]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "54b897280aa9a4fc6f9434bf99d0d1251285d3f15ec244b8a0d980de6a6a1a0a",
+    "sha256": "54b897280aa9a4fc6f9434bf99d0d1251285d3f15ec244b8a0d980de6a6a1a0a",
+    "bytes": 592438,
+    "distributed_bytes": 592438,
+    "name": "54b897280aa9a4fc_BMS46_Q28G_v0.46_ENCODING_SCALAR_AUDIT_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/54b897280aa9_54b897280aa9a4fc_BMS46_Q28G_v0.46_ENCODING_SCALAR_AUDIT_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G candidate [v0.39 PHASE8 post-start + base fuel reconciliation]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V039-PHASE8",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 36,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "56e02b44ff5b38c1a5d51f8fc591e4b0d4dd9d411116691900e1cddf9bc523aa",
+    "sha256": "56e02b44ff5b38c1a5d51f8fc591e4b0d4dd9d411116691900e1cddf9bc523aa",
+    "bytes": 489189,
+    "distributed_bytes": 489189,
+    "name": "56e02b44ff5b38c1_BMS46_Q28G_WORKING_CANDIDATES.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/56e02b44ff5b_56e02b44ff5b38c1_BMS46_Q28G_WORKING_CANDIDATES.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 239,
+    "constants": 1,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "60a401e606f6165fe4dc15ff0f067ec7d6365c2cc1c7784890273b9f361305c9",
+    "sha256": "60a401e606f6165fe4dc15ff0f067ec7d6365c2cc1c7784890273b9f361305c9",
+    "bytes": 117198,
+    "distributed_bytes": 117198,
+    "name": "60a401e606f6165f_BMS46_M43B19_Q28G_RESEARCH_v4_VERIFY_CANDIDATES.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/60a401e606f6_60a401e606f6165f_BMS46_M43B19_Q28G_RESEARCH_v4_VERIFY_CANDIDATES.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G FULL RESEARCH v4 VERIFY CANDIDATES",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 86,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "6134ceda4320553f9f4bf30f9bff099c0826173944b8b0a4821cb39fa4f4dd9b",
+    "sha256": "6134ceda4320553f9f4bf30f9bff099c0826173944b8b0a4821cb39fa4f4dd9b",
+    "bytes": 94878,
+    "distributed_bytes": 94878,
+    "name": "6134ceda4320553f_BMS46_M43B19_Q28G_FULL_RESEARCH_v3_FULL256_ID.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/6134ceda4320_6134ceda4320553f_BMS46_M43B19_Q28G_FULL_RESEARCH_v3_FULL256_ID.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 FULL MERGED KP + Galletto",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 67,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "62383d96093ad0da148648f82878122ad626739803f0a587c079435bacbfee12",
+    "sha256": "62383d96093ad0da148648f82878122ad626739803f0a587c079435bacbfee12",
+    "bytes": 548460,
+    "distributed_bytes": 548460,
+    "name": "62383d96093ad0da_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.1.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/62383d96093a_62383d96093ad0da_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.1.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.8.1 category/display fix]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "661a03db346345bf31f649ade91981d17db31bc3a1371c1a15abe259d0a1568b",
+    "sha256": "661a03db346345bf31f649ade91981d17db31bc3a1371c1a15abe259d0a1568b",
+    "bytes": 861744,
+    "distributed_bytes": 861744,
+    "name": "661a03db346345bf_BMS46_Q28G_v0.67_POINTER_LITERAL_CLOSED_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/661a03db3463_661a03db346345bf_BMS46_Q28G_v0.67_POINTER_LITERAL_CLOSED_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.66 - all direct single-xref candidates resolved",
+    "file_version": "BMS46-Q28G-FULL-v0.66-ALL-DIRECT-SINGLE-XREF-CLOSED",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 370,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "6c7e46c342dde4d937e719dc9eff98e1d5b0a2031574f1d726ef75e30bda4590",
+    "sha256": "6c7e46c342dde4d937e719dc9eff98e1d5b0a2031574f1d726ef75e30bda4590",
+    "bytes": 898962,
+    "distributed_bytes": 898962,
+    "name": "6c7e46c342dde4d9_BMS46_Q28G_v1.00_FULL_FINAL.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/6c7e46c342dd_6c7e46c342dde4d9_BMS46_Q28G_v1.00_FULL_FINAL.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.00 FINAL - Full Firmware Calibration Definition",
+    "file_version": "BMS46-Q28G-FULL-v1.00-FINAL",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 370,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "6da03afae91505670882925e618a2ccd41b0651c16e92a83f3acf97902a72b76",
+    "sha256": "6da03afae91505670882925e618a2ccd41b0651c16e92a83f3acf97902a72b76",
+    "bytes": 662744,
+    "distributed_bytes": 662744,
+    "name": "6da03afae9150567_BMS46_Q28G_v0.54_DEFER_EXPERT_RESOLUTION_CANDIDATE (1).xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/6da03afae915_6da03afae9150567_BMS46_Q28G_v0.54_DEFER_EXPERT_RESOLUTION_CANDIDATE_1_.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.54 - defer resolution + expert internals batch 8",
+    "file_version": "BMS46-Q28G-FULL-v0.54-DEFER-EXPERT-RESOLUTION",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 117,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "6db0673b26adc922db51c85201d620e0838cc5255f7cfe877202a5c9fdc7810a",
+    "sha256": "6db0673b26adc922db51c85201d620e0838cc5255f7cfe877202a5c9fdc7810a",
+    "bytes": 577163,
+    "distributed_bytes": 577163,
+    "name": "6db0673b26adc922_BMS46_Q28G_STABLE_v0.12.0_LABELS_ONLY.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/6db0673b26ad_6db0673b26adc922_BMS46_Q28G_STABLE_v0.12.0_LABELS_ONLY.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY] [v0.11.0 LABELS ONLY] [v0.12.0 LABELS ONLY]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "6e1da2374e52714c7cf872ea74f1c2c2c940e6b3aa27eedf5089bae607e5bef0",
+    "sha256": "6e1da2374e52714c7cf872ea74f1c2c2c940e6b3aa27eedf5089bae607e5bef0",
+    "bytes": 579840,
+    "distributed_bytes": 579840,
+    "name": "6e1da2374e52714c_BMS46_Q28G_v0.31_PHASE1_VALIDATED_Z_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/6e1da2374e52_6e1da2374e52714c_BMS46_Q28G_v0.31_PHASE1_VALIDATED_Z_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY] [v0.11.0 LABELS ONLY] [v0.12.0 LABELS ONLY] [v0.16.0 AXES COMPLETE CANDIDATE] [v0.31 PHASE1 validated-Z candidate]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V031-PHASE1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "70868971aa53bce306d0159f57ac5fd8f54dac810bfce5cecedd7fa15c4c214b",
+    "sha256": "70868971aa53bce306d0159f57ac5fd8f54dac810bfce5cecedd7fa15c4c214b",
+    "bytes": 871463,
+    "distributed_bytes": 871463,
+    "name": "70868971aa53bce3_BMS46_Q28G_v0.69_INDIRECT_AUDIT_BITFIELD_FINAL_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/70868971aa53_70868971aa53bce3_BMS46_Q28G_v0.69_INDIRECT_AUDIT_BITFIELD_FINAL_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.69 - indirect exhaustiveness + lambda adaptation flags",
+    "file_version": "BMS46-Q28G-FULL-v0.69-INDIRECT-AUDIT-BITFIELD-FINAL",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 370,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "815977c2e431e5c16af15ea6617dc27eff42c366cbcdf579dc5b0408812ae572",
+    "sha256": "815977c2e431e5c16af15ea6617dc27eff42c366cbcdf579dc5b0408812ae572",
+    "bytes": 620249,
+    "distributed_bytes": 620249,
+    "name": "815977c2e431e5c1_BMS46_Q28G_v0.49_STANDALONE_SCALAR_BATCH3_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/815977c2e431_815977c2e431e5c1_BMS46_Q28G_v0.49_STANDALONE_SCALAR_BATCH3_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.47 - maps complete + standalone scalar audit",
+    "file_version": "BMS46-Q28G-FULL-v0.49-SCALAR-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 70,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "8329593edfffa780425cde6c7ed36df55dad59aff7c5fa49e2f847a7e7131bb0",
+    "sha256": "8329593edfffa780425cde6c7ed36df55dad59aff7c5fa49e2f847a7e7131bb0",
+    "bytes": 688456,
+    "distributed_bytes": 688456,
+    "name": "8329593edfffa780_BMS46_Q28G_v0.56_SINGLE_XREF_TRANSIENT_KNOCK_CANDIDATE (1).xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/8329593edfff_8329593edfffa780_BMS46_Q28G_v0.56_SINGLE_XREF_TRANSIENT_KNOCK_CANDIDATE_1_.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.56 - single-xref transient fuel / knock batch 10",
+    "file_version": "BMS46-Q28G-FULL-v0.56-SINGLE-XREF-TRANSIENT-KNOCK",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 143,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "83b1e087553f308045c54237f702201a58956ca4fc8e1015569f9a45baddc399",
+    "sha256": "83b1e087553f308045c54237f702201a58956ca4fc8e1015569f9a45baddc399",
+    "bytes": 603689,
+    "distributed_bytes": 603689,
+    "name": "83b1e087553f3080_BMS46_Q28G_v0.47.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/83b1e087553f_83b1e087553f3080_BMS46_Q28G_v0.47.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.47 - maps complete + standalone scalar audit",
+    "file_version": "BMS46-Q28G-FULL-v0.47-SCALAR-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 51,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "884fbfe4ec4f42041e4a28bf3ca802e8dca86ea75ed06505a1fb1f8db992c2a3",
+    "sha256": "884fbfe4ec4f42041e4a28bf3ca802e8dca86ea75ed06505a1fb1f8db992c2a3",
+    "bytes": 766027,
+    "distributed_bytes": 766027,
+    "name": "884fbfe4ec4f4204_BMS46_Q28G_v0.62_SINGLE_XREF_EFAN_AC_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/884fbfe4ec4f_884fbfe4ec4f4204_BMS46_Q28G_v0.62_SINGLE_XREF_EFAN_AC_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.62 - EFAN and A/C compressor state-machine cluster",
+    "file_version": "BMS46-Q28G-FULL-v0.62-SINGLE-XREF-EFAN-AC",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 241,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "89dd8f4a472dfd05fb46ac8b304b915a714ad33e917e0c6a7116a155f2759c8a",
+    "sha256": "89dd8f4a472dfd05fb46ac8b304b915a714ad33e917e0c6a7116a155f2759c8a",
+    "bytes": 448601,
+    "distributed_bytes": 448601,
+    "name": "89dd8f4a472dfd05_BMS46_M43B19_Q28G_ULTIMATE_RONIN_KP_FORUM_RE_v1.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/89dd8f4a472d_89dd8f4a472dfd05_BMS46_M43B19_Q28G_ULTIMATE_RONIN_KP_FORUM_RE_v1.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G ULTIMATE XDF - Ronin + KP + Forum + RE Research",
+    "file_version": "",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regionflags": "0x0",
+        "name": "Calibration Area",
+        "desc": "32KB partial calibration dump"
+      }
+    ],
+    "tables": 322,
+    "constants": 3,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "8a6087009e025c0027c3575b42e2de4a85d730edc046c4c81709387cb6176de5",
+    "sha256": "8a6087009e025c0027c3575b42e2de4a85d730edc046c4c81709387cb6176de5",
+    "bytes": 576895,
+    "distributed_bytes": 576895,
+    "name": "8a6087009e025c00_BMS46_Q28G_STABLE_v0.11.0_LABELS_ONLY.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/8a6087009e02_8a6087009e025c00_BMS46_Q28G_STABLE_v0.11.0_LABELS_ONLY.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY] [v0.11.0 LABELS ONLY]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "8bc63065b680922017d3e2fd444d72f9d8ee8fdbadb9228119e21d698fdf118e",
+    "sha256": "8bc63065b680922017d3e2fd444d72f9d8ee8fdbadb9228119e21d698fdf118e",
+    "bytes": 755292,
+    "distributed_bytes": 755292,
+    "name": "8bc63065b6809220_BMS46_Q28G_v0.61_SINGLE_XREF_TPS_PEDAL_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/8bc63065b680_8bc63065b6809220_BMS46_Q28G_v0.61_SINGLE_XREF_TPS_PEDAL_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.61 - TPS / throttle-pedal input processing cluster",
+    "file_version": "BMS46-Q28G-FULL-v0.61-SINGLE-XREF-TPS-PEDAL",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 227,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "8eeb1852a2d000fe5f92d777dab491bb7a2eae4a4de978a2294badb24f823adc",
+    "sha256": "8eeb1852a2d000fe5f92d777dab491bb7a2eae4a4de978a2294badb24f823adc",
+    "bytes": 902736,
+    "distributed_bytes": 902736,
+    "name": "8eeb1852a2d000fe_BMS46_Q28G_v0.71_UI_ORGANIZATION_CLEANUP_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/8eeb1852a2d0_8eeb1852a2d000fe_BMS46_Q28G_v0.71_UI_ORGANIZATION_CLEANUP_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.71 - organized calibration / ECU information",
+    "file_version": "BMS46-Q28G-FULL-v0.71-UI-ORGANIZATION-CLEANUP",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 370,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "90b817c1b38d8be4b36ad9c04f5d84c4d5925c76dcec11d5fa7d1ded64e6b229",
+    "sha256": "90b817c1b38d8be4b36ad9c04f5d84c4d5925c76dcec11d5fa7d1ded64e6b229",
+    "bytes": 774844,
+    "distributed_bytes": 774844,
+    "name": "90b817c1b38d8be4_BMS46_Q28G_v0.63_SINGLE_XREF_SENSOR_PROCESSING_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/90b817c1b38d_90b817c1b38d8be4_BMS46_Q28G_v0.63_SINGLE_XREF_SENSOR_PROCESSING_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.63 - coolant/IAT sensor processing and HFM diagnostics",
+    "file_version": "BMS46-Q28G-FULL-v0.63-SINGLE-XREF-SENSOR-PROCESSING",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 252,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "94152251b48090ac872eaed0a32e88da8a3dbb5095e281b5f61efe33e9584728",
+    "sha256": "94152251b48090ac872eaed0a32e88da8a3dbb5095e281b5f61efe33e9584728",
+    "bytes": 59126,
+    "distributed_bytes": 59126,
+    "name": "94152251b48090ac_BMS46_M43TU_32KB_ENHANCED_v1.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/94152251b480_94152251b48090ac_BMS46_M43TU_32KB_ENHANCED_v1.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 318/316 M43TU - Enhanced Partial 32KB",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 39,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "9980921cbe2b4276b2193b3c60df76f617f335387b9c71b29f40112a4a46c4ed",
+    "sha256": "9980921cbe2b4276b2193b3c60df76f617f335387b9c71b29f40112a4a46c4ed",
+    "bytes": 612197,
+    "distributed_bytes": 612197,
+    "name": "9980921cbe2b4276_BMS46_Q28G_v0.48_STANDALONE_SCALAR_BATCH2_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/9980921cbe2b_9980921cbe2b4276_BMS46_Q28G_v0.48_STANDALONE_SCALAR_BATCH2_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.47 - maps complete + standalone scalar audit",
+    "file_version": "BMS46-Q28G-FULL-v0.47-SCALAR-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 61,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "99c5c6baec4e153c7a92276353d45d9d9f31a2ee254669f8a74b0b80238adb6b",
+    "sha256": "99c5c6baec4e153c7a92276353d45d9d9f31a2ee254669f8a74b0b80238adb6b",
+    "bytes": 906116,
+    "distributed_bytes": 906116,
+    "name": "99c5c6baec4e153c_BMS46_Q28G_v1.03_LAMBDA2_ZEROEXEC_AUDIT_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/99c5c6baec4e_99c5c6baec4e153c_BMS46_Q28G_v1.03_LAMBDA2_ZEROEXEC_AUDIT_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.03 - Full Firmware + Lambda2 Zero-Execution Audit",
+    "file_version": "BMS46-Q28G-FULL-v1.03-LAMBDA2-ZEROEXEC-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 375,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "9b0d497b3a08253ff8b339fd9b2ca512f10eccc3a060535fe06ba470f9f94e8a",
+    "sha256": "9b0d497b3a08253ff8b339fd9b2ca512f10eccc3a060535fe06ba470f9f94e8a",
+    "bytes": 584726,
+    "distributed_bytes": 584726,
+    "name": "9b0d497b3a08253f_BMS46_Q28G_v0.39_PHASE8_POSTSTART_BASEFUEL_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/9b0d497b3a08_9b0d497b3a08253f_BMS46_Q28G_v0.39_PHASE8_POSTSTART_BASEFUEL_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G candidate [v0.39 PHASE8 post-start + base fuel reconciliation]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V039-PHASE8",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "a3a8c7ded3268bcb98d1ffaada7e53976cca93b47ea0f92146e0517e64b2d514",
+    "sha256": "a3a8c7ded3268bcb98d1ffaada7e53976cca93b47ea0f92146e0517e64b2d514",
+    "bytes": 586343,
+    "distributed_bytes": 586343,
+    "name": "a3a8c7ded3268bcb_BMS46_Q28G_v0.45_LIMITER_CORRECTION_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/a3a8c7ded326_a3a8c7ded3268bcb_BMS46_Q28G_v0.45_LIMITER_CORRECTION_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G candidate [v0.39 PHASE8 post-start + base fuel reconciliation]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V039-PHASE8",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 28,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "a50a58ef5098b473af074a1078cf291d2a554385a06e8ad7b7d546480691ebc6",
+    "sha256": "a50a58ef5098b473af074a1078cf291d2a554385a06e8ad7b7d546480691ebc6",
+    "bytes": 638692,
+    "distributed_bytes": 638692,
+    "name": "a50a58ef5098b473_BMS46_Q28G_v0.51_STANDALONE_SCALAR_BATCH5_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/a50a58ef5098_a50a58ef5098b473_BMS46_Q28G_v0.51_STANDALONE_SCALAR_BATCH5_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.51 - maps complete + standalone scalar audit batch 5",
+    "file_version": "BMS46-Q28G-FULL-v0.51-SCALAR-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 90,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "ae25f0214d99d96457efb58ddcb52543fa0c68c4a7c4f1a13e5aaebb7b86b8f5",
+    "sha256": "ae25f0214d99d96457efb58ddcb52543fa0c68c4a7c4f1a13e5aaebb7b86b8f5",
+    "bytes": 579653,
+    "distributed_bytes": 579653,
+    "name": "ae25f0214d99d964_BMS46_Q28G_STABLE_v0.10.0.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ae25f0214d99_ae25f0214d99d964_BMS46_Q28G_STABLE_v0.10.0.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.10 knock data-flow STABLE]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "ae33bd1ce4b60e67d628349ba2d0bd8c8bc38e19ad1958340aa9d0d8a583236b",
+    "sha256": "ae33bd1ce4b60e67d628349ba2d0bd8c8bc38e19ad1958340aa9d0d8a583236b",
+    "bytes": 629245,
+    "distributed_bytes": 629245,
+    "name": "ae33bd1ce4b60e67_BMS46_Q28G_v0.50_STANDALONE_SCALAR_BATCH4_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ae33bd1ce4b6_ae33bd1ce4b60e67_BMS46_Q28G_v0.50_STANDALONE_SCALAR_BATCH4_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.47 - maps complete + standalone scalar audit",
+    "file_version": "BMS46-Q28G-FULL-v0.50-SCALAR-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 80,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "b523a42ffbf9e53b2d212123c30f4a49f40ae62af88693ba250dce6c0accea76",
+    "sha256": "b523a42ffbf9e53b2d212123c30f4a49f40ae62af88693ba250dce6c0accea76",
+    "bytes": 539710,
+    "distributed_bytes": 539710,
+    "name": "b523a42ffbf9e53b_BMS46_Q28G_DFCO_IDENTITY_WORKING.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b523a42ffbf9_b523a42ffbf9e53b_BMS46_Q28G_DFCO_IDENTITY_WORKING.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 266,
+    "constants": 14,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "b5b205583719f30d4bc65ea64b119b1d1eabfa8e1d99471d78a2c6bbac97ac96",
+    "sha256": "b5b205583719f30d4bc65ea64b119b1d1eabfa8e1d99471d78a2c6bbac97ac96",
+    "bytes": 894469,
+    "distributed_bytes": 894469,
+    "name": "b5b205583719f30d_BMS46_Q28G_v0.70a_SCALAR_WRITE_RANGE_HOTFIX_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b5b205583719_b5b205583719f30d_BMS46_Q28G_v0.70a_SCALAR_WRITE_RANGE_HOTFIX_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.70 - round-trip precision + CRC QA",
+    "file_version": "BMS46-Q28G-FULL-v0.70-ROUNDTRIP-CRC-QA",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 370,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "b734ee3ef68a60f91ea514c38e016d0fb50625689d777d8986db652a55877779",
+    "sha256": "b734ee3ef68a60f91ea514c38e016d0fb50625689d777d8986db652a55877779",
+    "bytes": 646871,
+    "distributed_bytes": 646871,
+    "name": "b734ee3ef68a60f9_BMS46_Q28G_v0.52_STANDALONE_SCALAR_BATCH6_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b734ee3ef68a_b734ee3ef68a60f9_BMS46_Q28G_v0.52_STANDALONE_SCALAR_BATCH6_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.52 - maps complete + standalone scalar audit batch 6",
+    "file_version": "BMS46-Q28G-FULL-v0.52-SCALAR-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 99,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "b93b19d3408f561a93da153db52b610fe9da1737abf52202c8698fe8f3151e60",
+    "sha256": "b93b19d3408f561a93da153db52b610fe9da1737abf52202c8698fe8f3151e60",
+    "bytes": 580089,
+    "distributed_bytes": 580089,
+    "name": "b93b19d3408f561a_BMS46_Q28G_v0.33_PHASE3_LAMBDA2_SAI_TORQUE_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/b93b19d3408f_b93b19d3408f561a_BMS46_Q28G_v0.33_PHASE3_LAMBDA2_SAI_TORQUE_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE] [v0.10.1 LABELS ONLY] [v0.11.0 LABELS ONLY] [v0.12.0 LABELS ONLY] [v0.16.0 AXES COMPLETE CANDIDATE] [v0.31 PHASE1 validated-Z candidate] [v0.32 PHASE2 controlled-Z candidate]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V032-PHASE2",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "ba3445445179bb1869d0ef5f90bd4e9d7fdb861b38fbc23ff611278fb49f3527",
+    "sha256": "ba3445445179bb1869d0ef5f90bd4e9d7fdb861b38fbc23ff611278fb49f3527",
+    "bytes": 359820,
+    "distributed_bytes": 359820,
+    "name": "ba3445445179bb18_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v28_v34_AXIS_ANNOTATED_PREVIEW.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ba3445445179_ba3445445179bb18_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v28_v34_AXIS_ANNOTATED_PREVIEW.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_well_formed": false,
+    "parse_error": "not well-formed (invalid token): line 62, column 196"
+  },
+  {
+    "source_sha256": "bbb145e729543780d7fb5542c7d4104eadcfee71bf36e16a35cae8a4d21527fa",
+    "sha256": "bbb145e729543780d7fb5542c7d4104eadcfee71bf36e16a35cae8a4d21527fa",
+    "bytes": 487221,
+    "distributed_bytes": 487221,
+    "name": "bbb145e729543780_BMS46_Q28G_SEMANTIC_XREF_ENRICHED.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/bbb145e72954_bbb145e729543780_BMS46_Q28G_SEMANTIC_XREF_ENRICHED.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 239,
+    "constants": 1,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "bbfd7c5e2eab1a221713b41ccd90a4b4c4a4156e201be48309721e1ef8e269f1",
+    "sha256": "bbfd7c5e2eab1a221713b41ccd90a4b4c4a4156e201be48309721e1ef8e269f1",
+    "bytes": 546793,
+    "distributed_bytes": 546793,
+    "name": "bbfd7c5e2eab1a22_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/bbfd7c5e2eab_bbfd7c5e2eab1a22_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 271,
+    "constants": 14,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "c404c19f7e550981b5dec464580a64d44646c5ea9754f2cc3e6a2f3581649cfd",
+    "sha256": "c404c19f7e550981b5dec464580a64d44646c5ea9754f2cc3e6a2f3581649cfd",
+    "bytes": 374093,
+    "distributed_bytes": 374093,
+    "name": "c404c19f7e550981_1514808950728429729__BMS46_M43B19_Q28G_WIKI_KZB_ULTIMATE_v4_GALLETTO.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/c404c19f7e55_c404c19f7e550981_1514808950728429729__BMS46_M43B19_Q28G_WIKI_KZB_ULTIMATE_v4_GALLETTO.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G - ULTIMATE WIKI/KZB v4 (Galletto 32KB offsets)",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 259,
+    "constants": 3,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "c4acbb9c413555952783fe76b7e162fa11ad6abba75fbd07cc5552e8d69c6542",
+    "sha256": "c4acbb9c413555952783fe76b7e162fa11ad6abba75fbd07cc5552e8d69c6542",
+    "bytes": 366081,
+    "distributed_bytes": 366081,
+    "name": "c4acbb9c41355595_BMS46_Q28G_FULL_VALIDATED_v1.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/c4acbb9c4135_c4acbb9c41355595_BMS46_Q28G_FULL_VALIDATED_v1.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 318/316",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 247,
+    "constants": 6,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "c64a7b616f239d8290b1e384b4c22f06456145af2ce366291b62fc35d61ddbef",
+    "sha256": "c64a7b616f239d8290b1e384b4c22f06456145af2ce366291b62fc35d61ddbef",
+    "bytes": 615698,
+    "distributed_bytes": 615698,
+    "name": "c64a7b616f239d82_BMS46_Q28G_R3_PARTIAL_32KB_EXTENDED_SAFE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/c64a7b616f23_c64a7b616f239d82_BMS46_Q28G_R3_PARTIAL_32KB_EXTENDED_SAFE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G R3 EXTENDED SAFE PARTIAL 32KB",
+    "file_version": "R3-EXTENDED",
+    "baseoffset": [
+      {
+        "offset": "32768",
+        "subtract": "1"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x80000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "32KB partial: file offset = ECU address - 0x8000"
+      }
+    ],
+    "tables": 196,
+    "constants": 193,
+    "flags": 2,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "c8eb0bae43e44990663ccb953dd7517f728e41e46f4d1a565e6c6f031ac822a1",
+    "sha256": "c8eb0bae43e44990663ccb953dd7517f728e41e46f4d1a565e6c6f031ac822a1",
+    "bytes": 859111,
+    "distributed_bytes": 859111,
+    "name": "c8eb0bae43e44990_BMS46_Q28G_v0.66_ALL_SINGLE_XREF_CLOSED_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/c8eb0bae43e4_c8eb0bae43e44990_BMS46_Q28G_v0.66_ALL_SINGLE_XREF_CLOSED_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.66 - all direct single-xref candidates resolved",
+    "file_version": "BMS46-Q28G-FULL-v0.66-ALL-DIRECT-SINGLE-XREF-CLOSED",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 367,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "cc51eaca4685a4f0d7b7c2c8281c199ac8b7c076a4b021bc6cb2cd92ddf027ca",
+    "sha256": "cc51eaca4685a4f0d7b7c2c8281c199ac8b7c076a4b021bc6cb2cd92ddf027ca",
+    "bytes": 584922,
+    "distributed_bytes": 584922,
+    "name": "cc51eaca4685a4f0_BMS46_Q28G_v0.40_PHASE9_LOW_RISK_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/cc51eaca4685_cc51eaca4685a4f0_BMS46_Q28G_v0.40_PHASE9_LOW_RISK_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G candidate [v0.39 PHASE8 post-start + base fuel reconciliation]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V039-PHASE8",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "cdae5ba01dafd4ac976ddb4bc7ca4280bcce56f86226817fcddeaa177bcd6f08",
+    "sha256": "cdae5ba01dafd4ac976ddb4bc7ca4280bcce56f86226817fcddeaa177bcd6f08",
+    "bytes": 872128,
+    "distributed_bytes": 872128,
+    "name": "cdae5ba01dafd4ac_BMS46_Q28G_v0.70_ROUNDTRIP_CRC_QA_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/cdae5ba01daf_cdae5ba01dafd4ac_BMS46_Q28G_v0.70_ROUNDTRIP_CRC_QA_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.70 - round-trip precision + CRC QA",
+    "file_version": "BMS46-Q28G-FULL-v0.70-ROUNDTRIP-CRC-QA",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 370,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "d2533c2c5085d318496c3c9185f6a059a731d4cd68db0c8167522f34f4f192eb",
+    "sha256": "d2533c2c5085d318496c3c9185f6a059a731d4cd68db0c8167522f34f4f192eb",
+    "bytes": 59364,
+    "distributed_bytes": 59364,
+    "name": "d2533c2c5085d318_BMS46_Q28G_R3_PARTIAL_32KB_VERIFIED_CORE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/d2533c2c5085_d2533c2c5085d318_BMS46_Q28G_R3_PARTIAL_32KB_VERIFIED_CORE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G R3 VERIFIED CORE PARTIAL 32KB",
+    "file_version": "R3-VERIFIED",
+    "baseoffset": [
+      {
+        "offset": "32768",
+        "subtract": "1"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x80000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "32KB partial: file offset = ECU address - 0x8000"
+      }
+    ],
+    "tables": 37,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "d40685b7a98eca920ce14b47d7b049d9ae2dd6a2158c1472c86972b3e5f81b0f",
+    "sha256": "d40685b7a98eca920ce14b47d7b049d9ae2dd6a2158c1472c86972b3e5f81b0f",
+    "bytes": 497958,
+    "distributed_bytes": 497958,
+    "name": "d40685b7a98eca92_BMS46_Q28G_DFCO_CURATED_WORKING.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/d40685b7a98e_d40685b7a98eca92_BMS46_Q28G_DFCO_CURATED_WORKING.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 239,
+    "constants": 14,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "dcb1aa68301c3bf6f18da4a10288d49e1d9ff52da233c7a10acc7a1992ce356d",
+    "sha256": "dcb1aa68301c3bf6f18da4a10288d49e1d9ff52da233c7a10acc7a1992ce356d",
+    "bytes": 736570,
+    "distributed_bytes": 736570,
+    "name": "dcb1aa68301c3bf6_BMS46_Q28G_v0.59_SINGLE_XREF_THERMAL_DIAG_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/dcb1aa68301c_dcb1aa68301c3bf6_BMS46_Q28G_v0.59_SINGLE_XREF_THERMAL_DIAG_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.59 - thermal controller + diagnostic single-xref closure",
+    "file_version": "BMS46-Q28G-FULL-v0.59-SINGLE-XREF-THERMAL-DIAG",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 203,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "de8f5d7cda27f2d1e88496ae50e3249440abceb6117f4cfc393ddd783d798b39",
+    "sha256": "de8f5d7cda27f2d1e88496ae50e3249440abceb6117f4cfc393ddd783d798b39",
+    "bytes": 906576,
+    "distributed_bytes": 906576,
+    "name": "de8f5d7cda27f2d1_BMS46_Q28G_v1.03_LAMBDA2_TUNERPRO_SAFE_MINIMAL.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/de8f5d7cda27_de8f5d7cda27f2d1_BMS46_Q28G_v1.03_LAMBDA2_TUNERPRO_SAFE_MINIMAL.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.03 - Full Firmware + Lambda2 Zero-Execution Audit",
+    "file_version": "BMS46-Q28G-FULL-v1.03-LAMBDA2-ZEROEXEC-AUDIT",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 375,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "e5725c5107e2d13678085857e6d3db5f5a757857a80711b718c488525fe2f687",
+    "sha256": "e5725c5107e2d13678085857e6d3db5f5a757857a80711b718c488525fe2f687",
+    "bytes": 629298,
+    "distributed_bytes": 629298,
+    "name": "e5725c5107e2d136_BMS46_Q28G_v0.50a_ENDIAN_HOTFIX_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/e5725c5107e2_e5725c5107e2d136_BMS46_Q28G_v0.50a_ENDIAN_HOTFIX_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v0.50a - maps complete + standalone scalar audit + 16-bit endian hotfix",
+    "file_version": "BMS46-Q28G-FULL-v0.50a-ENDIAN-HOTFIX",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 80,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "e7ec6a27aef929a8de50d29087539655c4e9a43ba3abf167ac25d04510273ad4",
+    "sha256": "e7ec6a27aef929a8de50d29087539655c4e9a43ba3abf167ac25d04510273ad4",
+    "bytes": 1001128,
+    "distributed_bytes": 1001128,
+    "name": "e7ec6a27aef929a8_BMS46_Q28G_v1.06_DTC_LAMBDA_TUNERPRO_SAFE_MINIMAL.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/e7ec6a27aef9_e7ec6a27aef929a8_BMS46_Q28G_v1.06_DTC_LAMBDA_TUNERPRO_SAFE_MINIMAL.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.05 - Full Firmware + Complete DTC Catalog",
+    "file_version": "BMS46-Q28G-FULL-v1.05-DTC-FULL-CATALOG",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 451,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "e9b2f63df0c7a96682db2b8d6ea6599cf3b44f24a4a5f7b3099722a35c7fcde5",
+    "sha256": "e9b2f63df0c7a96682db2b8d6ea6599cf3b44f24a4a5f7b3099722a35c7fcde5",
+    "bytes": 584424,
+    "distributed_bytes": 584424,
+    "name": "e9b2f63df0c7a966_BMS46_Q28G_v0.36_PHASE6_FIXEDPOINT_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/e9b2f63df0c7_e9b2f63df0c7a966_BMS46_Q28G_v0.36_PHASE6_FIXEDPOINT_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image candidate [v0.34 PHASE4 transient+knock Z integration]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V034-PHASE4",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "ed8a0782fe7a3dc6ae10118fd35ff83413d7dc520ada98a9ddb169f89ac18794",
+    "sha256": "ed8a0782fe7a3dc6ae10118fd35ff83413d7dc520ada98a9ddb169f89ac18794",
+    "bytes": 557756,
+    "distributed_bytes": 557756,
+    "name": "ed8a0782fe7a3dc6_BMS46_Q28G_SAFE_v0.8.4.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/ed8a0782fe7a_ed8a0782fe7a3dc6_BMS46_Q28G_SAFE_v0.8.4.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.8.4 SAFE 3D layout]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "efa2eee2446d419f314b5e2d0b7cc3d5fa2464553cb2d6faf3a600b853354baf",
+    "sha256": "efa2eee2446d419f314b5e2d0b7cc3d5fa2464553cb2d6faf3a600b853354baf",
+    "bytes": 580296,
+    "distributed_bytes": 580296,
+    "name": "efa2eee2446d419f_BMS46_Q28G_v0.34_PHASE4_TRANSIENT_KNOCK_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/efa2eee2446d_efa2eee2446d419f_BMS46_Q28G_v0.34_PHASE4_TRANSIENT_KNOCK_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image candidate [v0.34 PHASE4 transient+knock Z integration]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V034-PHASE4",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "f57ea268489ab5c239db239f0fe926c2d4778ee6d55b0cfb4ea00abb2c4b3734",
+    "sha256": "f57ea268489ab5c239db239f0fe926c2d4778ee6d55b0cfb4ea00abb2c4b3734",
+    "bytes": 358478,
+    "distributed_bytes": 358478,
+    "name": "f57ea268489ab5c2_BMS46_M43B19_Q28G_LOGIC_CHECKED_ULTIMATE_v2.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/f57ea268489a_f57ea268489ab5c2_BMS46_M43B19_Q28G_LOGIC_CHECKED_ULTIMATE_v2.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G - LOGIC CHECKED ULTIMATE (KZB trusted + Ronin extras)",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 250,
+    "constants": 3,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "f7bd9bbfd987b5d32594313435fda273c0b6a5de7b5d8c02b4f6bced11d02c77",
+    "sha256": "f7bd9bbfd987b5d32594313435fda273c0b6a5de7b5d8c02b4f6bced11d02c77",
+    "bytes": 585474,
+    "distributed_bytes": 585474,
+    "name": "f7bd9bbfd987b5d3_BMS46_Q28G_v0.43_PHASE12_Z_AUDIT_COMPLETE_CANDIDATE.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/f7bd9bbfd987_f7bd9bbfd987b5d3_BMS46_Q28G_v0.43_PHASE12_Z_AUDIT_COMPLETE_CANDIDATE.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G candidate [v0.39 PHASE8 post-start + base fuel reconciliation]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1-V039-PHASE8",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "fc15fc0fb6728573710a9491562002ceda519e9c164b0bff6157542bcc2b0f7f",
+    "sha256": "fc15fc0fb6728573710a9491562002ceda519e9c164b0bff6157542bcc2b0f7f",
+    "bytes": 77447,
+    "distributed_bytes": 77447,
+    "name": "fc15fc0fb6728573_BMS46_M43B19_Q28G_FULL_MERGED_KP_GALLETTO.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/fc15fc0fb672_fc15fc0fb6728573_BMS46_M43B19_Q28G_FULL_MERGED_KP_GALLETTO.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 FULL MERGED KP + Galletto",
+    "file_version": "V1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Binary File",
+        "desc": "This region describes the bin file edited by this XDF"
+      }
+    ],
+    "tables": 51,
+    "constants": 0,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "fd78111fa6f06d61dfc9a2a37d0d859d0e2b6a2f54dcb11a3968f4f90bfcd63b",
+    "sha256": "fd78111fa6f06d61dfc9a2a37d0d859d0e2b6a2f54dcb11a3968f4f90bfcd63b",
+    "bytes": 456923,
+    "distributed_bytes": 456923,
+    "name": "fd78111fa6f06d61_BMS46_Q28G_GALLETTO32_v35_SCALAR_REVIEW_FIXED_LOADABLE (1).xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/fd78111fa6f0_fd78111fa6f06d61_BMS46_Q28G_GALLETTO32_v35_SCALAR_REVIEW_FIXED_LOADABLE_1_.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 M43B19 Q28G CODE-ONLY MASTER REBASED v35 SCALAR REVIEW COMPANION GALLETTO 32KB",
+    "file_version": "CODE_ONLY_MASTER_REBASED_v35_SCALAR_REVIEW_COMPANION",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x8000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Galletto 32KB calibration partial",
+        "desc": "Full ROM 0x008010 maps to file offset 0x0000"
+      }
+    ],
+    "tables": 233,
+    "constants": 96,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "fdef37db19c6c2fae1966786e30adf02f4073865be40b6e2a48a5c55b9f3a13f",
+    "sha256": "fdef37db19c6c2fae1966786e30adf02f4073865be40b6e2a48a5c55b9f3a13f",
+    "bytes": 993676,
+    "distributed_bytes": 993676,
+    "name": "fdef37db19c6c2fa_BMS46_Q28G_v1.05_DTC_FULL_CATALOG.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/fdef37db19c6_fdef37db19c6c2fa_BMS46_Q28G_v1.05_DTC_FULL_CATALOG.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G v1.05 - Full Firmware + Complete DTC Catalog",
+    "file_version": "BMS46-Q28G-FULL-v1.05-DTC-FULL-CATALOG",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 270,
+    "constants": 451,
+    "flags": 5,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  },
+  {
+    "source_sha256": "fee50392f0adda228387fcb8d2460461099d2a05e130fb429d8d81d6b1f674d1",
+    "sha256": "fee50392f0adda228387fcb8d2460461099d2a05e130fb429d8d81d6b1f674d1",
+    "bytes": 576693,
+    "distributed_bytes": 576693,
+    "name": "fee50392f0adda22_BMS46_Q28G_STABLE_v0.9.0.xdf",
+    "category": "tunerpro",
+    "file": "library/tunerpro/fee50392f0ad_fee50392f0adda22_BMS46_Q28G_STABLE_v0.9.0.xdf",
+    "private_object": "",
+    "disposition": "REVIEW_CANDIDATE",
+    "text_redacted": false,
+    "origin": "collected-bms46",
+    "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+    "xml_root": "XDFFORMAT",
+    "xml_well_formed": true,
+    "title": "BMS46 Q28G full-image verified structures [v0.9 semantic expansion STABLE]",
+    "file_version": "BMS46-Q28G-FULL-VERIFIED-1",
+    "baseoffset": [
+      {
+        "offset": "0",
+        "subtract": "0"
+      }
+    ],
+    "regions": [
+      {
+        "type": "0xFFFFFFFF",
+        "startaddress": "0x0",
+        "size": "0x40000",
+        "regioncolor": "0x0",
+        "regionflags": "0x0",
+        "name": "Q28G full firmware",
+        "desc": "Read against exact 262144-byte Q28G image only."
+      }
+    ],
+    "tables": 267,
+    "constants": 27,
+    "flags": 0,
+    "validation": "XML_PARSE_ONLY_NOT_A_MAP_SEMANTICS_OR_TUNERPRO_TEST"
+  }
+]

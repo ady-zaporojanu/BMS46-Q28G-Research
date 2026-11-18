@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "publication_requested_by_repository_owner": true,
+  "source_review_archive_sha256": "38db9999c8c59fee005204aaaa85f04be2677d6c27900791e74c6eda04df188c",
+  "automated_checks": {
+    "original_archive_crc": "PASS",
+    "raw_file_scan": [
+      "GitHub credential patterns",
+      "PEM private-key headers",
+      "AWS access-key ID patterns",
+      "BMW VIN patterns"
+    ],
+    "raw_file_sensitive_pattern_matches": 0,
+    "pdf_text_files_checked": 97,
+    "pdf_text_sensitive_pattern_matches": 0,
+    "image_metadata_files_checked": 134,
+    "image_gps_metadata_matches": 0,
+    "historical_windows_user_paths": 3,
+    "historical_path_disposition": "Retained as provenance: external compiler PDB paths and a legacy map-pack import path; not active connection credentials.",
+    "limitations": "Pattern and metadata checks are not exhaustive privacy, licensing or firmware-semantic verification. Images were not OCR-scanned by this check."
+  },
+  "license_status": "Original per-object license_status values retained. Toolkit licenses do not grant firmware or third-party redistribution rights.",
+  "binary_policy": "All firmware, map-pack and Ghidra program bytes preserved unchanged.",
+  "contents": "Original complete collection; README/publication status updated and this record added. Historical toolkit and evidence remain the original snapshots."
+}

@@ -2,7 +2,9 @@
 
 The companion `bms46-community-materials` bundle extends the small source repository
 with actual research inputs and the original annotated Ghidra program. It is
-prepared locally for review; no public download URL exists until publication.
+available as [repository materials](../materials/README.md) and the
+[complete v0.2.0 release](https://github.com/ady-zaporojanu/BMS46-Q28G-Research/releases/tag/v0.2.0). The release ZIP contains the full collection;
+the repository exposes the BIN/XDF/XML inputs and packed Ghidra program.
 
 ## Open the complete Ghidra analysis
 
@@ -47,7 +49,7 @@ and write operations; they are reference material, not automatically run tools.
 
 ## Publication and rights
 
-The companion collection is a **review candidate**, not a blanket licensing claim.
+The original collection was prepared as a review candidate. Its publication is not a blanket licensing claim.
 MIT/Apache notices for the source project do not grant rights to manufacturer
 firmware, proprietary diagnostic definitions, third-party PDFs or map packs.
 Review `license_status` per object and source provenance before publishing a release.

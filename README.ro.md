@@ -10,7 +10,8 @@ autorul exclusiv al cercetării inițiale sau al extensiei Ghidra.
 Repository-ul text este însoțit acum de **colecția completă de materiale**:
 proiectul Ghidra original, gata de deschis, arhiva programului `.gzf`, BIN-uri
 full/parțiale, definiții XDF/XML pentru TunerPro, map-pack-uri și cercetarea istorică.
-Vezi [MATERIALS.md](docs/MATERIALS.md). Colecția se verifică înainte de publicare;
+[Deschide materialele din repository](materials/README.md) sau descarcă
+[colecția completă din Releases](https://github.com/ady-zaporojanu/BMS46-Q28G-Research/releases/tag/v0.2.0). Vezi [MATERIALS.md](docs/MATERIALS.md);
 licența codului nu se aplică automat firmware-urilor și documentelor terțe.
 
 Pentru reconstruirea din repository-ul text, fiecare contributor folosește propria
@@ -30,5 +31,5 @@ păstrate ca atare; numărul de funcții denumite nu înseamnă procent de firmw
 **Proiectul complet `.gzf` le păstrează**, inclusiv toate cele 23 de semnături
 definite manual. Detalii: [reconstrucție](docs/RECONSTRUCTION.md).
 
-Publicarea repository-ului și alegerea contului GitHub sunt pași separați de
-pregătirea acestui pachet. Nu există un URL public al acestei versiuni până la publicare.
+BIN-urile full și parțiale, definițiile și programul Ghidra `.gzf` sunt în `materials/`.
+Arhiva din Releases include și proiectul `.gpr` împreună cu baza `.rep` și istoricul cercetării.

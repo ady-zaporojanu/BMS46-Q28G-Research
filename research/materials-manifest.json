@@ -1,0 +1,3843 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": "materials/README.md",
+      "sha256": "ad15aa1989246c419713c6324ccc60b1cce88bd9fecae00208ad4192b61deaef",
+      "bytes": 3032,
+      "category": "research-metadata",
+      "license_status": "Project documentation"
+    },
+    {
+      "file": "materials/catalog/FIRMWARE.md",
+      "sha256": "d32851617287098c1f111be44e500878b75a5c377ab84f6976a7ba78b1dabac2",
+      "bytes": 34908,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/Q28G_START_HERE.md",
+      "sha256": "a009aadca2906e051a960a776e3ef6baac4410cbad9008091c48a6ce9578e051",
+      "bytes": 1241,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/TUNERPRO.md",
+      "sha256": "64e4b6ae3179476ed186d637b07dcd1651f9d44f53141ddbfb0cb85ed0946f9c",
+      "bytes": 24234,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/firmware.json",
+      "sha256": "3162c65df793e41d2efb48cf0ecdf9a15bc1df2cc326131192d2ef7f87614e63",
+      "bytes": 153090,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/full-partial-relationships.json",
+      "sha256": "4d06afc81e71979bbae3bc8a435e5adbaf65d3e7c39dc990ec8d944185ee1a6d",
+      "bytes": 25646,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/tunerpro.csv",
+      "sha256": "d22dd300efad3f9a0fb7151caa0bdd51225f581bdc27b6ede4153685e4e4d733",
+      "bytes": 36535,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/tunerpro.json",
+      "sha256": "d6ea268138a1c3e2e3886c48173a0f9eda42d999158c0e186d9fb952aa1ce709",
+      "bytes": 155901,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/catalog/xdf-address-audit.json",
+      "sha256": "22598867de6101d8f90cfa7e596e97afdedf6136bd3d0f161be04a5b59e53056",
+      "bytes": 47347,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/ghidra/Q28G_CPU32_STATUS_V2_annotated.gzf",
+      "sha256": "3a88d1b046ef206dc5548ffa76277543bcb59e4463fb38a3c8ab3d33fce1714b",
+      "bytes": 1792042,
+      "category": "packed-ghidra",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/ghidra/full-state-verification.json",
+      "sha256": "1a7ba0e5238a7e9cc70e44c037523e51c4eed5e26a98628742e4f45f2bd1f507",
+      "bytes": 457,
+      "category": "research-metadata",
+      "license_status": "Firmware and third-party rights are not granted by the toolkit license."
+    },
+    {
+      "file": "materials/library/diagnostic-xml/0d47f9ee6f2a_bms46ds0.xml",
+      "sha256": "0d47f9ee6f2a3d32402482ee1f5b696de38d94602a25cdc39ba50ca682b4c1a7",
+      "bytes": 91372,
+      "category": "diagnostic-xml",
+      "source_sha256": "0d47f9ee6f2a3d32402482ee1f5b696de38d94602a25cdc39ba50ca682b4c1a7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/translated_en/bms46ds0.xml",
+        "diagnostic-definitions/translated_en/bms46ds0.xml",
+        "upstream-bms46-wiki/definition/translated_en/bms46ds0.xml"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/136be4ad487c_xtract.css",
+      "sha256": "136be4ad487c877caf88b55bb92cda1d21cacc23557640030d4c45538691c31a",
+      "bytes": 2396,
+      "category": "diagnostic-xml",
+      "source_sha256": "136be4ad487c877caf88b55bb92cda1d21cacc23557640030d4c45538691c31a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/canallg/xtract.css",
+        "comparison-ecus/BMS46/definition/original_de/xtract.css",
+        "comparison-ecus/BMS46/definition/translated_en/xtract.css",
+        "diagnostic-definitions/canallg/xtract.css",
+        "diagnostic-definitions/original_de/xtract.css",
+        "diagnostic-definitions/translated_en/xtract.css",
+        "upstream-bms46-wiki/definition/canallg/xtract.css",
+        "upstream-bms46-wiki/definition/original_de/xtract.css",
+        "upstream-bms46-wiki/definition/translated_en/xtract.css",
+        "work-evidence/ediabas/xtract_xml/xtract.css",
+        "work-external_refs/EDIABAS_BIN/xtract.css",
+        "work-research/ediabas_extracted/xtract/xtract.css"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/296dcfae46e8_bms46ds1.xml",
+      "sha256": "296dcfae46e8939d973187957b2e6202e62f93284e5d0ced7592cf80634523e4",
+      "bytes": 100756,
+      "category": "diagnostic-xml",
+      "source_sha256": "296dcfae46e8939d973187957b2e6202e62f93284e5d0ced7592cf80634523e4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/original_de/bms46ds1.xml",
+        "comparison-ecus/BMS46/definition/translated_en/bms46ds1.xml",
+        "diagnostic-definitions/original_de/bms46ds1.xml",
+        "diagnostic-definitions/translated_en/bms46ds1.xml",
+        "upstream-bms46-wiki/definition/original_de/bms46ds1.xml",
+        "upstream-bms46-wiki/definition/translated_en/bms46ds1.xml",
+        "work-evidence/ediabas/xtract_xml/BMS46DS1.XML",
+        "work-research/ediabas_extracted/xtract/BMS46DS1.XML"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/46cd95b3532d_CANALLG.XML",
+      "sha256": "46cd95b3532d5808f6b6507bd23c99015aa77b63a3e7d0900c8be9eae89acdb1",
+      "bytes": 112668,
+      "category": "diagnostic-xml",
+      "source_sha256": "46cd95b3532d5808f6b6507bd23c99015aa77b63a3e7d0900c8be9eae89acdb1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/canallg/CANALLG.XML",
+        "diagnostic-definitions/canallg/CANALLG.XML",
+        "upstream-bms46-wiki/definition/canallg/CANALLG.XML"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/7b277435e2f4_ews.xml",
+      "sha256": "7b277435e2f4468849b7fbed74b947761da5027f96322645f66beb001b8af87e",
+      "bytes": 36726,
+      "category": "diagnostic-xml",
+      "source_sha256": "7b277435e2f4468849b7fbed74b947761da5027f96322645f66beb001b8af87e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/original_de/ews.xml",
+        "diagnostic-definitions/original_de/ews.xml",
+        "upstream-bms46-wiki/definition/original_de/ews.xml"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/7e046559071d_ews.xml",
+      "sha256": "7e046559071de615530e4afc43c453da4217c07284b26980da93d8f3595cb45d",
+      "bytes": 34932,
+      "category": "diagnostic-xml",
+      "source_sha256": "7e046559071de615530e4afc43c453da4217c07284b26980da93d8f3595cb45d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/translated_en/ews.xml",
+        "diagnostic-definitions/translated_en/ews.xml",
+        "upstream-bms46-wiki/definition/translated_en/ews.xml"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/9027cea462fb_bms46ds0.xml",
+      "sha256": "9027cea462fb96014429e1be6f2a648a45b7ad7ca59e7c685976902c0d68e236",
+      "bytes": 90682,
+      "category": "diagnostic-xml",
+      "source_sha256": "9027cea462fb96014429e1be6f2a648a45b7ad7ca59e7c685976902c0d68e236",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/original_de/bms46ds0.xml",
+        "diagnostic-definitions/original_de/bms46ds0.xml",
+        "upstream-bms46-wiki/definition/original_de/bms46ds0.xml",
+        "work-evidence/ediabas/xtract_xml/BMS46DS0.XML",
+        "work-research/ediabas_extracted/xtract/BMS46DS0.XML"
+      ]
+    },
+    {
+      "file": "materials/library/diagnostic-xml/a0299218402f_xtract.xsd",
+      "sha256": "a0299218402f1dd77587a18d4ef4292a6c32853e8482b973158b1a844aef3557",
+      "bytes": 2578,
+      "category": "diagnostic-xml",
+      "source_sha256": "a0299218402f1dd77587a18d4ef4292a6c32853e8482b973158b1a844aef3557",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/definition/canallg/xtract.xsd",
+        "comparison-ecus/BMS46/definition/original_de/xtract.xsd",
+        "comparison-ecus/BMS46/definition/translated_en/xtract.xsd",
+        "diagnostic-definitions/canallg/xtract.xsd",
+        "diagnostic-definitions/original_de/xtract.xsd",
+        "diagnostic-definitions/translated_en/xtract.xsd",
+        "upstream-bms46-wiki/definition/canallg/xtract.xsd",
+        "upstream-bms46-wiki/definition/original_de/xtract.xsd",
+        "upstream-bms46-wiki/definition/translated_en/xtract.xsd",
+        "work-evidence/ediabas/xtract_xml/xtract.xsd",
+        "work-external_refs/EDIABAS_BIN/xtract.xsd",
+        "work-research/ediabas_extracted/xtract/xtract.xsd"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/00632fa1037d_00632fa1037d5195_ecuBMW46_pops_flames_v3_5000_bigflames.bin",
+      "sha256": "00632fa1037d5195752ad2bcb5a73006951daf76514b2845adffaf93fdf64484",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "00632fa1037d5195752ad2bcb5a73006951daf76514b2845adffaf93fdf64484",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/00632fa1037d5195_ecuBMW46_pops_flames_v3_5000_bigflames.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/02d10e094975_52_508a2lform.bin",
+      "sha256": "02d10e094975582c9d476cbcf86030e9db65bd1d682cfa42f01b6acf3674efd1",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "02d10e094975582c9d476cbcf86030e9db65bd1d682cfa42f01b6acf3674efd1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/XdfofA2L_bothtypes/52_508a2lform.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/053055318a0a_211322002601JD39_US_SMG_non-heated_DMTL_.bin",
+      "sha256": "053055318a0aefac38ea7568f80e68295e12bdbf70326eb5a8c49f68076fc8d2",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "053055318a0aefac38ea7568f80e68295e12bdbf70326eb5a8c49f68076fc8d2",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002601JD39 (US SMG non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/0592b4cdc199_211323002701JD79_US_SMG_heated_DMTL_.bin",
+      "sha256": "0592b4cdc199ac501751eda2ae6cbd8b11c479f6254badfcf1c77e504e875564",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "0592b4cdc199ac501751eda2ae6cbd8b11c479f6254badfcf1c77e504e875564",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002701JD79 (US SMG heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/0630d4f932d6_0630d4f932d61787_Q28G_LIVE_TRANSPORT_TEST.bin",
+      "sha256": "0630d4f932d61787c4d4d5d8d26d8b17b424472a1535dc04d6a587072befb46a",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "0630d4f932d61787c4d4d5d8d26d8b17b424472a1535dc04d6a587072befb46a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/0630d4f932d61787_Q28G_LIVE_TRANSPORT_TEST.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/064a53930637_211322000701J409.bin",
+      "sha256": "064a5393063785d26153f22c2341bfb940f4ade75d4ef145705a034c476055f1",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "064a5393063785d26153f22c2341bfb940f4ade75d4ef145705a034c476055f1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322000701J409.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/0741473696ab_211323002701JD39_US_SMG_non-heated_DMTL_.bin",
+      "sha256": "0741473696ab366510ba6efd89a90f20fdaa335085bdcf544163d41d2d1fcc15",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "0741473696ab366510ba6efd89a90f20fdaa335085bdcf544163d41d2d1fcc15",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002701JD39 (US SMG non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/091210528842_211323001801JD74_EU3_Low_Compression_SMG_.bin",
+      "sha256": "0912105288421015e7ee54ed320d3746044de7cf9e4dff78e1d6179e102b96eb",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "0912105288421015e7ee54ed320d3746044de7cf9e4dff78e1d6179e102b96eb",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801JD74 (EU3 Low Compression SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/09f664aff252_211322001501J449_Japan_6MT_.bin",
+      "sha256": "09f664aff2523303a50bde4c8fb44b26e201aa087952ac5635f0801a2ed3f358",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "09f664aff2523303a50bde4c8fb44b26e201aa087952ac5635f0801a2ed3f358",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501J449 (Japan 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/0b3ff59c198e_211323001801JD99_US_SMG_.bin",
+      "sha256": "0b3ff59c198ef560dc16bf6881522703c6f86bdd0cf36af9951d9493e74aaef6",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "0b3ff59c198ef560dc16bf6881522703c6f86bdd0cf36af9951d9493e74aaef6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801JD99 (US SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/0ce3a890a903_token_06000092_VRU_.x64.bin",
+      "sha256": "0ce3a890a9039b8196d8b1b429208b6c27bb2dcd8ab100b0ff1350b8d76f80fe",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "0ce3a890a9039b8196d8b1b429208b6c27bb2dcd8ab100b0ff1350b8d76f80fe",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_06000092_VRU_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/101f1ffd18b1_211323002001J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "101f1ffd18b1ae13e15fd4d73412a82d56e21ca8d35a89855d604e12a34dcbc2",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "101f1ffd18b1ae13e15fd4d73412a82d56e21ca8d35a89855d604e12a34dcbc2",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/105434ca3b16_211322002101Q464_Low_Compression_Z3M_.bin",
+      "sha256": "105434ca3b161f4823b306a1940d326bcc6745867fd3d99e272bf7dcb8b51670",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "105434ca3b161f4823b306a1940d326bcc6745867fd3d99e272bf7dcb8b51670",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101Q464 (Low Compression Z3M).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/114c56e82366_Full_211325000401PD31_EOBD_European_OBD_No_Vmax.bin",
+      "sha256": "114c56e82366ff80bf101cb17355df3bdb59e370824aebb637619c70f509cb86",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "114c56e82366ff80bf101cb17355df3bdb59e370824aebb637619c70f509cb86",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP CSL/Full 211325000401PD31 EOBD (European OBD) No Vmax.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/12082a841716_Full_211323000401PD11_PAFFY.bin",
+      "sha256": "12082a8417162292a4953676846019a94bdb57144ba570d65850c7b6999e3514",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "12082a8417162292a4953676846019a94bdb57144ba570d65850c7b6999e3514",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP to CSL/Full 211323000401PD11_PAFFY.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1252150fc157_211322002101J444_NoEOBD_6MT_.bin",
+      "sha256": "1252150fc1577da4b609ef757164bbaad4f1ae35bee424a0c9d862ae62fa24db",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "1252150fc1577da4b609ef757164bbaad4f1ae35bee424a0c9d862ae62fa24db",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101J444 (NoEOBD 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1252edd27a6a_Full_211322001701JD34.bin",
+      "sha256": "1252edd27a6a67a7c0c573ee0ec3630158da5f403d91f2ad27cdae8e213e4e49",
+      "bytes": 524288,
+      "category": "firmware",
+      "source_sha256": "1252edd27a6a67a7c0c573ee0ec3630158da5f403d91f2ad27cdae8e213e4e49",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54/Full 211322001701JD34.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1335ed398b10_211322002101Q444_NoEOBD_Z3M_.bin",
+      "sha256": "1335ed398b108b4d9a5546157d2ae887553f39e722a775e71359309ff32eb96d",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "1335ed398b108b4d9a5546157d2ae887553f39e722a775e71359309ff32eb96d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101Q444 (NoEOBD Z3M).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/156f178c4028_211322002101J464_Low_Compression_6MT_.bin",
+      "sha256": "156f178c402833b038d9a60fdd27deb8b8be96d5c1329ad704f1151bcf1a0089",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "156f178c402833b038d9a60fdd27deb8b8be96d5c1329ad704f1151bcf1a0089",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101J464 (Low Compression 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/15868ea042a3_15868ea042a3bf1a_Q28G_LIVE_V122_INERT.bin",
+      "sha256": "15868ea042a3bf1a7fdddb6ed92a60f333e66f550284e7183008a906aa29e199",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "15868ea042a3bf1a7fdddb6ed92a60f333e66f550284e7183008a906aa29e199",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/15868ea042a3bf1a_Q28G_LIVE_V122_INERT.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1618348fe1ce_211322001501JD34_EU3_SMG_.bin",
+      "sha256": "1618348fe1cecd86939a8f692acd3427d1330774e43385b3ca3070026424b0e4",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "1618348fe1cecd86939a8f692acd3427d1330774e43385b3ca3070026424b0e4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501JD34 (EU3 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/16ee1fb73db0_211323001601J444_NoEOBD_6MT_.bin",
+      "sha256": "16ee1fb73db04cd493685628ab3f4646096f45ca6616b702147373b440f574ca",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "16ee1fb73db04cd493685628ab3f4646096f45ca6616b702147373b440f574ca",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601J444 (NoEOBD 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/17016b3fc120_token_060000B2_oBU_.x64.bin",
+      "sha256": "17016b3fc120d770c1b7034b60ba1ee439c1118136257cc12a46089e40133f42",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "17016b3fc120d770c1b7034b60ba1ee439c1118136257cc12a46089e40133f42",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_060000B2_oBU_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/17b830752c00_token_0600005A_qBQ_.x64.bin",
+      "sha256": "17b830752c004571836ee094f04c07f24d3d147d78f6f8fb114bea9058e5006f",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "17b830752c004571836ee094f04c07f24d3d147d78f6f8fb114bea9058e5006f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_0600005A_qBQ_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1bebff757ccf_token_06000096_XRU_.x64.bin",
+      "sha256": "1bebff757ccf45aede68fbf8c2913758740dc56ee6f43ae549af7b199506f069",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "1bebff757ccf45aede68fbf8c2913758740dc56ee6f43ae549af7b199506f069",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_06000096_XRU_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1dd9cc827ee6_211323002001J484_EU4_6MT_.bin",
+      "sha256": "1dd9cc827ee67266e4dacffa25e821a38f617b3212f58abdef6bfd50ce45ed04",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "1dd9cc827ee67266e4dacffa25e821a38f617b3212f58abdef6bfd50ce45ed04",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001J484 (EU4 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/1de24515e3cf_QuickFlash_full_READ_ERROR_DO_NOT_FLASH.bin",
+      "sha256": "1de24515e3cf8dea3dd80696c1fb69924da58e16a0e1e46e29662ac4f3c90b0b",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "1de24515e3cf8dea3dd80696c1fb69924da58e16a0e1e46e29662ac4f3c90b0b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "evidence-full_read/quickflash106_live/QuickFlash_full_READ_ERROR_DO_NOT_FLASH.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/evidence/full_read/quickflash106_live/QuickFlash_full_READ_ERROR_DO_NOT_FLASH.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/206e52f5279c_quickflash_jit_wrappers_combined.x64.bin",
+      "sha256": "206e52f5279c9e7afdb2a5e1b6c9fda34c21c55793a68d50ec615beb63b848a0",
+      "bytes": 2016,
+      "category": "firmware",
+      "source_sha256": "206e52f5279c9e7afdb2a5e1b6c9fda34c21c55793a68d50ec615beb63b848a0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/quickflash_jit_wrappers_combined.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/211f402f134a_211325000401PD3J.bin",
+      "sha256": "211f402f134a31da3a9f15f043096607cf914aa378349e68ee63d422451584f3",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "211f402f134a31da3a9f15f043096607cf914aa378349e68ee63d422451584f3",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000401PD3J.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/224f7201079e_TUNED_01119700F000O2AG.bin",
+      "sha256": "224f7201079e7666b112a794473bf0929111c03c262e09cfd59c099b487098c9",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "224f7201079e7666b112a794473bf0929111c03c262e09cfd59c099b487098c9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/TUNED_01119700F000O2AG.bin",
+        "comparison-ecus/BMS46/full/TUNED_01119700F000O2AG.bin",
+        "upstream-bms46-wiki/full/TUNED_01119700F000O2AG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/22f358b4c584_22f358b4c5841d13_VEHICLE_BMS46_1430940_fullread.bin",
+      "sha256": "22f358b4c5841d13de588568bcde66a9fb5c74722a304e5a2b18fabbd49f3804",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "22f358b4c5841d13de588568bcde66a9fb5c74722a304e5a2b18fabbd49f3804",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/22f358b4c5841d13_[VEHICLE_ID_REDACTED]_BMS46_1430940_fullread.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/2541f71429e2_01119700F000P2AG.bin",
+      "sha256": "2541f71429e235e4b66ec9908477aafa0ee19f4151eb7c0bdcb7bc759aca11f2",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "2541f71429e235e4b66ec9908477aafa0ee19f4151eb7c0bdcb7bc759aca11f2",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000P2AG.bin",
+        "comparison-ecus/BMS46/full/01119700F000P2AG.bin",
+        "comparison-ecus/BMS46/reversed.bin",
+        "upstream-bms46-wiki/full/01119700F000P2AG.bin",
+        "upstream-bms46-wiki/reversed.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/26be8cc08bf9_Full_211325000401PD1J_Jap.bin",
+      "sha256": "26be8cc08bf95ca2cec65e90da85e595fd88bc40b0a2093b3b91e7c34a12a406",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "26be8cc08bf95ca2cec65e90da85e595fd88bc40b0a2093b3b91e7c34a12a406",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP CSL/Full 211325000401PD1J Jap.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/272f54c07352_211323001801J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "272f54c073522a8393b04e92d036cc21eb9c5c5c11b1d4d413438e1f9e7bb9f3",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "272f54c073522a8393b04e92d036cc21eb9c5c5c11b1d4d413438e1f9e7bb9f3",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/2bb7d7282709_2bb7d7282709b731_Q28G_LIVE_V127_MILD_TIMING.bin",
+      "sha256": "2bb7d7282709b731db012b49cf3722dd55b50e4e37512b08168b31473165a89d",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "2bb7d7282709b731db012b49cf3722dd55b50e4e37512b08168b31473165a89d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/2bb7d7282709b731_Q28G_LIVE_V127_MILD_TIMING.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/2cd4742dd7ed_211323001601JD54_NoEOBD_SMG_.bin",
+      "sha256": "2cd4742dd7edb7660d144d0e6ad94c53bed63d40a0b0d5b3112cac4e1e7e6c7f",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "2cd4742dd7edb7660d144d0e6ad94c53bed63d40a0b0d5b3112cac4e1e7e6c7f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601JD54 (NoEOBD SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/2ebc962eeba1_211322002101JD59_Japan_SMG_.bin",
+      "sha256": "2ebc962eeba116f9bd441ff5a8dd8e7afefd679f8adb90fc50f23994248fd949",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "2ebc962eeba116f9bd441ff5a8dd8e7afefd679f8adb90fc50f23994248fd949",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101JD59 (Japan SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/300d54077867_211322002101Q449_Japan_Low_Compression_Z3M_.bin",
+      "sha256": "300d54077867421d27d7fecb94e69dfcea4f170d8d191628205faf97b0341fda",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "300d54077867421d27d7fecb94e69dfcea4f170d8d191628205faf97b0341fda",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101Q449 (Japan Low Compression Z3M).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/32fa867f39e3_token_06000083_KhU_.x64.bin",
+      "sha256": "32fa867f39e3579b94f93a14bbd90d202765d4d2774a1479fa6a94167bb9e91a",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "32fa867f39e3579b94f93a14bbd90d202765d4d2774a1479fa6a94167bb9e91a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_06000083_KhU_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/333e90e87ce8_211323001801J489.bin",
+      "sha256": "333e90e87ce8c5fea57387c64c8d278ea2c4829a31b6e8b7ad1d36a4fcd97f88",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "333e90e87ce8c5fea57387c64c8d278ea2c4829a31b6e8b7ad1d36a4fcd97f88",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801J489.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/359869c57e92_211322002101JD74_EU3_Low_Compression_SMG_.bin",
+      "sha256": "359869c57e927ef2c89c955382ef3dd212f4eeac1c364f790f8298cb398d7bb5",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "359869c57e927ef2c89c955382ef3dd212f4eeac1c364f790f8298cb398d7bb5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101JD74 (EU3 Low Compression SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/36a9e7243d1b_q28g_ews.read_full.00.bin",
+      "sha256": "36a9e7243d1b63be5b34b72062fab8940ff7c2d6580ef44be26a0226d59c572b",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "36a9e7243d1b63be5b34b72062fab8940ff7c2d6580ef44be26a0226d59c572b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/36a9e7243d1b63be_q28g_ews.read_full.00.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_ews.read_full.00.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_ews.read_full.01.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/3749d85e090f_211323001601J424_EU3_6MT_.bin",
+      "sha256": "3749d85e090f057ebe70bf80dd12ab4c8660a65b8d33a0f70fa5976775dcc351",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "3749d85e090f057ebe70bf80dd12ab4c8660a65b8d33a0f70fa5976775dcc351",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601J424 (EU3 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/3a35f3e2f266_211323002001JD54_NoEOBD_SMG_.bin",
+      "sha256": "3a35f3e2f266df4ef5edd8ebe5bdccf1baa7f4cac3ffcdcb31a5a409d92cd390",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "3a35f3e2f266df4ef5edd8ebe5bdccf1baa7f4cac3ffcdcb31a5a409d92cd390",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001JD54 (NoEOBD SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/3ba59cce395d_3ba59cce395d5ca3_Q28G_LIVE_V125_MICROFUEL.bin",
+      "sha256": "3ba59cce395d5ca304c936e2086d9af74db32e3d35f6218e9eec2327f0b00a9e",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "3ba59cce395d5ca304c936e2086d9af74db32e3d35f6218e9eec2327f0b00a9e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/3ba59cce395d5ca3_Q28G_LIVE_V125_MICROFUEL.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/4291baa72a50_01119700F000P2FG.bin",
+      "sha256": "4291baa72a5000e4f0aff12609f5ab97174554368b12ff4901608c236a4582d1",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "4291baa72a5000e4f0aff12609f5ab97174554368b12ff4901608c236a4582d1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000P2FG.bin",
+        "comparison-ecus/BMS46/full/01119700F000P2FG.bin",
+        "upstream-bms46-wiki/full/01119700F000P2FG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/44a27e798bfb_Full_211325000401PD11_Std_EOBD_European_OBD_.bin",
+      "sha256": "44a27e798bfbf1a9149c3d8dc74bb7a823a28b33554d081b3580d162fe50948b",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "44a27e798bfbf1a9149c3d8dc74bb7a823a28b33554d081b3580d162fe50948b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP CSL/Full 211325000401PD11 Std EOBD (European OBD).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/44a4633ce39e_PARTIAL_01119700F000Q2AG.bin",
+      "sha256": "44a4633ce39eb0778b8eed62ed55c9ef6d687bace7e681061d6cc0eb8eecbc5a",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "44a4633ce39eb0778b8eed62ed55c9ef6d687bace7e681061d6cc0eb8eecbc5a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700F000Q2AG.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700F000Q2AG.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700F000Q2AG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/48cfb397a1c9_48cfb397a1c97ea9_Q28G_LIVE_V128_NEGATIVE.bin",
+      "sha256": "48cfb397a1c97ea914637265aa0b546ddcbfaf5d7be936569a5d8f7c442e4d11",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "48cfb397a1c97ea914637265aa0b546ddcbfaf5d7be936569a5d8f7c442e4d11",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/48cfb397a1c97ea9_Q28G_LIVE_V128_NEGATIVE.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/4aac230d1283_PARTIAL_01119700F000Q22I.bin",
+      "sha256": "4aac230d1283591803449f3c29229e9413456e685c78c175c70e2604571b249c",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "4aac230d1283591803449f3c29229e9413456e685c78c175c70e2604571b249c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700F000Q22I.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700F000Q22I.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700F000Q22I.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/4ad1bc27f099_211322002101J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "4ad1bc27f099e21a446536e9e5aee67cf9ea042a367150b853dfabb3c82135e7",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "4ad1bc27f099e21a446536e9e5aee67cf9ea042a367150b853dfabb3c82135e7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/4c3da6ade8a3_211323001601JD74_EU3_Low_Compression_SMG_.bin",
+      "sha256": "4c3da6ade8a3fa47197e7095956286acf93a9af3630eab52517dd0aadb3d358f",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "4c3da6ade8a3fa47197e7095956286acf93a9af3630eab52517dd0aadb3d358f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601JD74 (EU3 Low Compression SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/4c4e21e2ecc0_211323001601J449_Japan_6MT_.bin",
+      "sha256": "4c4e21e2ecc03bb84a21f31dc1ac8b0b70c67fab5dae4093157056fef96a0727",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "4c4e21e2ecc03bb84a21f31dc1ac8b0b70c67fab5dae4093157056fef96a0727",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601J449 (Japan 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/4e645cbfd1bf_resource_01__FEA94A50-E5C8-4edd-BE62-F738BC8C043E_.bin",
+      "sha256": "4e645cbfd1bfa94383d05eaf7dfb482c493a1ae630a2477c71a27bec26fff576",
+      "bytes": 17425,
+      "category": "firmware",
+      "source_sha256": "4e645cbfd1bfa94383d05eaf7dfb482c493a1ae630a2477c71a27bec26fff576",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/managed_resources/resource_01__FEA94A50-E5C8-4edd-BE62-F738BC8C043E_.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5045311d30fd_5045311d30fd2143_Q28G_LIVE_V124_WATCHDOG.bin",
+      "sha256": "5045311d30fd2143f3b11e74f1e8158dd44fb7bc1fa084b90fe9adc2c007a546",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "5045311d30fd2143f3b11e74f1e8158dd44fb7bc1fa084b90fe9adc2c007a546",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/5045311d30fd2143_Q28G_LIVE_V124_WATCHDOG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/50959864414f_211322001501JDD9_US_SMG_.bin",
+      "sha256": "50959864414f2cb7fbc52b9e73e2c1bc1072bb7e0bd6f4fff32055d9a278e971",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "50959864414f2cb7fbc52b9e73e2c1bc1072bb7e0bd6f4fff32055d9a278e971",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501JDD9 (US SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5119b89afbbb_211323002001J424_EU3_6MT_.bin",
+      "sha256": "5119b89afbbb10f6dc2427c0b544b237e12b85033aa6ceea21b7e3a114357554",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "5119b89afbbb10f6dc2427c0b544b237e12b85033aa6ceea21b7e3a114357554",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001J424 (EU3 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5168cc86c556_211323001601J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "5168cc86c556809bb2e0a5e85ec48bb58b8ba9790a6913be746f7e4e154e2743",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "5168cc86c556809bb2e0a5e85ec48bb58b8ba9790a6913be746f7e4e154e2743",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/51719481ba91_51719481ba912ece_Q28G_LIVE_V129_NEGATIVE_EXTENDED.bin",
+      "sha256": "51719481ba912eceec863724a71e8ccba5131a13dd0e9a9009cf99702464fafe",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "51719481ba912eceec863724a71e8ccba5131a13dd0e9a9009cf99702464fafe",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/51719481ba912ece_Q28G_LIVE_V129_NEGATIVE_EXTENDED.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5263a1b10934_211322002801J429_US_6MT_non-heated_DMTL_.bin",
+      "sha256": "5263a1b10934de681a47caddd70b342a95adf448ee14b237409cb31d31f5d163",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "5263a1b10934de681a47caddd70b342a95adf448ee14b237409cb31d31f5d163",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002801J429 (US 6MT non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/53ea542f5327_53ea542f53278292_ecuBMW46_pops_flames_v5_OVERRUN_TEST.bin",
+      "sha256": "53ea542f53278292670206819401e9631df16d419c56852bb969a606cc25cc70",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "53ea542f53278292670206819401e9631df16d419c56852bb969a606cc25cc70",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/53ea542f53278292_ecuBMW46_pops_flames_v5_OVERRUN_TEST.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/55d5a02208fd_211322001501JD74_EU3_Low_Compression_SMG_.bin",
+      "sha256": "55d5a02208fdd611f5724bd324d942811cfaeff1bc778cd73daaf8a18beb85a0",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "55d5a02208fdd611f5724bd324d942811cfaeff1bc778cd73daaf8a18beb85a0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501JD74 (EU3 Low Compression SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/55ee06b8f5bd_211325000401PD31.bin",
+      "sha256": "55ee06b8f5bddda49bfb903e0929d9a4164e891a91eb1ad4a2948c1d451c9af6",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "55ee06b8f5bddda49bfb903e0929d9a4164e891a91eb1ad4a2948c1d451c9af6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000401PD31.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/58bf78c41281_211323001601JD39_US_SMG_non-heated_DMTL_.bin",
+      "sha256": "58bf78c41281958b563ecd64a549dca25617b6aaafecb1ffb01e4bbca8485ca0",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "58bf78c41281958b563ecd64a549dca25617b6aaafecb1ffb01e4bbca8485ca0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601JD39 (US SMG non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/59d9bf679bc1_01119700F000Q2CG.bin",
+      "sha256": "59d9bf679bc15b6d08fd318201a8a72e24f0016699df6bccd8949a5e97f1eedb",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "59d9bf679bc15b6d08fd318201a8a72e24f0016699df6bccd8949a5e97f1eedb",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000Q2CG.bin",
+        "comparison-ecus/BMS46/full/01119700F000Q2CG.bin",
+        "upstream-bms46-wiki/full/01119700F000Q2CG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/59dbed83ce2d_211322001501J4E9.bin",
+      "sha256": "59dbed83ce2dcb86e5dc2cae6396a0b668728f38a3bffc965f703068191e2949",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "59dbed83ce2dcb86e5dc2cae6396a0b668728f38a3bffc965f703068191e2949",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501J4E9.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/59dcde4f3278_59dcde4f32786248_1455922094142652582__VEHICLE_BMS46_1430633_partial.bin",
+      "sha256": "59dcde4f32786248d86b4765657c46d234fd6ae93a6f436ffad8edfe7fc0aaa0",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "59dcde4f32786248d86b4765657c46d234fd6ae93a6f436ffad8edfe7fc0aaa0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/59dcde4f32786248_1455922094142652582__[VEHICLE_ID_REDACTED]_BMS46_1430633_partial.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5cee785b1ecb_q28g_method_0600007F.bin",
+      "sha256": "5cee785b1ecbf61221ffe78c2272489953ac52aa336a3fb2c8e0a21ab51dd13c",
+      "bytes": 2,
+      "category": "firmware",
+      "source_sha256": "5cee785b1ecbf61221ffe78c2272489953ac52aa336a3fb2c8e0a21ab51dd13c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_method_0600007F.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_method_06000080.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5dd4ba12d7ca_211325000401PD1D.bin",
+      "sha256": "5dd4ba12d7ca37313a148abb5f21b8774ab42c62daefaf1ca74d85a1a9c29cd0",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "5dd4ba12d7ca37313a148abb5f21b8774ab42c62daefaf1ca74d85a1a9c29cd0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000401PD1D.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5ea5aab612fd_01119700F000O2AG.bin",
+      "sha256": "5ea5aab612fd8ec0f622ef6e94d34dfd1a46647fe691df260aebf8ae40e3ef80",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "5ea5aab612fd8ec0f622ef6e94d34dfd1a46647fe691df260aebf8ae40e3ef80",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000O2AG.bin",
+        "comparison-ecus/BMS46/full/01119700F000O2AG.bin",
+        "upstream-bms46-wiki/full/01119700F000O2AG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5ed5ac953ac8_TUNED_PARTIAL_01119700F000Q22I.bin",
+      "sha256": "5ed5ac953ac8c340320b0ceb94f2ae80b8a52d39a3fb81155c409345a4034332",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "5ed5ac953ac8c340320b0ceb94f2ae80b8a52d39a3fb81155c409345a4034332",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/TUNED_PARTIAL_01119700F000Q22I.bin",
+        "comparison-ecus/BMS46/partial/TUNED_PARTIAL_01119700F000Q22I.bin",
+        "upstream-bms46-wiki/partial/TUNED_PARTIAL_01119700F000Q22I.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/5f969dcbad19_211322000701QD04.bin",
+      "sha256": "5f969dcbad19317797eb48b117a2ea8718e46b2837c5d76e1e5955ddf48c016e",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "5f969dcbad19317797eb48b117a2ea8718e46b2837c5d76e1e5955ddf48c016e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322000701QD04.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/60c0b7725a75_60c0b7725a7578e8_Q28G_LIVE_INLINE_V119.bin",
+      "sha256": "60c0b7725a7578e8e18d7c79dd74ad1b9b5f8664d3ed50ad6ade29d6a04979ca",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "60c0b7725a7578e8e18d7c79dd74ad1b9b5f8664d3ed50ad6ade29d6a04979ca",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/60c0b7725a7578e8_Q28G_LIVE_INLINE_V119.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/616cb40747cf_Full_211323002501JD79.bin",
+      "sha256": "616cb40747cfd0f29b890d9db8b4d04a9b2d860ee133efd82bb8d9b7dbf06894",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "616cb40747cfd0f29b890d9db8b4d04a9b2d860ee133efd82bb8d9b7dbf06894",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP/Full 211323002501JD79.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/628718fecf0a_211322002101J424_EU3_6MT_.bin",
+      "sha256": "628718fecf0a407bcc1bd8388fc6134ca6018826b26288314f230bb537b4910b",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "628718fecf0a407bcc1bd8388fc6134ca6018826b26288314f230bb537b4910b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101J424 (EU3 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/62c7239dec48_211323001601J429_US_6MT_non-heated_DMTL_.bin",
+      "sha256": "62c7239dec48e1355fc56864eadc8a6c8fc371b2df91c2f3e5aa863da7e7b840",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "62c7239dec48e1355fc56864eadc8a6c8fc371b2df91c2f3e5aa863da7e7b840",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601J429 (US 6MT non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/62d9c9f59dce_211323001801J449_Japan_6MT_.bin",
+      "sha256": "62d9c9f59dce59383a03c16fd64ace30780cf51f059145e57d0de7b8059220d6",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "62d9c9f59dce59383a03c16fd64ace30780cf51f059145e57d0de7b8059220d6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801J449 (Japan 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/62e7269fd1a0_211322001501J444_NoEOBD_6MT_.bin",
+      "sha256": "62e7269fd1a020eeeac53e3d9587fa3286875de19b6f2481a9bc505da8178209",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "62e7269fd1a020eeeac53e3d9587fa3286875de19b6f2481a9bc505da8178209",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501J444 (NoEOBD 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/63ee17cfda1b_63ee17cfda1bb754_ecuBMW46_pops_flames_v2.bin",
+      "sha256": "63ee17cfda1bb75472e38b462bf42a197e2fb535fd35a8905fe1e27cecf939b2",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "63ee17cfda1bb75472e38b462bf42a197e2fb535fd35a8905fe1e27cecf939b2",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/63ee17cfda1bb754_ecuBMW46_pops_flames_v2.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/649193de7f7d_211323001601JD34_EU3_SMG_.bin",
+      "sha256": "649193de7f7dd6b992df79f5dfad0f51e4a80368de8036cdf4a35d2a6ddc9ec1",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "649193de7f7dd6b992df79f5dfad0f51e4a80368de8036cdf4a35d2a6ddc9ec1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601JD34 (EU3 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/654229e0546e_PARTIAL_01119700F000O2AG.bin",
+      "sha256": "654229e0546e944c78ca1d67884cf0410fcfdc036305129d174a94a18038244f",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "654229e0546e944c78ca1d67884cf0410fcfdc036305129d174a94a18038244f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700F000O2AG.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700F000O2AG.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700F000O2AG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/67884b60c840_Full_211325000401PD3J_Jap_Delimit.bin",
+      "sha256": "67884b60c840cc98e1386350fccdc72944a10e0a3ed8f96577df0e7f03d2d912",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "67884b60c840cc98e1386350fccdc72944a10e0a3ed8f96577df0e7f03d2d912",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP CSL/Full 211325000401PD3J Jap Delimit.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/67b44e4ad200_01119700F000Q22I.bin",
+      "sha256": "67b44e4ad2009190f7d77e292f981801636c450978fa7ad969aa3fadb9076ff9",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "67b44e4ad2009190f7d77e292f981801636c450978fa7ad969aa3fadb9076ff9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000Q22I.bin",
+        "comparison-ecus/BMS46/full/01119700F000Q22I.bin",
+        "upstream-bms46-wiki/full/01119700F000Q22I.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/67fb5c15657f_211323002701J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "67fb5c15657fa933226712f6a17f1e3afc3057acbce8eed054b1fc1694758901",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "67fb5c15657fa933226712f6a17f1e3afc3057acbce8eed054b1fc1694758901",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002701J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/68cead1e3127_211323002001J464_Low_Compression_6MT_.bin",
+      "sha256": "68cead1e3127b692f184376db70227cbfffd669e4d6c65947b7ec210be85c825",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "68cead1e3127b692f184376db70227cbfffd669e4d6c65947b7ec210be85c825",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001J464 (Low Compression 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/69e0b009719b_Partial_211323000401PD11_MANUAL.bin",
+      "sha256": "69e0b009719b22e804fff22718b9dba7e676c6e31dd7307e776d73ef8f50beea",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "69e0b009719b22e804fff22718b9dba7e676c6e31dd7307e776d73ef8f50beea",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP to CSL/Partial 211323000401PD11 MANUAL.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/6a17bfbd135e_211322002101Q424_EU_Z3M_.bin",
+      "sha256": "6a17bfbd135ea557bcfaba257710f63d6b96aa4aad8a9d679f1d92968829cc8a",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "6a17bfbd135ea557bcfaba257710f63d6b96aa4aad8a9d679f1d92968829cc8a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101Q424 (EU Z3M).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/6aae117f48a4_SIMULATED_Q28G_full.bin",
+      "sha256": "6aae117f48a47a0ac6247a54be1297b68e4db4bf244e37bd2e1d19ee5ca86323",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "6aae117f48a47a0ac6247a54be1297b68e4db4bf244e37bd2e1d19ee5ca86323",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "evidence-full_read/quickflash106_offline/SIMULATED_Q28G_full.bin",
+        "evidence-full_read/quickflash106_offline/SIMULATED_Q28G_full_second.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/evidence/full_read/quickflash106_offline/SIMULATED_Q28G_full.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/evidence/full_read/quickflash106_offline/SIMULATED_Q28G_full_second.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/tests/fixtures/q28g_full_logical.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/6ba4f6d110da_6ba4f6d110daf490_1237490518431240305__bms46-full.bin",
+      "sha256": "6ba4f6d110daf4902575a74d2b04491cffa6ab17f9f6c211ac104a07c9487d75",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "6ba4f6d110daf4902575a74d2b04491cffa6ab17f9f6c211ac104a07c9487d75",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6ba4f6d110daf490_1237490518431240305__bms46-full.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/6d5a040cf139_211322001501J4G9.bin",
+      "sha256": "6d5a040cf1399ae7c19aba87721c6163223e3d8619093cd887b18448e8b4a7ba",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "6d5a040cf1399ae7c19aba87721c6163223e3d8619093cd887b18448e8b4a7ba",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501J4G9.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/6d7278f2357b_6d7278f2357b4303_1372942308143792231__VEHICLE_BMS46_1430940_partial.bin",
+      "sha256": "6d7278f2357b4303d67ea8be55794923be762295987c99f40223231528a8b842",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "6d7278f2357b4303d67ea8be55794923be762295987c99f40223231528a8b842",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6d7278f2357b4303_1372942308143792231__[VEHICLE_ID_REDACTED]_BMS46_1430940_partial.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/6f1f45f1f9cb_Q28G_R1_OFFLINE_ONLY_NOT_FOR_FLASH.bin",
+      "sha256": "6f1f45f1f9cb7c5d0f0481bfb69f39f906c37a9db545c53349f8a54b08d36f69",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "6f1f45f1f9cb7c5d0f0481bfb69f39f906c37a9db545c53349f8a54b08d36f69",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "evidence-patch_revision_20261115/Q28G_R1_OFFLINE_ONLY_NOT_FOR_FLASH.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+      "sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700F000Q28G.bin",
+        "collected-bms46/709a4c3e15ea865d_PARTIAL_01119700F000Q28G.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700F000Q28G.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700F000Q28G.bin",
+        "work-references/raw/first_run_inputs/partial/PARTIAL_01119700F000Q28G.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/7124a4154406_211325000401PD3D.bin",
+      "sha256": "7124a41544063936df51e857ca4b704ac31d3fbd8e0f68ed08a23071dfe2c160",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "7124a41544063936df51e857ca4b704ac31d3fbd8e0f68ed08a23071dfe2c160",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000401PD3D.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/7151ad630b44_PARTIAL_01119700F000P24I.bin",
+      "sha256": "7151ad630b441d45986b797a20e680f9b166b9820d6babae4246769163b3f87f",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "7151ad630b441d45986b797a20e680f9b166b9820d6babae4246769163b3f87f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700F000P24I.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700F000P24I.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700F000P24I.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/71584021d7f5_quickflash_fake_rom.bin",
+      "sha256": "71584021d7f5a0206ffe86b667478e45671945412da552b1e82063783695df02",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "71584021d7f5a0206ffe86b667478e45671945412da552b1e82063783695df02",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "evidence-full_read/quickflash106_offline/quickflash_fake_rom.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/evidence/full_read/quickflash106_offline/quickflash_fake_rom.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/72f04e36c089_211323002001JD94_EU4_SMG_.bin",
+      "sha256": "72f04e36c089c3b8e6a9e2850ecbee7a4fa9b11ec4cebe01703cba937c5d9c3c",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "72f04e36c089c3b8e6a9e2850ecbee7a4fa9b11ec4cebe01703cba937c5d9c3c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001JD94 (EU4 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/743269ffe67a_211323002501J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "743269ffe67a6df7dce6baa88d55f0a25d78ffa27e7f295a262b69a30afd595c",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "743269ffe67a6df7dce6baa88d55f0a25d78ffa27e7f295a262b69a30afd595c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002501J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/75534d4d012d_211323001601JD79_US_SMG_heated_DMTL_.bin",
+      "sha256": "75534d4d012d9fc471b534777511cad09426cdca52e34c0312c9bccc99f2242a",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "75534d4d012d9fc471b534777511cad09426cdca52e34c0312c9bccc99f2242a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601JD79 (US SMG heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/773cb86aad85_211323001601J464_Low_Compression_6MT_.bin",
+      "sha256": "773cb86aad8596b1a3653c4913a18df1d2e88d96430066242c113f6ec343b488",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "773cb86aad8596b1a3653c4913a18df1d2e88d96430066242c113f6ec343b488",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601J464 (Low Compression 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/79aee1f7e6bd_VEHICLE_BMS46_20261115_133549_355_c5ce2439_full_logical.bin",
+      "sha256": "79aee1f7e6bd1f132c09ff39700ecf0c8754e0d77dd604d68c8adc8ea932b0b5",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "79aee1f7e6bd1f132c09ff39700ecf0c8754e0d77dd604d68c8adc8ea932b0b5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_133549_355_c5ce2439_full_logical.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_134500_342_951d1518_full_logical.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_133549_355_c5ce2439_full_logical.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_134500_342_951d1518_full_logical.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/7ee3755baec2_token_060000B4_phU_.x64.bin",
+      "sha256": "7ee3755baec2248d52d99a6496899f2d262b64314d2933fe8bbe0c558e1cbb0d",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "7ee3755baec2248d52d99a6496899f2d262b64314d2933fe8bbe0c558e1cbb0d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_060000B4_phU_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/7f75d198e1a7_211322002801Q429_US_Z3M_.bin",
+      "sha256": "7f75d198e1a7f2ecbaf4f03759656b7558dc89433705646e2a278d058e286360",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "7f75d198e1a7f2ecbaf4f03759656b7558dc89433705646e2a278d058e286360",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002801Q429 (US Z3M).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/7fac2cb28b2b_7fac2cb28b2bb34b_Q28G_LIVE_V126_BOUNDED.bin",
+      "sha256": "7fac2cb28b2bb34bc13b386dc1d5233b9b946a576ceb4afccff3fe39ebff2173",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "7fac2cb28b2bb34bc13b386dc1d5233b9b946a576ceb4afccff3fe39ebff2173",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/7fac2cb28b2bb34b_Q28G_LIVE_V126_BOUNDED.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/81485f7058eb_q28g_method_060000A9.bin",
+      "sha256": "81485f7058eb7f5435f57ba18c04eb6ce67e3be45f94ee833d3e09ba7a5e4d75",
+      "bytes": 2,
+      "category": "firmware",
+      "source_sha256": "81485f7058eb7f5435f57ba18c04eb6ce67e3be45f94ee833d3e09ba7a5e4d75",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_method_060000A9.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8312c01d563d_211323002001JD34_EU3_SMG_.bin",
+      "sha256": "8312c01d563d16b33e0d5c8a96432cb80ec355ad58079e1638507c2457bdb501",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "8312c01d563d16b33e0d5c8a96432cb80ec355ad58079e1638507c2457bdb501",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001JD34 (EU3 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/836f1f3fb54c_211323001801JD54_NoEOBD_SMG_.bin",
+      "sha256": "836f1f3fb54c810911a26455ce2b39aac5797cdf2898fbd9a31567e138cb7c52",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "836f1f3fb54c810911a26455ce2b39aac5797cdf2898fbd9a31567e138cb7c52",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801JD54 (NoEOBD SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/859003645b05_211322002101JD34_EU3_SMG_.bin",
+      "sha256": "859003645b058f63b37f9f5eea797b6b62f4a56c5e855a2d45aa8c1635077862",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "859003645b058f63b37f9f5eea797b6b62f4a56c5e855a2d45aa8c1635077862",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101JD34 (EU3 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/861de473dd67_861de473dd67b125_Q28G_LIVE_V123_DFCO_LATCH.bin",
+      "sha256": "861de473dd67b1251719d51b3d2b6a589cc7602e3f77b724af3988aa772a6cf4",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "861de473dd67b1251719d51b3d2b6a589cc7602e3f77b724af3988aa772a6cf4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/861de473dd67b125_Q28G_LIVE_V123_DFCO_LATCH.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/886f34dc6e0d_211323002501JD79_US_SMG_heated_DMTL_.bin",
+      "sha256": "886f34dc6e0d04c1f7f14d5f4fd4a82c60c46653eacfb70816186693606a26c0",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "886f34dc6e0d04c1f7f14d5f4fd4a82c60c46653eacfb70816186693606a26c0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002501JD79 (US SMG heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/89618f82907d_211325000301PD71.bin",
+      "sha256": "89618f82907d370a5ad44367ee277c7c46d531709ccd8cf1c5212540e2fa059c",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "89618f82907d370a5ad44367ee277c7c46d531709ccd8cf1c5212540e2fa059c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000301PD71.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/896f837015de_211322001501J464_Low_Compression_6MT_.bin",
+      "sha256": "896f837015ded89713aedf6f51ffd14756785bc6c99850f28a3acaf192bde306",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "896f837015ded89713aedf6f51ffd14756785bc6c99850f28a3acaf192bde306",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501J464 (Low Compression 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8991e29636f2_211322002801JD39_US_SMG_non-heated_DMTL_.bin",
+      "sha256": "8991e29636f2610730459afb00c53eaf7309c9c7d58ed2e39dedddc8452bb6a1",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "8991e29636f2610730459afb00c53eaf7309c9c7d58ed2e39dedddc8452bb6a1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002801JD39 (US SMG non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8bb6f07105d7_211323001801JD34_EU3_SMG_.bin",
+      "sha256": "8bb6f07105d74a8c0e6dc6b48809ff014a7378502510a34a6ecc012a02fd667c",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "8bb6f07105d74a8c0e6dc6b48809ff014a7378502510a34a6ecc012a02fd667c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801JD34 (EU3 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8c1ce37116d4_211322001701JD34_EU3_SMG_.bin",
+      "sha256": "8c1ce37116d4a655e0bdbddc57b7ce734ac4586ec92028968d799ee2d919a414",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "8c1ce37116d4a655e0bdbddc57b7ce734ac4586ec92028968d799ee2d919a414",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001701JD34 (EU3 SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8cc1fae5bc1f_8cc1fae5bc1f24d9_VEHICLE_BMS46_1430940_fullread_-_test.bin",
+      "sha256": "8cc1fae5bc1f24d918c91bfc2199168bb8015b0cf90f35fb028cd00de7ce2278",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "8cc1fae5bc1f24d918c91bfc2199168bb8015b0cf90f35fb028cd00de7ce2278",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/8cc1fae5bc1f24d9_[VEHICLE_ID_REDACTED]_BMS46_1430940_fullread - test.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8d30695c887a_01119700EF00Q20G.bin",
+      "sha256": "8d30695c887ad6181c9b8805f8919c26fe2ec71802015c287b8e15d38ca6ee46",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "8d30695c887ad6181c9b8805f8919c26fe2ec71802015c287b8e15d38ca6ee46",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700EF00Q20G.bin",
+        "comparison-ecus/BMS46/full/01119700EF00Q20G.bin",
+        "upstream-bms46-wiki/full/01119700EF00Q20G.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8d4fae9399b2_52_508galform.bin",
+      "sha256": "8d4fae9399b2acf5896aa30d5b4219697472ef5b899d709cd5a05a5d03217cda",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "8d4fae9399b2acf5896aa30d5b4219697472ef5b899d709cd5a05a5d03217cda",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/XdfofA2L_bothtypes/52_508galform.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/8f0ca1fceb65_211322001501JD59_Japan_SMG_.bin",
+      "sha256": "8f0ca1fceb65a1a4e627b4354fc914884a5aa19835dd01d9dbb3076e24f6b777",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "8f0ca1fceb65a1a4e627b4354fc914884a5aa19835dd01d9dbb3076e24f6b777",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501JD59 (Japan SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/90668aae76ff_211323002001JD74_EU3_Low_Compression_SMG_.bin",
+      "sha256": "90668aae76ff431416f4f090abf0e2192b6c4bbfad5734bf3f756a0ede9a12fd",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "90668aae76ff431416f4f090abf0e2192b6c4bbfad5734bf3f756a0ede9a12fd",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001JD74 (EU3 Low Compression SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/90dde996ded3_90dde996ded3a74b_ecuBMW46_COMPETITION_v6.bin",
+      "sha256": "90dde996ded3a74b706f55d5de904a5d17dc4e5f680e2ed6f053511ec9fdd8dd",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "90dde996ded3a74b706f55d5de904a5d17dc4e5f680e2ed6f053511ec9fdd8dd",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/90dde996ded3a74b_ecuBMW46_COMPETITION_v6.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/936610de387f_211323002001JD59_Japan_SMG_.bin",
+      "sha256": "936610de387f1a3ff8fb72db6c0f01ba620387b24b60cc6a2bddc9cbe4f81fc5",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "936610de387f1a3ff8fb72db6c0f01ba620387b24b60cc6a2bddc9cbe4f81fc5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001JD59 (Japan SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/9458bd19a02f_9458bd19a02f471c_1084573382638579864__bms46_fullread.bin",
+      "sha256": "9458bd19a02f471cfe187cb8da7da460e80b97f9e51d29a47dfd364eb0c67d9d",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "9458bd19a02f471cfe187cb8da7da460e80b97f9e51d29a47dfd364eb0c67d9d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/9458bd19a02f471c_1084573382638579864__bms46_fullread.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/9597575332d7_9597575332d796ca_Q28G_LIVE_V134F_DOUBLE_PRESS_FUEL_6P25.bin",
+      "sha256": "9597575332d796ca9eb6da144d5fbccb0c736fad685fc0f8e0e90101a73e072f",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "9597575332d796ca9eb6da144d5fbccb0c736fad685fc0f8e0e90101a73e072f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/9597575332d796ca_Q28G_LIVE_V134F_DOUBLE_PRESS_FUEL_6P25.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/96f26490570f_211323002701J429_US_6MT_non-heated_DMTL_.bin",
+      "sha256": "96f26490570f6e982186d0f19174252bd3d10ddb0c988c09dd3f882d736ce5de",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "96f26490570f6e982186d0f19174252bd3d10ddb0c988c09dd3f882d736ce5de",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002701J429 (US 6MT non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/97fac5a75101_211325000401PD11.bin",
+      "sha256": "97fac5a75101fa7157237833b598ae66968b50a54fb07ecd69217dbb18e8a708",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "97fac5a75101fa7157237833b598ae66968b50a54fb07ecd69217dbb18e8a708",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000401PD11.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/98120b2fa163_Full_211323000401PD31_TERRA.bin",
+      "sha256": "98120b2fa16365490363bf90a142d8b7e477b5bd9138ab64a3a13265b09d53a7",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "98120b2fa16365490363bf90a142d8b7e477b5bd9138ab64a3a13265b09d53a7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54HP_0401/Full 211323000401PD31_TERRA.bin",
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP to CSL/Full 211323000401PD31_TERRA.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/99bea90fcd42_211323001801J464_Low_Compression_6MT_.bin",
+      "sha256": "99bea90fcd421a99cd93d5726eb1ce5b482f63a7857cf11252ad2584d45a4bc9",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "99bea90fcd421a99cd93d5726eb1ce5b482f63a7857cf11252ad2584d45a4bc9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801J464 (Low Compression 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/99e3f4b03a66_Full_211325000401PD1D_Std_No_EOBD.bin",
+      "sha256": "99e3f4b03a66cb81abe59566a81f63c6b7d6acfa8976a2a8a80de192a1724d73",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "99e3f4b03a66cb81abe59566a81f63c6b7d6acfa8976a2a8a80de192a1724d73",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP CSL/Full 211325000401PD1D Std No EOBD.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/9a984bcf7453_Full_211323002001J424.bin",
+      "sha256": "9a984bcf7453866114cb8ff24ec1fdb0ceb7be94f93d2a90c12ba333885899ff",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "9a984bcf7453866114cb8ff24ec1fdb0ceb7be94f93d2a90c12ba333885899ff",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP/Full 211323002001J424.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+      "sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261114_234537_983_2ab40e8e_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_001422_689_c815d6de_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_100824_342_0cf1e318_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_101004_502_a2c97097_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_113359_089_e7573dd9_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_120619_064_4461937a_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_120808_786_196e70ac_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_120911_235_99c53fb1_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_123424_937_be2d83d8_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_123527_706_c8d19e4d_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_123630_414_29aa69b7_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_123826_258_bc11d522_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_123929_222_b7aacc81_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_124031_582_98fb66dc_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_124929_482_629d9c1c_partial.bin",
+        "bench-vehicle-reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_134640_538_a607a4c0_partial.bin",
+        "collected-bms46/9ef1d60dca43a1d6_[VEHICLE_ID_REDACTED]_BMS46_1430940_partial.bin",
+        "evidence-partial/quickflash_reference.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/reads/[VEHICLE_ID_REDACTED]_BMS46_20261115_134640_538_a607a4c0_partial.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/reference/QuickFlash106_20261115_partial.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/9f3d88ca2297_TUNED_01119700F000Q22I.bin",
+      "sha256": "9f3d88ca22970f62658d210c5664ee5d00a867542134278f98f57dff79814752",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "9f3d88ca22970f62658d210c5664ee5d00a867542134278f98f57dff79814752",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/TUNED_01119700F000Q22I.bin",
+        "comparison-ecus/BMS46/full/TUNED_01119700F000Q22I.bin",
+        "upstream-bms46-wiki/full/TUNED_01119700F000Q22I.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/9f8cc7ea7b69_211323002501JD39_US_SMG_non-heated_DMTL_.bin",
+      "sha256": "9f8cc7ea7b69e7e90bbb68268e39b05f5d538eb64f88a83dae40a97cacfe5df4",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "9f8cc7ea7b69e7e90bbb68268e39b05f5d538eb64f88a83dae40a97cacfe5df4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002501JD39 (US SMG non-heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a11d7cb13193_211322002801J469_US_6MT_heated_DMTL_.bin",
+      "sha256": "a11d7cb13193dc9dbe4cef4791c353f0dd89ae60bbc8bbb3dcaa8ee823b9bb00",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "a11d7cb13193dc9dbe4cef4791c353f0dd89ae60bbc8bbb3dcaa8ee823b9bb00",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002801J469 (US 6MT heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a172b152753a_211322001501JDF9_US_SMG_.bin",
+      "sha256": "a172b152753a25f5c91175fcc6ebd22134b74bb4a6a7dcc3f8d3c3d444119953",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "a172b152753a25f5c91175fcc6ebd22134b74bb4a6a7dcc3f8d3c3d444119953",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501JDF9 (US SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a38b9e27c8db_211322002101J449_Japan_6MT_.bin",
+      "sha256": "a38b9e27c8dbe5b3659c9c996ac3dc3b9fe082e8ea2330a0ed47a66f31384777",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "a38b9e27c8dbe5b3659c9c996ac3dc3b9fe082e8ea2330a0ed47a66f31384777",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101J449 (Japan 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a4811c816672_a4811c81667228ca_Q28G_LIVE_V133_AC_DIRECT_POPS.bin",
+      "sha256": "a4811c81667228ca8cd882f9cbed8f015d917ff4eb70625b31636a6fafda974a",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "a4811c81667228ca8cd882f9cbed8f015d917ff4eb70625b31636a6fafda974a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a4811c81667228ca_Q28G_LIVE_V133_AC_DIRECT_POPS.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a4a68434eae6_a4a68434eae69ee3_VEHICLE_BMS46_1430940_passssrtial.bin",
+      "sha256": "a4a68434eae69ee3d7463605964ca9a3789a5b82cc0f763604e226002b7f9a08",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "a4a68434eae69ee3d7463605964ca9a3789a5b82cc0f763604e226002b7f9a08",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a4a68434eae69ee3_[VEHICLE_ID_REDACTED]_BMS46_1430940_passssrtial.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a68bbeb03f81_a68bbeb03f81fad7_VEHICLE_BMS46_1430940_fullread_-_test.bin",
+      "sha256": "a68bbeb03f81fad7789ca34a82d42633a9219fd1f24dc9c61504f29d55582dc9",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "a68bbeb03f81fad7789ca34a82d42633a9219fd1f24dc9c61504f29d55582dc9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a68bbeb03f81fad7_[VEHICLE_ID_REDACTED]_BMS46_1430940_fullread - test.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a7a7fb152ddd_a7a7fb152dddb7b0_1372942307745337404__VEHICLE_BMS46_1430940_fullread.bin",
+      "sha256": "a7a7fb152dddb7b0c3e8e1f32c96a37fea3ba86d9bdedfaf524a5f3d386f0e94",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "a7a7fb152dddb7b0c3e8e1f32c96a37fea3ba86d9bdedfaf524a5f3d386f0e94",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a7a7fb152dddb7b0_1372942307745337404__[VEHICLE_ID_REDACTED]_BMS46_1430940_fullread.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a7b193f322a4_01119700F000Q2AG.bin",
+      "sha256": "a7b193f322a4749848ca1af35ecc684cf2a94d906d2b14d0c6453f0b3453a37d",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "a7b193f322a4749848ca1af35ecc684cf2a94d906d2b14d0c6453f0b3453a37d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000Q2AG.bin",
+        "comparison-ecus/BMS46/full/01119700F000Q2AG.bin",
+        "upstream-bms46-wiki/full/01119700F000Q2AG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/a8d31985d9cd_a8d31985d9cdfb0a_VEHICLE_BMS46_1430940_fullread_-_tuning.bin",
+      "sha256": "a8d31985d9cdfb0ad708f1a5f8cca68f5bdf478ce2204f7f20ddd17757f0ca57",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "a8d31985d9cdfb0ad708f1a5f8cca68f5bdf478ce2204f7f20ddd17757f0ca57",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a8d31985d9cdfb0a_[VEHICLE_ID_REDACTED]_BMS46_1430940_fullread - tuning.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/aa1c62189275_211322000701J404.bin",
+      "sha256": "aa1c6218927556b18bd9dcba9b078cfe02a75f4d3a15a9365befe67f9a4d325c",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "aa1c6218927556b18bd9dcba9b078cfe02a75f4d3a15a9365befe67f9a4d325c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322000701J404.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/ad3053cd8604_211323001801J424_EU3_6MT_.bin",
+      "sha256": "ad3053cd8604b41b9ab94d36d5ca21eaf45780084847066ccdae394bfc1d2c38",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "ad3053cd8604b41b9ab94d36d5ca21eaf45780084847066ccdae394bfc1d2c38",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801J424 (EU3 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/ad7867d9e531_Full_211323002701J469_Modified_Flash_Desired_Partial.bin",
+      "sha256": "ad7867d9e531a5c602f6f1c161ef9d99b9c92672f8ac05f59aae39500c764d5c",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "ad7867d9e531a5c602f6f1c161ef9d99b9c92672f8ac05f59aae39500c764d5c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP/Full 211323002701J469 Modified Flash Desired Partial.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/b114a48404c6_Full_211325000401PD3D_No_EOBD_delimited.bin",
+      "sha256": "b114a48404c61ffd805934ad4af756b96366f68cc0ab8fc5143adadeff7d8153",
+      "bytes": 1048576,
+      "category": "firmware",
+      "source_sha256": "b114a48404c61ffd805934ad4af756b96366f68cc0ab8fc5143adadeff7d8153",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP CSL/Full 211325000401PD3D No EOBD delimited.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/b31b5b424510_resource_00__CSVM.bin",
+      "sha256": "b31b5b424510b3de26edce36a32126475c2c9f0ca19898b65201918a4808b0f9",
+      "bytes": 4802,
+      "category": "firmware",
+      "source_sha256": "b31b5b424510b3de26edce36a32126475c2c9f0ca19898b65201918a4808b0f9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/managed_resources/resource_00__CSVM.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/b3b4399d48db_b3b4399d48db2c73_Q28G_LIVE_V128R1_NEGATIVE_FIXED.bin",
+      "sha256": "b3b4399d48db2c734365e4a87777738350801a243cc09f5ecb98ef2748d68896",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "b3b4399d48db2c734365e4a87777738350801a243cc09f5ecb98ef2748d68896",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/b3b4399d48db2c73_Q28G_LIVE_V128R1_NEGATIVE_FIXED.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/b60ff6a30029_211322002801JD79_US_SMG_heated_DMTL_.bin",
+      "sha256": "b60ff6a3002911624a97bb60de9f2941d06a2ee4016d9efedf03ccecbff0494e",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "b60ff6a3002911624a97bb60de9f2941d06a2ee4016d9efedf03ccecbff0494e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002801JD79 (US SMG heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/b917d3d732ab_Full_211322002801J429.bin",
+      "sha256": "b917d3d732aba6941270c6877e09491d4c086a7fd4d945d58a70c3ec4b74e478",
+      "bytes": 524288,
+      "category": "firmware",
+      "source_sha256": "b917d3d732aba6941270c6877e09491d4c086a7fd4d945d58a70c3ec4b74e478",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54/Full 211322002801J429.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/bd617f014f4a_PARTIAL_01119700F000X28G.bin",
+      "sha256": "bd617f014f4a41c622a5d0f823b0572df05dffe437dc1de62d4e958228bdbb21",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "bd617f014f4a41c622a5d0f823b0572df05dffe437dc1de62d4e958228bdbb21",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700F000X28G.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700F000X28G.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700F000X28G.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/bd8f1d8e16eb_211322002101JD54_NoEOBD_SMG_.bin",
+      "sha256": "bd8f1d8e16ebad88d818b98e46df5bd9397857bab559a191c8d43516a9111cd0",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "bd8f1d8e16ebad88d818b98e46df5bd9397857bab559a191c8d43516a9111cd0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002101JD54 (NoEOBD SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/be65c149c382_211323002001J449_Japan_6MT_.bin",
+      "sha256": "be65c149c3826579239c954517ac668a035bc81836f323454c255544e32542a1",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "be65c149c3826579239c954517ac668a035bc81836f323454c255544e32542a1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001J449 (Japan 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/bf3d5a492772_211323001801JD79_US_SMG_heated_DMTL_.bin",
+      "sha256": "bf3d5a492772023662ce342d8cc7230478cae00556b60f22565ab1638f7f44f5",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "bf3d5a492772023662ce342d8cc7230478cae00556b60f22565ab1638f7f44f5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801JD79 (US SMG heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/c000f3680d38_Partial_211323000401PD11_SMG.bin",
+      "sha256": "c000f3680d38c3b1416cd3ea076c3a865a8bad84064e61bf1ce76cb404b0b1ee",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "c000f3680d38c3b1416cd3ea076c3a865a8bad84064e61bf1ce76cb404b0b1ee",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54HP to CSL/Partial 211323000401PD11 SMG.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/c065e8879320_211323001801JD59_Japan_SMG_.bin",
+      "sha256": "c065e887932030f70a40062817e6e1218ca713c6d677bac05c1439ce77b413cb",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "c065e887932030f70a40062817e6e1218ca713c6d677bac05c1439ce77b413cb",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801JD59 (Japan SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/c12618908bec_211322001501JD54_NoEOBD_SMG_.bin",
+      "sha256": "c12618908becb1c21ebc39ce9b7a23c99e2972b27e8460735eaa98849d62125d",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "c12618908becb1c21ebc39ce9b7a23c99e2972b27e8460735eaa98849d62125d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501JD54 (NoEOBD SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+      "sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/cf291dd1b497fdc5_[VEHICLE_ID_REDACTED]_BMS46_1430940_partial.bin",
+        "historical-backups/checkpoint_v0.7_20261115_155414/tests/fixtures/q28g_calibration_8000.bin",
+        "historical-backups/v0.3_voltage_candidate/tests/fixtures/q28g_calibration_8000.bin",
+        "historical-backups/v0.4_no_voltage/tests/fixtures/q28g_calibration_8000.bin",
+        "historical-backups/v0.5_com_verified/tests/fixtures/q28g_calibration_8000.bin",
+        "historical-backups/v0.6_before_ftdi_diagnostics/tests/fixtures/q28g_calibration_8000.bin",
+        "historical-backups/v0.6_before_full/tests/fixtures/q28g_calibration_8000.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d25321f09cdc_token_06000081_JBU_.x64.bin",
+      "sha256": "d25321f09cdcec7694363b94ba16ba258df577305d4d55e3d00cb2e119248006",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "d25321f09cdcec7694363b94ba16ba258df577305d4d55e3d00cb2e119248006",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_06000081_JBU_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d38b37072c9a_d38b37072c9a9722_VEHICLE_BMS46_1430940_fullread_-_BOOM_BOOM.bin",
+      "sha256": "d38b37072c9a97229d3807cea069a458a7826c9ccf8a1dfb9e661873679bd01c",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "d38b37072c9a97229d3807cea069a458a7826c9ccf8a1dfb9e661873679bd01c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/d38b37072c9a9722_[VEHICLE_ID_REDACTED]_BMS46_1430940_fullread - BOOM BOOM.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d3c3abb52362_01119700F000Q28G_CANONICAL.bin",
+      "sha256": "d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-full/01119700F000Q28G.bin",
+        "collected-bms46/d3c3abb523624090_01119700F000Q28G.bin",
+        "comparison-ecus/BMS46/full/01119700F000Q28G.bin",
+        "evidence-ghidra_fan_demand_20261117/final/_Q28G_MC68020.bin/rom_readback.bin",
+        "evidence-ghidra_followup_20261117/final/_Q28G_MC68020.bin/rom_readback.bin",
+        "evidence-ghidra_tpu_fan_20261117/final/_Q28G_MC68020.bin/rom_readback.bin",
+        "master/firmware/01119700F000Q28G_CANONICAL.bin",
+        "upstream-bms46-wiki/full/01119700F000Q28G.bin",
+        "work-evidence/ghidra/input_copies/Q28G_Coldfire.bin",
+        "work-evidence/ghidra/input_copies/Q28G_MC68020.bin",
+        "work-references/raw/first_run_inputs/full/01119700F000Q28G.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/BMS46 Quickflash/quickflash_fake_rom.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_method_06000094.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_method_06000095.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d402a12bfa2f_token_06000064_zRQ_.x64.bin",
+      "sha256": "d402a12bfa2f5d02b06f38cf6ac64d59c103a49f25a7e830969e8ed32863f625",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "d402a12bfa2f5d02b06f38cf6ac64d59c103a49f25a7e830969e8ed32863f625",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_06000064_zRQ_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d6be9ca46be3_Full_211322001501JD34.bin",
+      "sha256": "d6be9ca46be38f8027e2420b5a87ef879878c8b7460c4e720aace7bf917dc044",
+      "bytes": 524288,
+      "category": "firmware",
+      "source_sha256": "d6be9ca46be38f8027e2420b5a87ef879878c8b7460c4e720aace7bf917dc044",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54/Full 211322001501JD34.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d87678d7100d_211322000701QD09.bin",
+      "sha256": "d87678d7100d221b6c7daa3c72cfc60adea6831bc00f296aef7f6784a7868a61",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "d87678d7100d221b6c7daa3c72cfc60adea6831bc00f296aef7f6784a7868a61",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322000701QD09.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/d893e634fccd_211323001801J444_NoEOBD_6MT_.bin",
+      "sha256": "d893e634fccd9b30fc7d79d82980300352401f8f039cc4f6ad7ef8d67f1fa139",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "d893e634fccd9b30fc7d79d82980300352401f8f039cc4f6ad7ef8d67f1fa139",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001801J444 (NoEOBD 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/db3597b0e543_db3597b0e5439505_ecuBMW46_pops_flames_v4_clean5000_REAL.bin",
+      "sha256": "db3597b0e54395053c8cf7eeeb44e83013b14715449251d6591dbec41539eeb2",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "db3597b0e54395053c8cf7eeeb44e83013b14715449251d6591dbec41539eeb2",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/db3597b0e5439505_ecuBMW46_pops_flames_v4_clean5000_REAL.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/dba0dfbec33b_resource_03_4a7bba36-694c-48ef-97ab-4e6a2a3c34d0.bin",
+      "sha256": "dba0dfbec33b08f6ad675d9f039720e4b523c91535a08c4b5491bc8cbef2bcfe",
+      "bytes": 4274635,
+      "category": "firmware",
+      "source_sha256": "dba0dfbec33b08f6ad675d9f039720e4b523c91535a08c4b5491bc8cbef2bcfe",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/managed_resources/resource_03_4a7bba36-694c-48ef-97ab-4e6a2a3c34d0.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/dd03fbdbb6ab_dd03fbdbb6ab69f1_Q28G_LIVE_V134_AC_DOUBLE_PRESS.bin",
+      "sha256": "dd03fbdbb6ab69f1a0f8c552a7978dcde54501b9806f87456320a0a7b4c737cf",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "dd03fbdbb6ab69f1a0f8c552a7978dcde54501b9806f87456320a0a7b4c737cf",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/dd03fbdbb6ab69f1_Q28G_LIVE_V134_AC_DOUBLE_PRESS.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/ddd959f0502b_211323001601JD59_Japan_SMG_.bin",
+      "sha256": "ddd959f0502bb2c61eceb4920479feead22404c88a9d26e03f6ad467df06a3f6",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "ddd959f0502bb2c61eceb4920479feead22404c88a9d26e03f6ad467df06a3f6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323001601JD59 (Japan SMG).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/e260699e8ee3_Full_211322002601JD79.bin",
+      "sha256": "e260699e8ee3a53e96a473369024efa3b4241f08c7232ff676878f22ddb67365",
+      "bytes": 524288,
+      "category": "firmware",
+      "source_sha256": "e260699e8ee3a53e96a473369024efa3b4241f08c7232ff676878f22ddb67365",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Full/MSS54/Full 211322002601JD79.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/e59162cfe5c3_PARTIAL_01119700EF00Q20G.bin",
+      "sha256": "e59162cfe5c3d18edd1aee8f9c65c0dcbd1d27829e6752959f41d0b63a45f4b9",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "e59162cfe5c3d18edd1aee8f9c65c0dcbd1d27829e6752959f41d0b63a45f4b9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/PARTIAL_01119700EF00Q20G.bin",
+        "comparison-ecus/BMS46/partial/PARTIAL_01119700EF00Q20G.bin",
+        "upstream-bms46-wiki/partial/PARTIAL_01119700EF00Q20G.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/e69938d7faba_211325000401PD1J.bin",
+      "sha256": "e69938d7fabaa6881bdc868faee58ef07894a2017762c6a803dff384a3095f14",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "e69938d7fabaa6881bdc868faee58ef07894a2017762c6a803dff384a3095f14",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP CSL Bins/211325000401PD1J.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/e6f5536addb8_e6f5536addb8f0ad_VEHICLE_BMS46_1430940_partial_-_poc_poc.bin",
+      "sha256": "e6f5536addb8f0add7013aa95d46c748d45c5ca2a259fc77a68d86eda1f716c9",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "e6f5536addb8f0add7013aa95d46c748d45c5ca2a259fc77a68d86eda1f716c9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/e6f5536addb8f0ad_[VEHICLE_ID_REDACTED]_BMS46_1430940_partial - poc poc.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/e7a95908e189_resource_02_5052a5b2-246c-42e0-8951-c1efd3d5f6fe.bin",
+      "sha256": "e7a95908e1896d596c3bc3438e52f530786888d0edc8389f7dc0206141e1737f",
+      "bytes": 3344236,
+      "category": "firmware",
+      "source_sha256": "e7a95908e1896d596c3bc3438e52f530786888d0edc8389f7dc0206141e1737f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/managed_resources/resource_02_5052a5b2-246c-42e0-8951-c1efd3d5f6fe.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/e86063b236c9_ecuBMW46_pops_flames_v4_clean5000_REAL.bin",
+      "sha256": "e86063b236c9d2bfe8f259915256a4be5fcdf102bb648bf0360636d8e3e83eeb",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "e86063b236c9d2bfe8f259915256a4be5fcdf102bb648bf0360636d8e3e83eeb",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/ecuBMW46_pops_flames_v4_clean5000_REAL.bin",
+        "collected-bms46/e86063b236c9d2bf_ecuBMW46_pops_flames_v4_clean5000_REAL.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/ea7cc6dbc8ae_ea7cc6dbc8ae6124_ecuBMW46_pops_flames_v7_SAFE.bin",
+      "sha256": "ea7cc6dbc8ae61242015b483c46f90be2c6e561e9ef7b396e27cc3083579e68c",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "ea7cc6dbc8ae61242015b483c46f90be2c6e561e9ef7b396e27cc3083579e68c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/ea7cc6dbc8ae6124_ecuBMW46_pops_flames_v7_SAFE.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/eca95890c0a3_token_06000065_0RQ_.x64.bin",
+      "sha256": "eca95890c0a3fcf022cfd28879f60ed2acc493555f1a420bfde006f0a3b666ac",
+      "bytes": 2048,
+      "category": "firmware",
+      "source_sha256": "eca95890c0a3fcf022cfd28879f60ed2acc493555f1a420bfde006f0a3b666ac",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-research/quickflash_static_2026-09-29/jit_dumps/token_06000065_0RQ_.x64.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/f05e36d6645f_q28g_method_060000B4.bin",
+      "sha256": "f05e36d6645fe0eab297d700247f18251ddff8cfbb2c04cfa1afab089c911418",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "f05e36d6645fe0eab297d700247f18251ddff8cfbb2c04cfa1afab089c911418",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f05e36d6645fe0ea_q28g_method_060000B4.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_method_060000B4.bin",
+        "work-research/quickflash_dynamic_capture_2026-09-29/memory/q28g_word_swapped_phu.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/f1d0355ff38c_211323002001J444_NoEOBD_6MT_.bin",
+      "sha256": "f1d0355ff38cc326731795658b9a65020e039ed03114843914669913d05b4207",
+      "bytes": 65536,
+      "category": "firmware",
+      "source_sha256": "f1d0355ff38cc326731795658b9a65020e039ed03114843914669913d05b4207",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54HP Bins/211323002001J444 (NoEOBD 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/f3610ff0e1f9_f3610ff0e1f96a2e_1456733156441985167__BMS46_1430940_fullread.bin",
+      "sha256": "f3610ff0e1f96a2e9de7eba786d359bfb38f5d7da898e3a16b11391b9fc51770",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "f3610ff0e1f96a2e9de7eba786d359bfb38f5d7da898e3a16b11391b9fc51770",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f3610ff0e1f96a2e_1456733156441985167__BMS46_1430940_fullread.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/f730710154d4_211322002601JD79_US_SMG_heated_DMTL_.bin",
+      "sha256": "f730710154d4af051dd4ffcf60b51bea9259e0a8f53f9f9255a04a51fe5bb162",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "f730710154d4af051dd4ffcf60b51bea9259e0a8f53f9f9255a04a51fe5bb162",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322002601JD79 (US SMG heated DMTL).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/f84860cecf9b_f84860cecf9b2d58_Q28G_LIVE_V130_IGNITION_ONLY.bin",
+      "sha256": "f84860cecf9b2d5889d5236d1a5b567891291c56a00947b0c14d02fca901e08f",
+      "bytes": 262144,
+      "category": "firmware",
+      "source_sha256": "f84860cecf9b2d5889d5236d1a5b567891291c56a00947b0c14d02fca901e08f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f84860cecf9b2d58_Q28G_LIVE_V130_IGNITION_ONLY.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/f9c3817ce6cd_f9c3817ce6cdfd03_backupecu_BMS46_limiter7000_SAFE_NO_O2OFF_NO_STAGE1.bin",
+      "sha256": "f9c3817ce6cdfd03f6422e6176c71639b4423297fe69e3c68811fc141f4cdfd4",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "f9c3817ce6cdfd03f6422e6176c71639b4423297fe69e3c68811fc141f4cdfd4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f9c3817ce6cdfd03_backupecu_BMS46_limiter7000_SAFE_NO_O2OFF_NO_STAGE1.bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/fa1880e1401e_211322001501J424_EU3_6MT_.bin",
+      "sha256": "fa1880e1401e7d4f120e3241f19e7d9c1d96531cb3d93e5187dc964e0e7daac0",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "fa1880e1401e7d4f120e3241f19e7d9c1d96531cb3d93e5187dc964e0e7daac0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Unmodified BIN Dumps - Partials/MSS54 Bins/211322001501J424 (EU3 6MT).bin"
+      ]
+    },
+    {
+      "file": "materials/library/firmware/ff206b7c4c65_ecuBMW46",
+      "sha256": "ff206b7c4c6505e19440060687e02ee719ac829bc49491fef2d94a572f0e5c1f",
+      "bytes": 32768,
+      "category": "firmware",
+      "source_sha256": "ff206b7c4c6505e19440060687e02ee719ac829bc49491fef2d94a572f0e5c1f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "bms46-partial/ecuBMW46",
+        "collected-bms46/ff206b7c4c6505e1_ecuBMW46_pops_flames_v2.bin"
+      ]
+    },
+    {
+      "file": "materials/library/map-packs/349cdbb9c1ba_silvio.kp",
+      "sha256": "349cdbb9c1babcd1a43431fee39f77607796aecf946893f453d9d5e8f1bf0547",
+      "bytes": 11150,
+      "category": "map-packs",
+      "source_sha256": "349cdbb9c1babcd1a43431fee39f77607796aecf946893f453d9d5e8f1bf0547",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/mappack/silvio.kp",
+        "map-packs/silvio.kp",
+        "upstream-bms46-wiki/mappack/silvio.kp"
+      ]
+    },
+    {
+      "file": "materials/library/map-packs/437b2d4d9000_daniel.kp",
+      "sha256": "437b2d4d9000cc62f000274ef0a524a9f3cca582644a9ff4870d634c27ca5163",
+      "bytes": 59146,
+      "category": "map-packs",
+      "source_sha256": "437b2d4d9000cc62f000274ef0a524a9f3cca582644a9ff4870d634c27ca5163",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/BMS46/mappack/daniel.kp",
+        "map-packs/daniel.kp",
+        "upstream-bms46-wiki/mappack/daniel.kp"
+      ]
+    },
+    {
+      "file": "materials/library/map-packs/5e3530350a0d_mappack.kp",
+      "sha256": "5e3530350a0d63cf0f767106762feef46cf31dd7cf508435283631cf555be26f",
+      "bytes": 11357,
+      "category": "map-packs",
+      "source_sha256": "5e3530350a0d63cf0f767106762feef46cf31dd7cf508435283631cf555be26f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/5e3530350a0d63cf_BMS46_mappack - Copy.kp",
+        "comparison-ecus/BMS46/mappack/mappack.kp",
+        "map-packs/mappack.kp",
+        "upstream-bms46-wiki/mappack/mappack.kp"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/0206533b5f70_0206533b5f702f0e_BMS46_Q28G_v0.60_SINGLE_XREF_THROTTLE_POSITION_CANDIDATE.xdf",
+      "sha256": "0206533b5f702f0e8fbeb2e28a70be7b8d50012e07a4d1ec50aef29d6f744511",
+      "bytes": 744696,
+      "category": "tunerpro",
+      "source_sha256": "0206533b5f702f0e8fbeb2e28a70be7b8d50012e07a4d1ec50aef29d6f744511",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/0206533b5f702f0e_BMS46_Q28G_v0.60_SINGLE_XREF_THROTTLE_POSITION_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/02ecdfc2510e_BMS46_FULL.xdf",
+      "sha256": "02ecdfc2510e8ad05a114955afe5712e11f1a316e1d583ce643c4fa15100a8e5",
+      "bytes": 57178,
+      "category": "tunerpro",
+      "source_sha256": "02ecdfc2510e8ad05a114955afe5712e11f1a316e1d583ce643c4fa15100a8e5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/02ecdfc2510e8ad0_1337466508988911728__BMS46_FULL.xdf",
+        "diagnostic-definitions/xdf/BMS46_FULL.xdf",
+        "work-references/raw/first_run_inputs/definition/xdf/BMS46_FULL.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/02fa680bef77_02fa680bef777c5c_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.2.xdf",
+      "sha256": "02fa680bef777c5cb77d4db4bc144e2ef731ebeaee962f6e3ed578c40a06bebe",
+      "bytes": 554350,
+      "category": "tunerpro",
+      "source_sha256": "02fa680bef777c5cb77d4db4bc144e2ef731ebeaee962f6e3ed578c40a06bebe",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/02fa680bef777c5c_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.2.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/0622cef0b331_0622cef0b3318084_1514808951047192576__BMS46_M43B19_enriched.xdf",
+      "sha256": "0622cef0b3318084e5f5db7b6276fda625dacb95f02fc3c57ddf82df1279169a",
+      "bytes": 325303,
+      "category": "tunerpro",
+      "source_sha256": "0622cef0b3318084e5f5db7b6276fda625dacb95f02fc3c57ddf82df1279169a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/0622cef0b3318084_1514808951047192576__BMS46_M43B19_enriched.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/066931a50de1_hw2001_V4_Basic.xdf",
+      "sha256": "066931a50de1801f4e2ddedc5b200a03f06925ac2ba97acfaef419c26c1cbc6a",
+      "bytes": 783275,
+      "category": "tunerpro",
+      "source_sha256": "066931a50de1801f4e2ddedc5b200a03f06925ac2ba97acfaef419c26c1cbc6a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw2001_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/06c6bf443760_hw2101_V4_Complete.xdf",
+      "sha256": "06c6bf443760728424f053e7239004d9cbf1a782264488c31416d48616dd64bd",
+      "bytes": 3051826,
+      "category": "tunerpro",
+      "source_sha256": "06c6bf443760728424f053e7239004d9cbf1a782264488c31416d48616dd64bd",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw2101_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/070f050e7ca1_070f050e7ca18033_BMS46_Q28G_v0.68_STRUCTURED_VECTOR_BITFIELD_CANDIDATE.xdf",
+      "sha256": "070f050e7ca18033ce19ed661b8e22b335e71e68fc9954251fb2d1584e5325d6",
+      "bytes": 868893,
+      "category": "tunerpro",
+      "source_sha256": "070f050e7ca18033ce19ed661b8e22b335e71e68fc9954251fb2d1584e5325d6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/070f050e7ca18033_BMS46_Q28G_v0.68_STRUCTURED_VECTOR_BITFIELD_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/102f011a2f4f_hw0401_V4_Complete.xdf",
+      "sha256": "102f011a2f4ff360fab3418f2df5db879252b3df781f4122da816f2d4746baf7",
+      "bytes": 2592029,
+      "category": "tunerpro",
+      "source_sha256": "102f011a2f4ff360fab3418f2df5db879252b3df781f4122da816f2d4746baf7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw0401_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/10e38594410b_10e38594410b5eb3_BMS46_Q28G_v0.32_PHASE2_CONTROLLED_Z_CANDIDATE.xdf",
+      "sha256": "10e38594410b5eb36bbf2b77e50977f7d54e944fc863f1a00e2a70b3d1592fa6",
+      "bytes": 579819,
+      "category": "tunerpro",
+      "source_sha256": "10e38594410b5eb36bbf2b77e50977f7d54e944fc863f1a00e2a70b3d1592fa6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/10e38594410b5eb3_BMS46_Q28G_v0.32_PHASE2_CONTROLLED_Z_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/17c319ed70b1_Bms46_32kb_Galletto.xdf",
+      "sha256": "17c319ed70b16f6fac5c904f6e2ce7b63fea5f6ed494043ab797139fa43737f6",
+      "bytes": 55473,
+      "category": "tunerpro",
+      "source_sha256": "17c319ed70b16f6fac5c904f6e2ce7b63fea5f6ed494043ab797139fa43737f6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/17c319ed70b16f6f_1458895249182162945__Bms46_32kb_Galletto.xdf",
+        "diagnostic-definitions/xdf/Bms46_32kb_Galletto.xdf",
+        "work-references/raw/first_run_inputs/definition/xdf/Bms46_32kb_Galletto.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/1827ff5c56df_1827ff5c56dfba6a_BMS46_Q28G_STABLE_v0.10.1_LABELS_ONLY.xdf",
+      "sha256": "1827ff5c56dfba6a6692dcb147b49a12a8c4cfa62fad968e13a59ae6d69e0e9e",
+      "bytes": 576735,
+      "category": "tunerpro",
+      "source_sha256": "1827ff5c56dfba6a6692dcb147b49a12a8c4cfa62fad968e13a59ae6d69e0e9e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/1827ff5c56dfba6a_BMS46_Q28G_STABLE_v0.10.1_LABELS_ONLY.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/1847610cb124_1847610cb124c51f_BMS46_Q28G_v0.55_SINGLE_XREF_LTFT_CANDIDATE.xdf",
+      "sha256": "1847610cb124c51fe1382f7435b1aef45c629513eabc6146772336673dd31f2b",
+      "bytes": 676016,
+      "category": "tunerpro",
+      "source_sha256": "1847610cb124c51fe1382f7435b1aef45c629513eabc6146772336673dd31f2b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/1847610cb124c51f_BMS46_Q28G_v0.55_SINGLE_XREF_LTFT_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/19cbf0098e36_19cbf0098e36c71e_BMS46_Q28G_MINIMAL_IGNITION_TEST_v0.8.5.xdf",
+      "sha256": "19cbf0098e36c71e5ccdbed87965aba5f98e2b705c267eee6f89d3ecf258cdee",
+      "bytes": 6555,
+      "category": "tunerpro",
+      "source_sha256": "19cbf0098e36c71e5ccdbed87965aba5f98e2b705c267eee6f89d3ecf258cdee",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/19cbf0098e36c71e_BMS46_Q28G_MINIMAL_IGNITION_TEST_v0.8.5.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/1af5761cc116_1af5761cc1160362_BMS46_M43B19_Q28G_FULL_RESEARCH_v2.xdf",
+      "sha256": "1af5761cc1160362f58bfcdf7f9a4fba4be4de7d75f408b563727e1e8d3fb150",
+      "bytes": 86881,
+      "category": "tunerpro",
+      "source_sha256": "1af5761cc1160362f58bfcdf7f9a4fba4be4de7d75f408b563727e1e8d3fb150",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/1af5761cc1160362_BMS46_M43B19_Q28G_FULL_RESEARCH_v2.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/2000cebff22c_2000cebff22cbb1c_BMS46_M43B19_Q28G_CODE_CONFIRMED_AXIS_FACTOR_REVIEW_GALLETTO32_v3.xdf",
+      "sha256": "2000cebff22cbb1c98bb1aa19630de33616a740392bbeb3bf96800f8343b17e7",
+      "bytes": 363405,
+      "category": "tunerpro",
+      "source_sha256": "2000cebff22cbb1c98bb1aa19630de33616a740392bbeb3bf96800f8343b17e7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/2000cebff22cbb1c_BMS46_M43B19_Q28G_CODE_CONFIRMED_AXIS_FACTOR_REVIEW_GALLETTO32_v3.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/20449f1db113_hw1301_V4_Complete.xdf",
+      "sha256": "20449f1db1131fd113ad80fe3d9b5c4b1481625f82a81ea32bedf8c7b921bc0f",
+      "bytes": 2994346,
+      "category": "tunerpro",
+      "source_sha256": "20449f1db1131fd113ad80fe3d9b5c4b1481625f82a81ea32bedf8c7b921bc0f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw1301_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/26510edf4d38_26510edf4d38f2b1_BMS46_Q28G_GALLETTO32_v36_1D_TABLES_FIXED.xdf",
+      "sha256": "26510edf4d38f2b1f0d542fa920a7259b3a36c7f24a18f10b24cb65545e8965d",
+      "bytes": 457275,
+      "category": "tunerpro",
+      "source_sha256": "26510edf4d38f2b1f0d542fa920a7259b3a36c7f24a18f10b24cb65545e8965d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/26510edf4d38f2b1_BMS46_Q28G_GALLETTO32_v36_1D_TABLES_FIXED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/278a29e11f39_hw0301_V4_Complete.xdf",
+      "sha256": "278a29e11f398cf968f71954c889b899c3598b4062aa6ff047eff8619bad7486",
+      "bytes": 2876468,
+      "category": "tunerpro",
+      "source_sha256": "278a29e11f398cf968f71954c889b899c3598b4062aa6ff047eff8619bad7486",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw0301_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/287190abcd15_MSS54_v2601_v2801_E30_Swap_Items.xdf",
+      "sha256": "287190abcd1589bb57b252517659527b2940a9e701556e1899eb9cd70de3d837",
+      "bytes": 35998,
+      "category": "tunerpro",
+      "source_sha256": "287190abcd1589bb57b252517659527b2940a9e701556e1899eb9cd70de3d837",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Engine Swap XDFs/MSS54 v2601 v2801 E30 Swap Items.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/28ef8592aa79_01119700F000Q28G_AUTO_DISCOVERED.xdf",
+      "sha256": "28ef8592aa797fe7f64af8e71463b7e4f80ca68f6b6765b12e8cd7755ec82ad7",
+      "bytes": 396345,
+      "category": "tunerpro",
+      "source_sha256": "28ef8592aa797fe7f64af8e71463b7e4f80ca68f6b6765b12e8cd7755ec82ad7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/28ef8592aa797fe7_01119700F000Q28G_AUTO_DISCOVERED.xdf",
+        "work-evidence/table_finder_v030/q28g_full/01119700F000Q28G_AUTO_DISCOVERED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/2a99efd74444_2a99efd744442aa3_BMS46_Q28G_v0.57_SINGLE_XREF_IGNITION_SLEW_CANDIDATE.xdf",
+      "sha256": "2a99efd744442aa38580e3b3e8d9f2605ba115d94f86578b499778628c88bcce",
+      "bytes": 704061,
+      "category": "tunerpro",
+      "source_sha256": "2a99efd744442aa38580e3b3e8d9f2605ba115d94f86578b499778628c88bcce",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/2a99efd744442aa3_BMS46_Q28G_v0.57_SINGLE_XREF_IGNITION_SLEW_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/2d99ceefecbd_BMS46_Q28G_v1.09_STABLE_LAMBDA2_DTC76.xdf",
+      "sha256": "2d99ceefecbdcc28a730b216a024964b55a19e502cbdb384873f5ffc70684d32",
+      "bytes": 973551,
+      "category": "tunerpro",
+      "source_sha256": "2d99ceefecbdcc28a730b216a024964b55a19e502cbdb384873f5ffc70684d32",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/2d99ceefecbdcc28_BMS46_Q28G_v1.09_STABLE_LAMBDA2_DTC76.xdf",
+        "master/xdf/BMS46_Q28G_v1.09_STABLE_LAMBDA2_DTC76.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/2e3ce214b7ee_Q28G_RESEARCH_CONSERVATIVE.xdf",
+      "sha256": "2e3ce214b7ee6a4983833f0709d3e25abd1e2f2bf70e71092a3026162017a82c",
+      "bytes": 500129,
+      "category": "tunerpro",
+      "source_sha256": "2e3ce214b7ee6a4983833f0709d3e25abd1e2f2bf70e71092a3026162017a82c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/2e3ce214b7ee6a49_Q28G_RESEARCH_CONSERVATIVE.xdf",
+        "work-xdf/Q28G_RESEARCH_CONSERVATIVE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/3310e875e9d7_3310e875e9d7163b_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v29_v35_SCALAR_REVIEW_COMPANION.xdf",
+      "sha256": "3310e875e9d7163b64897d1745fe68fbe19cb17ce364b5a3cc724840c871364a",
+      "bytes": 456734,
+      "category": "tunerpro",
+      "source_sha256": "3310e875e9d7163b64897d1745fe68fbe19cb17ce364b5a3cc724840c871364a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/3310e875e9d7163b_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v29_v35_SCALAR_REVIEW_COMPANION.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/358c40f70f58_DTC_0901_1101_1301_1501_1701_2101_2401_2601_2801.xdf",
+      "sha256": "358c40f70f58f700c07cf804044ff7de09f0950a3948c9043babc667087fbbea",
+      "bytes": 61047,
+      "category": "tunerpro",
+      "source_sha256": "358c40f70f58f700c07cf804044ff7de09f0950a3948c9043babc667087fbbea",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Engine Swap XDFs/DTC 0901  1101  1301  1501  1701  2101  2401  2601  2801.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/35e6471fdf05_CSL_0401_Karter16_v3_6_publish.xdf",
+      "sha256": "35e6471fdf055930ea174754fef7f07a62047258887a85645ecbfed1b1d8740e",
+      "bytes": 2878973,
+      "category": "tunerpro",
+      "source_sha256": "35e6471fdf055930ea174754fef7f07a62047258887a85645ecbfed1b1d8740e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54HP_0401/XDF/CSL_0401_Karter16_v3_6_publish.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/369485170cdb_hw2601_V4_Basic.xdf",
+      "sha256": "369485170cdba8c496ec2d563c1ff996347465009b17ad71736d96602c374bcf",
+      "bytes": 778745,
+      "category": "tunerpro",
+      "source_sha256": "369485170cdba8c496ec2d563c1ff996347465009b17ad71736d96602c374bcf",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw2601_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/36e5b472e185_hw0301_V4_Basic.xdf",
+      "sha256": "36e5b472e185d5bcb2c27e2efb3df3ad7fab66ca16810c6087e785ded4b12d3f",
+      "bytes": 751045,
+      "category": "tunerpro",
+      "source_sha256": "36e5b472e185d5bcb2c27e2efb3df3ad7fab66ca16810c6087e785ded4b12d3f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw0301_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/378d3cc7c94e_BMS46_Q28G_v1.09_STABLE_GALLETTO_32KB.xdf",
+      "sha256": "378d3cc7c94ea93473cedc0e67885f215addcc431de2609da08fbc568c76c63e",
+      "bytes": 912818,
+      "category": "tunerpro",
+      "source_sha256": "378d3cc7c94ea93473cedc0e67885f215addcc431de2609da08fbc568c76c63e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/378d3cc7c94ea934_BMS46_Q28G_v1.09_STABLE_GALLETTO_32KB.xdf",
+        "master/xdf/historical/BMS46_Q28G_v1.09_STABLE_GALLETTO_32KB.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/396e5137dd41_396e5137dd413a01_BMS46_Q28G_v0.64_SINGLE_XREF_LAMBDA_CORE_CANDIDATE.xdf",
+      "sha256": "396e5137dd413a01dccbc65ca2fc2348762c746d712ae9f36a4b5c86b088c04f",
+      "bytes": 788145,
+      "category": "tunerpro",
+      "source_sha256": "396e5137dd413a01dccbc65ca2fc2348762c746d712ae9f36a4b5c86b088c04f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/396e5137dd413a01_BMS46_Q28G_v0.64_SINGLE_XREF_LAMBDA_CORE_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/3c9ea32c600e_hw1101_V4_Basic.xdf",
+      "sha256": "3c9ea32c600eefa130eef58b3b34ef2450126b9275654e1b1c86482316fbb09f",
+      "bytes": 753814,
+      "category": "tunerpro",
+      "source_sha256": "3c9ea32c600eefa130eef58b3b34ef2450126b9275654e1b1c86482316fbb09f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1101_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/3e3c13a73f88_3e3c13a73f88d291_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.3.xdf",
+      "sha256": "3e3c13a73f88d291445153b7e3b92d97352d85c28034ff463e106d0444916a2e",
+      "bytes": 559108,
+      "category": "tunerpro",
+      "source_sha256": "3e3c13a73f88d291445153b7e3b92d97352d85c28034ff463e106d0444916a2e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/3e3c13a73f88d291_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.3.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/412154c78a98_XDFoutBFMV3_hw0901_V3_Complete.xdf",
+      "sha256": "412154c78a98794b52f9edbb6198ffbea34f2839757dd4ca64b4d1bf7821aca1",
+      "bytes": 2885540,
+      "category": "tunerpro",
+      "source_sha256": "412154c78a98794b52f9edbb6198ffbea34f2839757dd4ca64b4d1bf7821aca1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/XdfofA2L_bothtypes/XDFoutBFMV3_hw0901_V3_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4223429f5e28_hw2701_V4_Basic.xdf",
+      "sha256": "4223429f5e28a755565ec5071641a763da010d087c3ad19cfa8ffc06152f7f7c",
+      "bytes": 754380,
+      "category": "tunerpro",
+      "source_sha256": "4223429f5e28a755565ec5071641a763da010d087c3ad19cfa8ffc06152f7f7c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw2701_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4419e8d40dba_hw1501_V4_Basic.xdf",
+      "sha256": "4419e8d40dba72ef98f510b4978c0e58d0ecb752fbdbf2035eb29124075b1ae4",
+      "bytes": 754390,
+      "category": "tunerpro",
+      "source_sha256": "4419e8d40dba72ef98f510b4978c0e58d0ecb752fbdbf2035eb29124075b1ae4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1501_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/44233f713ff9_44233f713ff97e7f_BMS46_440_partial_1_.xdf",
+      "sha256": "44233f713ff97e7f02e77ce446e691a0d0ca66558089a08a53aa693a98125181",
+      "bytes": 47628,
+      "category": "tunerpro",
+      "source_sha256": "44233f713ff97e7f02e77ce446e691a0d0ca66558089a08a53aa693a98125181",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/44233f713ff97e7f_BMS46_440_partial (1).xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/448f9b2d1c04_hw2501_V4_Complete.xdf",
+      "sha256": "448f9b2d1c04712b1543b0d9cefbefabb19457d7b20f9e9494f6a98fd4e0a535",
+      "bytes": 2939045,
+      "category": "tunerpro",
+      "source_sha256": "448f9b2d1c04712b1543b0d9cefbefabb19457d7b20f9e9494f6a98fd4e0a535",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw2501_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4afb99b50aa8_hw1801_V4_Basic.xdf",
+      "sha256": "4afb99b50aa8721e1b64d6053ba2bce306f259d99d53d27b24d8b2f266691bfb",
+      "bytes": 778595,
+      "category": "tunerpro",
+      "source_sha256": "4afb99b50aa8721e1b64d6053ba2bce306f259d99d53d27b24d8b2f266691bfb",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1801_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4b01d8b22b00_hw1301_V4_Basic.xdf",
+      "sha256": "4b01d8b22b00c9b9c7b86f8debfefa352ca45b3029d138a4682fb8391d321956",
+      "bytes": 778099,
+      "category": "tunerpro",
+      "source_sha256": "4b01d8b22b00c9b9c7b86f8debfefa352ca45b3029d138a4682fb8391d321956",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1301_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4c9484b62759_synthetic_3d_partial_AUTO_DISCOVERED.xdf",
+      "sha256": "4c9484b62759f5f48cafec7af078aeeecd0c5a21754147bac0877b8f92782789",
+      "bytes": 2554,
+      "category": "tunerpro",
+      "source_sha256": "4c9484b62759f5f48cafec7af078aeeecd0c5a21754147bac0877b8f92782789",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-evidence/table_finder_v030/synthetic_3d/synthetic_3d_partial_AUTO_DISCOVERED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4cf03468c3f8_4cf03468c3f812f8_BMS46_Q28G_v0.35_PHASE5_EARLY_LAMBDA1_CANDIDATE.xdf",
+      "sha256": "4cf03468c3f812f8d590a5e2d4253f74771a07793013cc1529599a2b835fc407",
+      "bytes": 581649,
+      "category": "tunerpro",
+      "source_sha256": "4cf03468c3f812f8d590a5e2d4253f74771a07793013cc1529599a2b835fc407",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/4cf03468c3f812f8_BMS46_Q28G_v0.35_PHASE5_EARLY_LAMBDA1_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4d309201776d_4d309201776d2710_BMS46_Q28G_GALLETTO32_v34_FIXED_LOADABLE_1_.xdf",
+      "sha256": "4d309201776d27106e98bf62ccdc71a2fc35eb8f41fe3e634c4cd53ffdc61145",
+      "bytes": 360009,
+      "category": "tunerpro",
+      "source_sha256": "4d309201776d27106e98bf62ccdc71a2fc35eb8f41fe3e634c4cd53ffdc61145",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/4d309201776d2710_BMS46_Q28G_GALLETTO32_v34_FIXED_LOADABLE (1).xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/4dc953797a76_4dc953797a76c476_BMS46_Q28G_v0.53_BITFIELD_LINKED_STATE_CANDIDATE.xdf",
+      "sha256": "4dc953797a76c4768257f7845849edfaf2ab0fd1b59dd4f1418e4d0c14cfd871",
+      "bytes": 651304,
+      "category": "tunerpro",
+      "source_sha256": "4dc953797a76c4768257f7845849edfaf2ab0fd1b59dd4f1418e4d0c14cfd871",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/4dc953797a76c476_BMS46_Q28G_v0.53_BITFIELD_LINKED_STATE_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/544eb8d8e95c_544eb8d8e95cd85b_BMS46_Q28G_v0.16.0_AXES_COMPLETE_CANDIDATE.xdf",
+      "sha256": "544eb8d8e95cd85bb8cdb0a94b7feff3c9e76746083a76947a6bc0ae00c59260",
+      "bytes": 578603,
+      "category": "tunerpro",
+      "source_sha256": "544eb8d8e95cd85bb8cdb0a94b7feff3c9e76746083a76947a6bc0ae00c59260",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/544eb8d8e95cd85b_BMS46_Q28G_v0.16.0_AXES_COMPLETE_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/54b897280aa9_54b897280aa9a4fc_BMS46_Q28G_v0.46_ENCODING_SCALAR_AUDIT_CANDIDATE.xdf",
+      "sha256": "54b897280aa9a4fc6f9434bf99d0d1251285d3f15ec244b8a0d980de6a6a1a0a",
+      "bytes": 592438,
+      "category": "tunerpro",
+      "source_sha256": "54b897280aa9a4fc6f9434bf99d0d1251285d3f15ec244b8a0d980de6a6a1a0a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/54b897280aa9a4fc_BMS46_Q28G_v0.46_ENCODING_SCALAR_AUDIT_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/56e02b44ff5b_56e02b44ff5b38c1_BMS46_Q28G_WORKING_CANDIDATES.xdf",
+      "sha256": "56e02b44ff5b38c1a5d51f8fc591e4b0d4dd9d411116691900e1cddf9bc523aa",
+      "bytes": 489189,
+      "category": "tunerpro",
+      "source_sha256": "56e02b44ff5b38c1a5d51f8fc591e4b0d4dd9d411116691900e1cddf9bc523aa",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/56e02b44ff5b38c1_BMS46_Q28G_WORKING_CANDIDATES.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/60a401e606f6_60a401e606f6165f_BMS46_M43B19_Q28G_RESEARCH_v4_VERIFY_CANDIDATES.xdf",
+      "sha256": "60a401e606f6165fe4dc15ff0f067ec7d6365c2cc1c7784890273b9f361305c9",
+      "bytes": 117198,
+      "category": "tunerpro",
+      "source_sha256": "60a401e606f6165fe4dc15ff0f067ec7d6365c2cc1c7784890273b9f361305c9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/60a401e606f6165f_BMS46_M43B19_Q28G_RESEARCH_v4_VERIFY_CANDIDATES.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/6134ceda4320_6134ceda4320553f_BMS46_M43B19_Q28G_FULL_RESEARCH_v3_FULL256_ID.xdf",
+      "sha256": "6134ceda4320553f9f4bf30f9bff099c0826173944b8b0a4821cb39fa4f4dd9b",
+      "bytes": 94878,
+      "category": "tunerpro",
+      "source_sha256": "6134ceda4320553f9f4bf30f9bff099c0826173944b8b0a4821cb39fa4f4dd9b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6134ceda4320553f_BMS46_M43B19_Q28G_FULL_RESEARCH_v3_FULL256_ID.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/62383d96093a_62383d96093ad0da_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.1.xdf",
+      "sha256": "62383d96093ad0da148648f82878122ad626739803f0a587c079435bacbfee12",
+      "bytes": 548460,
+      "category": "tunerpro",
+      "source_sha256": "62383d96093ad0da148648f82878122ad626739803f0a587c079435bacbfee12",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/62383d96093ad0da_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING_v0.8.1.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/661a03db3463_661a03db346345bf_BMS46_Q28G_v0.67_POINTER_LITERAL_CLOSED_CANDIDATE.xdf",
+      "sha256": "661a03db346345bf31f649ade91981d17db31bc3a1371c1a15abe259d0a1568b",
+      "bytes": 861744,
+      "category": "tunerpro",
+      "source_sha256": "661a03db346345bf31f649ade91981d17db31bc3a1371c1a15abe259d0a1568b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/661a03db346345bf_BMS46_Q28G_v0.67_POINTER_LITERAL_CLOSED_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/67c9879687e6_hw1801_V4_Complete.xdf",
+      "sha256": "67c9879687e6b62933359a417a82cccc9d0e0be4a066026a05bc4270e3caf1bf",
+      "bytes": 3001615,
+      "category": "tunerpro",
+      "source_sha256": "67c9879687e6b62933359a417a82cccc9d0e0be4a066026a05bc4270e3caf1bf",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw1801_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/6c7e46c342dd_6c7e46c342dde4d9_BMS46_Q28G_v1.00_FULL_FINAL.xdf",
+      "sha256": "6c7e46c342dde4d937e719dc9eff98e1d5b0a2031574f1d726ef75e30bda4590",
+      "bytes": 898962,
+      "category": "tunerpro",
+      "source_sha256": "6c7e46c342dde4d937e719dc9eff98e1d5b0a2031574f1d726ef75e30bda4590",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6c7e46c342dde4d9_BMS46_Q28G_v1.00_FULL_FINAL.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/6d5ed7b0d30d_hw1701_V4_Complete.xdf",
+      "sha256": "6d5ed7b0d30d2b8a9ede8df2dd92eacae21f39c8f464dfaf64607171cf360162",
+      "bytes": 3051929,
+      "category": "tunerpro",
+      "source_sha256": "6d5ed7b0d30d2b8a9ede8df2dd92eacae21f39c8f464dfaf64607171cf360162",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw1701_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/6da03afae915_6da03afae9150567_BMS46_Q28G_v0.54_DEFER_EXPERT_RESOLUTION_CANDIDATE_1_.xdf",
+      "sha256": "6da03afae91505670882925e618a2ccd41b0651c16e92a83f3acf97902a72b76",
+      "bytes": 662744,
+      "category": "tunerpro",
+      "source_sha256": "6da03afae91505670882925e618a2ccd41b0651c16e92a83f3acf97902a72b76",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6da03afae9150567_BMS46_Q28G_v0.54_DEFER_EXPERT_RESOLUTION_CANDIDATE (1).xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/6db0673b26ad_6db0673b26adc922_BMS46_Q28G_STABLE_v0.12.0_LABELS_ONLY.xdf",
+      "sha256": "6db0673b26adc922db51c85201d620e0838cc5255f7cfe877202a5c9fdc7810a",
+      "bytes": 577163,
+      "category": "tunerpro",
+      "source_sha256": "6db0673b26adc922db51c85201d620e0838cc5255f7cfe877202a5c9fdc7810a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6db0673b26adc922_BMS46_Q28G_STABLE_v0.12.0_LABELS_ONLY.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/6e1da2374e52_6e1da2374e52714c_BMS46_Q28G_v0.31_PHASE1_VALIDATED_Z_CANDIDATE.xdf",
+      "sha256": "6e1da2374e52714c7cf872ea74f1c2c2c940e6b3aa27eedf5089bae607e5bef0",
+      "bytes": 579840,
+      "category": "tunerpro",
+      "source_sha256": "6e1da2374e52714c7cf872ea74f1c2c2c940e6b3aa27eedf5089bae607e5bef0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/6e1da2374e52714c_BMS46_Q28G_v0.31_PHASE1_VALIDATED_Z_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/70868971aa53_70868971aa53bce3_BMS46_Q28G_v0.69_INDIRECT_AUDIT_BITFIELD_FINAL_CANDIDATE.xdf",
+      "sha256": "70868971aa53bce306d0159f57ac5fd8f54dac810bfce5cecedd7fa15c4c214b",
+      "bytes": 871463,
+      "category": "tunerpro",
+      "source_sha256": "70868971aa53bce306d0159f57ac5fd8f54dac810bfce5cecedd7fa15c4c214b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/70868971aa53bce3_BMS46_Q28G_v0.69_INDIRECT_AUDIT_BITFIELD_FINAL_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/736405be5004_BMS46_PARTIAL_1430633.xdf",
+      "sha256": "736405be5004f065a747180e828cb8148ae816c5a18afcbe58ec6460e3b2c3f5",
+      "bytes": 15381,
+      "category": "tunerpro",
+      "source_sha256": "736405be5004f065a747180e828cb8148ae816c5a18afcbe58ec6460e3b2c3f5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/736405be5004f065_1455969996512559206__BMS46_PARTIAL_1430633.xdf",
+        "diagnostic-definitions/xdf/BMS46_PARTIAL_1430633.xdf",
+        "work-references/raw/first_run_inputs/definition/xdf/BMS46_PARTIAL_1430633.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/7abe406ee1a6_DTC_0301_0401_Method4.xdf",
+      "sha256": "7abe406ee1a66e51c0ff88d816ca892131f83ed4ed4881d03272691bf61cb38c",
+      "bytes": 61050,
+      "category": "tunerpro",
+      "source_sha256": "7abe406ee1a66e51c0ff88d816ca892131f83ed4ed4881d03272691bf61cb38c",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Engine Swap XDFs/DTC 0301 0401 Method4.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/815977c2e431_815977c2e431e5c1_BMS46_Q28G_v0.49_STANDALONE_SCALAR_BATCH3_CANDIDATE.xdf",
+      "sha256": "815977c2e431e5c16af15ea6617dc27eff42c366cbcdf579dc5b0408812ae572",
+      "bytes": 620249,
+      "category": "tunerpro",
+      "source_sha256": "815977c2e431e5c16af15ea6617dc27eff42c366cbcdf579dc5b0408812ae572",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/815977c2e431e5c1_BMS46_Q28G_v0.49_STANDALONE_SCALAR_BATCH3_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/81c7cc307a30_hw1401_V4_Basic.xdf",
+      "sha256": "81c7cc307a302105cc4ea550ad4ddae4c8c0353206ce5bd7f58c78ee2f211095",
+      "bytes": 778539,
+      "category": "tunerpro",
+      "source_sha256": "81c7cc307a302105cc4ea550ad4ddae4c8c0353206ce5bd7f58c78ee2f211095",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1401_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/8329593edfff_8329593edfffa780_BMS46_Q28G_v0.56_SINGLE_XREF_TRANSIENT_KNOCK_CANDIDATE_1_.xdf",
+      "sha256": "8329593edfffa780425cde6c7ed36df55dad59aff7c5fa49e2f847a7e7131bb0",
+      "bytes": 688456,
+      "category": "tunerpro",
+      "source_sha256": "8329593edfffa780425cde6c7ed36df55dad59aff7c5fa49e2f847a7e7131bb0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/8329593edfffa780_BMS46_Q28G_v0.56_SINGLE_XREF_TRANSIENT_KNOCK_CANDIDATE (1).xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/83b1e087553f_83b1e087553f3080_BMS46_Q28G_v0.47.xdf",
+      "sha256": "83b1e087553f308045c54237f702201a58956ca4fc8e1015569f9a45baddc399",
+      "bytes": 603689,
+      "category": "tunerpro",
+      "source_sha256": "83b1e087553f308045c54237f702201a58956ca4fc8e1015569f9a45baddc399",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/83b1e087553f3080_BMS46_Q28G_v0.47.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/884fbfe4ec4f_884fbfe4ec4f4204_BMS46_Q28G_v0.62_SINGLE_XREF_EFAN_AC_CANDIDATE.xdf",
+      "sha256": "884fbfe4ec4f42041e4a28bf3ca802e8dca86ea75ed06505a1fb1f8db992c2a3",
+      "bytes": 766027,
+      "category": "tunerpro",
+      "source_sha256": "884fbfe4ec4f42041e4a28bf3ca802e8dca86ea75ed06505a1fb1f8db992c2a3",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/884fbfe4ec4f4204_BMS46_Q28G_v0.62_SINGLE_XREF_EFAN_AC_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/89dd8f4a472d_89dd8f4a472dfd05_BMS46_M43B19_Q28G_ULTIMATE_RONIN_KP_FORUM_RE_v1.xdf",
+      "sha256": "89dd8f4a472dfd05fb46ac8b304b915a714ad33e917e0c6a7116a155f2759c8a",
+      "bytes": 448601,
+      "category": "tunerpro",
+      "source_sha256": "89dd8f4a472dfd05fb46ac8b304b915a714ad33e917e0c6a7116a155f2759c8a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/89dd8f4a472dfd05_BMS46_M43B19_Q28G_ULTIMATE_RONIN_KP_FORUM_RE_v1.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/8a6087009e02_8a6087009e025c00_BMS46_Q28G_STABLE_v0.11.0_LABELS_ONLY.xdf",
+      "sha256": "8a6087009e025c0027c3575b42e2de4a85d730edc046c4c81709387cb6176de5",
+      "bytes": 576895,
+      "category": "tunerpro",
+      "source_sha256": "8a6087009e025c0027c3575b42e2de4a85d730edc046c4c81709387cb6176de5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/8a6087009e025c00_BMS46_Q28G_STABLE_v0.11.0_LABELS_ONLY.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/8bc63065b680_8bc63065b6809220_BMS46_Q28G_v0.61_SINGLE_XREF_TPS_PEDAL_CANDIDATE.xdf",
+      "sha256": "8bc63065b680922017d3e2fd444d72f9d8ee8fdbadb9228119e21d698fdf118e",
+      "bytes": 755292,
+      "category": "tunerpro",
+      "source_sha256": "8bc63065b680922017d3e2fd444d72f9d8ee8fdbadb9228119e21d698fdf118e",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/8bc63065b6809220_BMS46_Q28G_v0.61_SINGLE_XREF_TPS_PEDAL_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/8eeb1852a2d0_8eeb1852a2d000fe_BMS46_Q28G_v0.71_UI_ORGANIZATION_CLEANUP_CANDIDATE.xdf",
+      "sha256": "8eeb1852a2d000fe5f92d777dab491bb7a2eae4a4de978a2294badb24f823adc",
+      "bytes": 902736,
+      "category": "tunerpro",
+      "source_sha256": "8eeb1852a2d000fe5f92d777dab491bb7a2eae4a4de978a2294badb24f823adc",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/8eeb1852a2d000fe_BMS46_Q28G_v0.71_UI_ORGANIZATION_CLEANUP_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/90b817c1b38d_90b817c1b38d8be4_BMS46_Q28G_v0.63_SINGLE_XREF_SENSOR_PROCESSING_CANDIDATE.xdf",
+      "sha256": "90b817c1b38d8be4b36ad9c04f5d84c4d5925c76dcec11d5fa7d1ded64e6b229",
+      "bytes": 774844,
+      "category": "tunerpro",
+      "source_sha256": "90b817c1b38d8be4b36ad9c04f5d84c4d5925c76dcec11d5fa7d1ded64e6b229",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/90b817c1b38d8be4_BMS46_Q28G_v0.63_SINGLE_XREF_SENSOR_PROCESSING_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/94152251b480_94152251b48090ac_BMS46_M43TU_32KB_ENHANCED_v1.xdf",
+      "sha256": "94152251b48090ac872eaed0a32e88da8a3dbb5095e281b5f61efe33e9584728",
+      "bytes": 59126,
+      "category": "tunerpro",
+      "source_sha256": "94152251b48090ac872eaed0a32e88da8a3dbb5095e281b5f61efe33e9584728",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/94152251b48090ac_BMS46_M43TU_32KB_ENHANCED_v1.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/95453ca4f974_BMS46_Q28G_FULL_VERIFIED.xdf",
+      "sha256": "95453ca4f974d22abb52bbbdf900ae771e4c923d5bb39746e4a4e833176a2a9d",
+      "bytes": 421603,
+      "category": "tunerpro",
+      "source_sha256": "95453ca4f974d22abb52bbbdf900ae771e4c923d5bb39746e4a4e833176a2a9d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/95453ca4f974d22a_BMS46_Q28G_FULL_VERIFIED.xdf",
+        "work-releases/BMS46_Q28G_XDF_GHIDRA_2026-09-28/BMS46_Q28G_FULL_VERIFIED.xdf",
+        "work-xdf/BMS46_Q28G_FULL_VERIFIED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/9980921cbe2b_9980921cbe2b4276_BMS46_Q28G_v0.48_STANDALONE_SCALAR_BATCH2_CANDIDATE.xdf",
+      "sha256": "9980921cbe2b4276b2193b3c60df76f617f335387b9c71b29f40112a4a46c4ed",
+      "bytes": 612197,
+      "category": "tunerpro",
+      "source_sha256": "9980921cbe2b4276b2193b3c60df76f617f335387b9c71b29f40112a4a46c4ed",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/9980921cbe2b4276_BMS46_Q28G_v0.48_STANDALONE_SCALAR_BATCH2_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/99c5c6baec4e_99c5c6baec4e153c_BMS46_Q28G_v1.03_LAMBDA2_ZEROEXEC_AUDIT_CANDIDATE.xdf",
+      "sha256": "99c5c6baec4e153c7a92276353d45d9d9f31a2ee254669f8a74b0b80238adb6b",
+      "bytes": 906116,
+      "category": "tunerpro",
+      "source_sha256": "99c5c6baec4e153c7a92276353d45d9d9f31a2ee254669f8a74b0b80238adb6b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/99c5c6baec4e153c_BMS46_Q28G_v1.03_LAMBDA2_ZEROEXEC_AUDIT_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/99f11e945f2b_hw2801_V4_Basic.xdf",
+      "sha256": "99f11e945f2b8855432c38b8772e585ae217d0e1c854326c2f23acb129f7fd33",
+      "bytes": 754129,
+      "category": "tunerpro",
+      "source_sha256": "99f11e945f2b8855432c38b8772e585ae217d0e1c854326c2f23acb129f7fd33",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw2801_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/9b0d497b3a08_9b0d497b3a08253f_BMS46_Q28G_v0.39_PHASE8_POSTSTART_BASEFUEL_CANDIDATE.xdf",
+      "sha256": "9b0d497b3a08253ff8b339fd9b2ca512f10eccc3a060535fe06ba470f9f94e8a",
+      "bytes": 584726,
+      "category": "tunerpro",
+      "source_sha256": "9b0d497b3a08253ff8b339fd9b2ca512f10eccc3a060535fe06ba470f9f94e8a",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/9b0d497b3a08253f_BMS46_Q28G_v0.39_PHASE8_POSTSTART_BASEFUEL_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/9beaa7070bc2_hw0401_V4_Basic.xdf",
+      "sha256": "9beaa7070bc2b121dde7ef51690aa46f940152e78d2247a6a41e26f874f09c31",
+      "bytes": 778017,
+      "category": "tunerpro",
+      "source_sha256": "9beaa7070bc2b121dde7ef51690aa46f940152e78d2247a6a41e26f874f09c31",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw0401_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/a102cc1d602c_hw2001_V4_Complete.xdf",
+      "sha256": "a102cc1d602c01f56d20e44f9501e916c737eea363e3f492d49459c9144b50ba",
+      "bytes": 2939836,
+      "category": "tunerpro",
+      "source_sha256": "a102cc1d602c01f56d20e44f9501e916c737eea363e3f492d49459c9144b50ba",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw2001_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/a214c8960039_XDFoutA2LV3_hw0901_V3_Complete.xdf",
+      "sha256": "a214c8960039fe192727cb6bea457d0d6234a05268beddb98b0f191319aa1815",
+      "bytes": 2866915,
+      "category": "tunerpro",
+      "source_sha256": "a214c8960039fe192727cb6bea457d0d6234a05268beddb98b0f191319aa1815",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/XdfofA2L_bothtypes/XDFoutA2LV3_hw0901_V3_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/a3a8c7ded326_a3a8c7ded3268bcb_BMS46_Q28G_v0.45_LIMITER_CORRECTION_CANDIDATE.xdf",
+      "sha256": "a3a8c7ded3268bcb98d1ffaada7e53976cca93b47ea0f92146e0517e64b2d514",
+      "bytes": 586343,
+      "category": "tunerpro",
+      "source_sha256": "a3a8c7ded3268bcb98d1ffaada7e53976cca93b47ea0f92146e0517e64b2d514",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a3a8c7ded3268bcb_BMS46_Q28G_v0.45_LIMITER_CORRECTION_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/a50a58ef5098_a50a58ef5098b473_BMS46_Q28G_v0.51_STANDALONE_SCALAR_BATCH5_CANDIDATE.xdf",
+      "sha256": "a50a58ef5098b473af074a1078cf291d2a554385a06e8ad7b7d546480691ebc6",
+      "bytes": 638692,
+      "category": "tunerpro",
+      "source_sha256": "a50a58ef5098b473af074a1078cf291d2a554385a06e8ad7b7d546480691ebc6",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/a50a58ef5098b473_BMS46_Q28G_v0.51_STANDALONE_SCALAR_BATCH5_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ab8cf9290677_hw1401_V4_Complete.xdf",
+      "sha256": "ab8cf92906775e55eb98cf7b5d572b2ffbb134885237e45b81d5370d1ab1d7e8",
+      "bytes": 2996256,
+      "category": "tunerpro",
+      "source_sha256": "ab8cf92906775e55eb98cf7b5d572b2ffbb134885237e45b81d5370d1ab1d7e8",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw1401_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/acdb5c58d85b_BMS46_Q28G_VERIFIED_CONSERVATIVE.xdf",
+      "sha256": "acdb5c58d85b0e1e1aae0e2b045a59ea4b0e780ae449a28caa91d620c9ef24fa",
+      "bytes": 465461,
+      "category": "tunerpro",
+      "source_sha256": "acdb5c58d85b0e1e1aae0e2b045a59ea4b0e780ae449a28caa91d620c9ef24fa",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/acdb5c58d85b0e1e_BMS46_Q28G_VERIFIED_CONSERVATIVE.xdf",
+        "work-checkpoints/2026-07-27_phase10_12_final_release/releases/BMS46_Q28G_VERIFIED_CONSERVATIVE.xdf",
+        "work-releases/BMS46_Q28G_VERIFIED_CONSERVATIVE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ae25f0214d99_ae25f0214d99d964_BMS46_Q28G_STABLE_v0.10.0.xdf",
+      "sha256": "ae25f0214d99d96457efb58ddcb52543fa0c68c4a7c4f1a13e5aaebb7b86b8f5",
+      "bytes": 579653,
+      "category": "tunerpro",
+      "source_sha256": "ae25f0214d99d96457efb58ddcb52543fa0c68c4a7c4f1a13e5aaebb7b86b8f5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/ae25f0214d99d964_BMS46_Q28G_STABLE_v0.10.0.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ae33bd1ce4b6_ae33bd1ce4b60e67_BMS46_Q28G_v0.50_STANDALONE_SCALAR_BATCH4_CANDIDATE.xdf",
+      "sha256": "ae33bd1ce4b60e67d628349ba2d0bd8c8bc38e19ad1958340aa9d0d8a583236b",
+      "bytes": 629245,
+      "category": "tunerpro",
+      "source_sha256": "ae33bd1ce4b60e67d628349ba2d0bd8c8bc38e19ad1958340aa9d0d8a583236b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/ae33bd1ce4b60e67_BMS46_Q28G_v0.50_STANDALONE_SCALAR_BATCH4_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/af14bc09a385_DTC_0301_0401_Method1.xdf",
+      "sha256": "af14bc09a3857139cd51148185a684af742e7d079e740a051c6bd3e01d34781f",
+      "bytes": 61050,
+      "category": "tunerpro",
+      "source_sha256": "af14bc09a3857139cd51148185a684af742e7d079e740a051c6bd3e01d34781f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Engine Swap XDFs/DTC 0301 0401 Method1.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b523a42ffbf9_b523a42ffbf9e53b_BMS46_Q28G_DFCO_IDENTITY_WORKING.xdf",
+      "sha256": "b523a42ffbf9e53b2d212123c30f4a49f40ae62af88693ba250dce6c0accea76",
+      "bytes": 539710,
+      "category": "tunerpro",
+      "source_sha256": "b523a42ffbf9e53b2d212123c30f4a49f40ae62af88693ba250dce6c0accea76",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/b523a42ffbf9e53b_BMS46_Q28G_DFCO_IDENTITY_WORKING.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b545b3481c34_BMS46_PARTIAL_ENRICHED_ALEX.xdf",
+      "sha256": "b545b3481c346381dd5d971da821ddc747fbf65729d4cfec9e493d16875fef48",
+      "bytes": 59947,
+      "category": "tunerpro",
+      "source_sha256": "b545b3481c346381dd5d971da821ddc747fbf65729d4cfec9e493d16875fef48",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/b545b3481c346381_BMS46_PARTIAL_ENRICHED_ALEX.xdf",
+        "diagnostic-definitions/xdf/BMS46_PARTIAL_ENRICHED_ALEX.xdf",
+        "work-references/raw/first_run_inputs/definition/xdf/BMS46_PARTIAL_ENRICHED_ALEX.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b5b205583719_b5b205583719f30d_BMS46_Q28G_v0.70a_SCALAR_WRITE_RANGE_HOTFIX_CANDIDATE.xdf",
+      "sha256": "b5b205583719f30d4bc65ea64b119b1d1eabfa8e1d99471d78a2c6bbac97ac96",
+      "bytes": 894469,
+      "category": "tunerpro",
+      "source_sha256": "b5b205583719f30d4bc65ea64b119b1d1eabfa8e1d99471d78a2c6bbac97ac96",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/b5b205583719f30d_BMS46_Q28G_v0.70a_SCALAR_WRITE_RANGE_HOTFIX_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b5c6df609c94_hw2501_V4_Basic.xdf",
+      "sha256": "b5c6df609c94d11f76da72fcfc2df54b5b7cc3abaf1a5314f1f6c1b83eda9d04",
+      "bytes": 754223,
+      "category": "tunerpro",
+      "source_sha256": "b5c6df609c94d11f76da72fcfc2df54b5b7cc3abaf1a5314f1f6c1b83eda9d04",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw2501_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b734ee3ef68a_b734ee3ef68a60f9_BMS46_Q28G_v0.52_STANDALONE_SCALAR_BATCH6_CANDIDATE.xdf",
+      "sha256": "b734ee3ef68a60f91ea514c38e016d0fb50625689d777d8986db652a55877779",
+      "bytes": 646871,
+      "category": "tunerpro",
+      "source_sha256": "b734ee3ef68a60f91ea514c38e016d0fb50625689d777d8986db652a55877779",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/b734ee3ef68a60f9_BMS46_Q28G_v0.52_STANDALONE_SCALAR_BATCH6_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b93b19d3408f_b93b19d3408f561a_BMS46_Q28G_v0.33_PHASE3_LAMBDA2_SAI_TORQUE_CANDIDATE.xdf",
+      "sha256": "b93b19d3408f561a93da153db52b610fe9da1737abf52202c8698fe8f3151e60",
+      "bytes": 580089,
+      "category": "tunerpro",
+      "source_sha256": "b93b19d3408f561a93da153db52b610fe9da1737abf52202c8698fe8f3151e60",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/b93b19d3408f561a_BMS46_Q28G_v0.33_PHASE3_LAMBDA2_SAI_TORQUE_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/b96de7ad6986_hw1501_V4_Complete.xdf",
+      "sha256": "b96de7ad69864c1d3edd7cf377746c7323b8ab5d84c5c3a5adce047dd7234a69",
+      "bytes": 2893250,
+      "category": "tunerpro",
+      "source_sha256": "b96de7ad69864c1d3edd7cf377746c7323b8ab5d84c5c3a5adce047dd7234a69",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw1501_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ba3445445179_ba3445445179bb18_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v28_v34_AXIS_ANNOTATED_PREVIEW.xdf",
+      "sha256": "ba3445445179bb1869d0ef5f90bd4e9d7fdb861b38fbc23ff611278fb49f3527",
+      "bytes": 359820,
+      "category": "tunerpro",
+      "source_sha256": "ba3445445179bb1869d0ef5f90bd4e9d7fdb861b38fbc23ff611278fb49f3527",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/ba3445445179bb18_BMS46_M43B19_Q28G_CODE_ONLY_MASTER_REBASED_GALLETTO32_v28_v34_AXIS_ANNOTATED_PREVIEW.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/bbb145e72954_bbb145e729543780_BMS46_Q28G_SEMANTIC_XREF_ENRICHED.xdf",
+      "sha256": "bbb145e729543780d7fb5542c7d4104eadcfee71bf36e16a35cae8a4d21527fa",
+      "bytes": 487221,
+      "category": "tunerpro",
+      "source_sha256": "bbb145e729543780d7fb5542c7d4104eadcfee71bf36e16a35cae8a4d21527fa",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/bbb145e729543780_BMS46_Q28G_SEMANTIC_XREF_ENRICHED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/bbfd7c5e2eab_bbfd7c5e2eab1a22_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING.xdf",
+      "sha256": "bbfd7c5e2eab1a221713b41ccd90a4b4c4a4156e201be48309721e1ef8e269f1",
+      "bytes": 546793,
+      "category": "tunerpro",
+      "source_sha256": "bbfd7c5e2eab1a221713b41ccd90a4b4c4a4156e201be48309721e1ef8e269f1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/bbfd7c5e2eab1a22_BMS46_Q28G_DFCO_IDENTITY_INTEGRITY_WORKING.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/bd7c6d557787_synthetic_decel_partial_AUTO_DISCOVERED.xdf",
+      "sha256": "bd7c6d557787783bab480c993f961eae5e71987f34062e4dd788cd26270ca8ae",
+      "bytes": 10671,
+      "category": "tunerpro",
+      "source_sha256": "bd7c6d557787783bab480c993f961eae5e71987f34062e4dd788cd26270ca8ae",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "work-evidence/table_finder_v030/synthetic_decel/synthetic_decel_partial_AUTO_DISCOVERED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/bdc249b62028_hw2101_V4_Basic.xdf",
+      "sha256": "bdc249b6202854532700fd9a41ca7c92400d6ffcd5977cb9f409f1d36cf14485",
+      "bytes": 778526,
+      "category": "tunerpro",
+      "source_sha256": "bdc249b6202854532700fd9a41ca7c92400d6ffcd5977cb9f409f1d36cf14485",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw2101_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/c404c19f7e55_c404c19f7e550981_1514808950728429729__BMS46_M43B19_Q28G_WIKI_KZB_ULTIMATE_v4_GALLETTO.xdf",
+      "sha256": "c404c19f7e550981b5dec464580a64d44646c5ea9754f2cc3e6a2f3581649cfd",
+      "bytes": 374093,
+      "category": "tunerpro",
+      "source_sha256": "c404c19f7e550981b5dec464580a64d44646c5ea9754f2cc3e6a2f3581649cfd",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/c404c19f7e550981_1514808950728429729__BMS46_M43B19_Q28G_WIKI_KZB_ULTIMATE_v4_GALLETTO.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/c4acbb9c4135_c4acbb9c41355595_BMS46_Q28G_FULL_VALIDATED_v1.xdf",
+      "sha256": "c4acbb9c413555952783fe76b7e162fa11ad6abba75fbd07cc5552e8d69c6542",
+      "bytes": 366081,
+      "category": "tunerpro",
+      "source_sha256": "c4acbb9c413555952783fe76b7e162fa11ad6abba75fbd07cc5552e8d69c6542",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/c4acbb9c41355595_BMS46_Q28G_FULL_VALIDATED_v1.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/c64a7b616f23_c64a7b616f239d82_BMS46_Q28G_R3_PARTIAL_32KB_EXTENDED_SAFE.xdf",
+      "sha256": "c64a7b616f239d8290b1e384b4c22f06456145af2ce366291b62fc35d61ddbef",
+      "bytes": 615698,
+      "category": "tunerpro",
+      "source_sha256": "c64a7b616f239d8290b1e384b4c22f06456145af2ce366291b62fc35d61ddbef",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/c64a7b616f239d82_BMS46_Q28G_R3_PARTIAL_32KB_EXTENDED_SAFE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/c674ced76210_hw1701_V4_Basic.xdf",
+      "sha256": "c674ced76210b601ac9cac3c89e52fffe0f64638c949c58d0ed2ed6cec8a71d9",
+      "bytes": 778528,
+      "category": "tunerpro",
+      "source_sha256": "c674ced76210b601ac9cac3c89e52fffe0f64638c949c58d0ed2ed6cec8a71d9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1701_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/c8eb0bae43e4_c8eb0bae43e44990_BMS46_Q28G_v0.66_ALL_SINGLE_XREF_CLOSED_CANDIDATE.xdf",
+      "sha256": "c8eb0bae43e44990663ccb953dd7517f728e41e46f4d1a565e6c6f031ac822a1",
+      "bytes": 859111,
+      "category": "tunerpro",
+      "source_sha256": "c8eb0bae43e44990663ccb953dd7517f728e41e46f4d1a565e6c6f031ac822a1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/c8eb0bae43e44990_BMS46_Q28G_v0.66_ALL_SINGLE_XREF_CLOSED_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/cc51eaca4685_cc51eaca4685a4f0_BMS46_Q28G_v0.40_PHASE9_LOW_RISK_CANDIDATE.xdf",
+      "sha256": "cc51eaca4685a4f0d7b7c2c8281c199ac8b7c076a4b021bc6cb2cd92ddf027ca",
+      "bytes": 584922,
+      "category": "tunerpro",
+      "source_sha256": "cc51eaca4685a4f0d7b7c2c8281c199ac8b7c076a4b021bc6cb2cd92ddf027ca",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/cc51eaca4685a4f0_BMS46_Q28G_v0.40_PHASE9_LOW_RISK_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/cd7dbc7aba21_hw2701_V4_Complete.xdf",
+      "sha256": "cd7dbc7aba211cf4e837cc54e90614751259b7b9b5c62b5b65a0163d336ad843",
+      "bytes": 2939633,
+      "category": "tunerpro",
+      "source_sha256": "cd7dbc7aba211cf4e837cc54e90614751259b7b9b5c62b5b65a0163d336ad843",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw2701_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/cdae5ba01daf_cdae5ba01dafd4ac_BMS46_Q28G_v0.70_ROUNDTRIP_CRC_QA_CANDIDATE.xdf",
+      "sha256": "cdae5ba01dafd4ac976ddb4bc7ca4280bcce56f86226817fcddeaa177bcd6f08",
+      "bytes": 872128,
+      "category": "tunerpro",
+      "source_sha256": "cdae5ba01dafd4ac976ddb4bc7ca4280bcce56f86226817fcddeaa177bcd6f08",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/cdae5ba01dafd4ac_BMS46_Q28G_v0.70_ROUNDTRIP_CRC_QA_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/d2533c2c5085_d2533c2c5085d318_BMS46_Q28G_R3_PARTIAL_32KB_VERIFIED_CORE.xdf",
+      "sha256": "d2533c2c5085d318496c3c9185f6a059a731d4cd68db0c8167522f34f4f192eb",
+      "bytes": 59364,
+      "category": "tunerpro",
+      "source_sha256": "d2533c2c5085d318496c3c9185f6a059a731d4cd68db0c8167522f34f4f192eb",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/d2533c2c5085d318_BMS46_Q28G_R3_PARTIAL_32KB_VERIFIED_CORE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/d40685b7a98e_d40685b7a98eca92_BMS46_Q28G_DFCO_CURATED_WORKING.xdf",
+      "sha256": "d40685b7a98eca920ce14b47d7b049d9ae2dd6a2158c1472c86972b3e5f81b0f",
+      "bytes": 497958,
+      "category": "tunerpro",
+      "source_sha256": "d40685b7a98eca920ce14b47d7b049d9ae2dd6a2158c1472c86972b3e5f81b0f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/d40685b7a98eca92_BMS46_Q28G_DFCO_CURATED_WORKING.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/d77a704b659f_BMS46_PARTIAL.xdf",
+      "sha256": "d77a704b659fcc7ff8b7921e4c8cf33827ea90476d8f77e3cb1eb2fac03521f9",
+      "bytes": 55748,
+      "category": "tunerpro",
+      "source_sha256": "d77a704b659fcc7ff8b7921e4c8cf33827ea90476d8f77e3cb1eb2fac03521f9",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/d77a704b659fcc7f_1337466509370331257__BMS46_PARTIAL.xdf",
+        "diagnostic-definitions/xdf/BMS46_PARTIAL.xdf",
+        "work-references/raw/first_run_inputs/definition/xdf/BMS46_PARTIAL.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/d7eb094bb369_BMS46_Q28G_v1.09_STABLE_PARTIAL_32KB.xdf",
+      "sha256": "d7eb094bb369b29e51b31fbaf64d52f0a8e7031991c9b7c7db5c4d8093170180",
+      "bytes": 913295,
+      "category": "tunerpro",
+      "source_sha256": "d7eb094bb369b29e51b31fbaf64d52f0a8e7031991c9b7c7db5c4d8093170180",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/d7eb094bb369b29e_BMS46_Q28G_v1.09_STABLE_PARTIAL_32KB.xdf",
+        "master/xdf/historical/BMS46_Q28G_v1.09_STABLE_PARTIAL_32KB.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/dcb1aa68301c_dcb1aa68301c3bf6_BMS46_Q28G_v0.59_SINGLE_XREF_THERMAL_DIAG_CANDIDATE.xdf",
+      "sha256": "dcb1aa68301c3bf6f18da4a10288d49e1d9ff52da233c7a10acc7a1992ce356d",
+      "bytes": 736570,
+      "category": "tunerpro",
+      "source_sha256": "dcb1aa68301c3bf6f18da4a10288d49e1d9ff52da233c7a10acc7a1992ce356d",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/dcb1aa68301c3bf6_BMS46_Q28G_v0.59_SINGLE_XREF_THERMAL_DIAG_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/dd0b3704c31b_mss52.xdf",
+      "sha256": "dd0b3704c31b594b966ee1337d7e8885e8144d515a60f3b66a9d23c92edf4735",
+      "bytes": 387187,
+      "category": "tunerpro",
+      "source_sha256": "dd0b3704c31b594b966ee1337d7e8885e8144d515a60f3b66a9d23c92edf4735",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS52_XDF/mss52.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/de8f5d7cda27_de8f5d7cda27f2d1_BMS46_Q28G_v1.03_LAMBDA2_TUNERPRO_SAFE_MINIMAL.xdf",
+      "sha256": "de8f5d7cda27f2d1e88496ae50e3249440abceb6117f4cfc393ddd783d798b39",
+      "bytes": 906576,
+      "category": "tunerpro",
+      "source_sha256": "de8f5d7cda27f2d1e88496ae50e3249440abceb6117f4cfc393ddd783d798b39",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/de8f5d7cda27f2d1_BMS46_Q28G_v1.03_LAMBDA2_TUNERPRO_SAFE_MINIMAL.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/e3c7fadb0836_BMS46_Q28G_AUTO.xdf",
+      "sha256": "e3c7fadb0836d7db80e00d648c6651f4adf392049a7d5528d75a8a6ce6481886",
+      "bytes": 184403,
+      "category": "tunerpro",
+      "source_sha256": "e3c7fadb0836d7db80e00d648c6651f4adf392049a7d5528d75a8a6ce6481886",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/e3c7fadb0836d7db_BMS46_Q28G_AUTO.xdf",
+        "work-checkpoints/2026-09-18_ronin_q28g_review/references/ronin_2026-09-18/BMS46_Q28G_AUTO.xdf",
+        "work-references/ronin_2026-09-18/BMS46_Q28G_AUTO.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/e5725c5107e2_e5725c5107e2d136_BMS46_Q28G_v0.50a_ENDIAN_HOTFIX_CANDIDATE.xdf",
+      "sha256": "e5725c5107e2d13678085857e6d3db5f5a757857a80711b718c488525fe2f687",
+      "bytes": 629298,
+      "category": "tunerpro",
+      "source_sha256": "e5725c5107e2d13678085857e6d3db5f5a757857a80711b718c488525fe2f687",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/e5725c5107e2d136_BMS46_Q28G_v0.50a_ENDIAN_HOTFIX_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/e7ec6a27aef9_e7ec6a27aef929a8_BMS46_Q28G_v1.06_DTC_LAMBDA_TUNERPRO_SAFE_MINIMAL.xdf",
+      "sha256": "e7ec6a27aef929a8de50d29087539655c4e9a43ba3abf167ac25d04510273ad4",
+      "bytes": 1001128,
+      "category": "tunerpro",
+      "source_sha256": "e7ec6a27aef929a8de50d29087539655c4e9a43ba3abf167ac25d04510273ad4",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/e7ec6a27aef929a8_BMS46_Q28G_v1.06_DTC_LAMBDA_TUNERPRO_SAFE_MINIMAL.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/e85c2a720596_hw1901_V4_Complete.xdf",
+      "sha256": "e85c2a720596692bb9941d16f54702cf373786290f416672d8fb1a8d081866ed",
+      "bytes": 2879825,
+      "category": "tunerpro",
+      "source_sha256": "e85c2a720596692bb9941d16f54702cf373786290f416672d8fb1a8d081866ed",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw1901_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/e8e8abb69ab4_MSS54HP_v1801_v2001_v2501_v2701_E30_Swap_Items.xdf",
+      "sha256": "e8e8abb69ab442e26ae2020e17849fecaf8c1ec18a45f8a495c74fb9e1811fc0",
+      "bytes": 36057,
+      "category": "tunerpro",
+      "source_sha256": "e8e8abb69ab442e26ae2020e17849fecaf8c1ec18a45f8a495c74fb9e1811fc0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Engine Swap XDFs/MSS54HP v1801 v2001 v2501 v2701 E30 Swap Items.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/e9b2f63df0c7_e9b2f63df0c7a966_BMS46_Q28G_v0.36_PHASE6_FIXEDPOINT_CANDIDATE.xdf",
+      "sha256": "e9b2f63df0c7a96682db2b8d6ea6599cf3b44f24a4a5f7b3099722a35c7fcde5",
+      "bytes": 584424,
+      "category": "tunerpro",
+      "source_sha256": "e9b2f63df0c7a96682db2b8d6ea6599cf3b44f24a4a5f7b3099722a35c7fcde5",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/e9b2f63df0c7a966_BMS46_Q28G_v0.36_PHASE6_FIXEDPOINT_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/eb825aabd4bb_hw1901_V4_Basic.xdf",
+      "sha256": "eb825aabd4bb2a1065e6dc104fdce4c4cdfbe06f1c65fbda033d92f50c0649b1",
+      "bytes": 754310,
+      "category": "tunerpro",
+      "source_sha256": "eb825aabd4bb2a1065e6dc104fdce4c4cdfbe06f1c65fbda033d92f50c0649b1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Basic XDFs/hw1901_V4_Basic.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ec3c1b06ce83_hw2601_V4_Complete.xdf",
+      "sha256": "ec3c1b06ce8387c1731144bef2541cab9076f0aec35422f82643dff31786d1f2",
+      "bytes": 3052309,
+      "category": "tunerpro",
+      "source_sha256": "ec3c1b06ce8387c1731144bef2541cab9076f0aec35422f82643dff31786d1f2",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw2601_V4_Complete.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ed8a0782fe7a_ed8a0782fe7a3dc6_BMS46_Q28G_SAFE_v0.8.4.xdf",
+      "sha256": "ed8a0782fe7a3dc6ae10118fd35ff83413d7dc520ada98a9ddb169f89ac18794",
+      "bytes": 557756,
+      "category": "tunerpro",
+      "source_sha256": "ed8a0782fe7a3dc6ae10118fd35ff83413d7dc520ada98a9ddb169f89ac18794",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/ed8a0782fe7a3dc6_BMS46_Q28G_SAFE_v0.8.4.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/efa2eee2446d_efa2eee2446d419f_BMS46_Q28G_v0.34_PHASE4_TRANSIENT_KNOCK_CANDIDATE.xdf",
+      "sha256": "efa2eee2446d419f314b5e2d0b7cc3d5fa2464553cb2d6faf3a600b853354baf",
+      "bytes": 580296,
+      "category": "tunerpro",
+      "source_sha256": "efa2eee2446d419f314b5e2d0b7cc3d5fa2464553cb2d6faf3a600b853354baf",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/efa2eee2446d419f_BMS46_Q28G_v0.34_PHASE4_TRANSIENT_KNOCK_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/f16a5b7ab252_ecuBMW46_AUTO_DISCOVERED.xdf",
+      "sha256": "f16a5b7ab252c57e8b88c0eee05aa2c82cd8d8644e681ae392469a51dd6bf8e8",
+      "bytes": 391142,
+      "category": "tunerpro",
+      "source_sha256": "f16a5b7ab252c57e8b88c0eee05aa2c82cd8d8644e681ae392469a51dd6bf8e8",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f16a5b7ab252c57e_ecuBMW46_AUTO_DISCOVERED.xdf",
+        "work-evidence/table_finder_v030/q28g_partial/ecuBMW46_AUTO_DISCOVERED.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/f2b3de212876_DTC_1801_1901_2001_2501_2701.xdf",
+      "sha256": "f2b3de212876654f81402aba45c283fcb61d19d09d9b1344c4618a37fc5b3bf7",
+      "bytes": 61050,
+      "category": "tunerpro",
+      "source_sha256": "f2b3de212876654f81402aba45c283fcb61d19d09d9b1344c4618a37fc5b3bf7",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Engine Swap XDFs/DTC 1801  1901  2001  2501  2701.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/f57ea268489a_f57ea268489ab5c2_BMS46_M43B19_Q28G_LOGIC_CHECKED_ULTIMATE_v2.xdf",
+      "sha256": "f57ea268489ab5c239db239f0fe926c2d4778ee6d55b0cfb4ea00abb2c4b3734",
+      "bytes": 358478,
+      "category": "tunerpro",
+      "source_sha256": "f57ea268489ab5c239db239f0fe926c2d4778ee6d55b0cfb4ea00abb2c4b3734",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f57ea268489ab5c2_BMS46_M43B19_Q28G_LOGIC_CHECKED_ULTIMATE_v2.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/f7bd9bbfd987_f7bd9bbfd987b5d3_BMS46_Q28G_v0.43_PHASE12_Z_AUDIT_COMPLETE_CANDIDATE.xdf",
+      "sha256": "f7bd9bbfd987b5d32594313435fda273c0b6a5de7b5d8c02b4f6bced11d02c77",
+      "bytes": 585474,
+      "category": "tunerpro",
+      "source_sha256": "f7bd9bbfd987b5d32594313435fda273c0b6a5de7b5d8c02b4f6bced11d02c77",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/f7bd9bbfd987b5d3_BMS46_Q28G_v0.43_PHASE12_Z_AUDIT_COMPLETE_CANDIDATE.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/fc15fc0fb672_fc15fc0fb6728573_BMS46_M43B19_Q28G_FULL_MERGED_KP_GALLETTO.xdf",
+      "sha256": "fc15fc0fb6728573710a9491562002ceda519e9c164b0bff6157542bcc2b0f7f",
+      "bytes": 77447,
+      "category": "tunerpro",
+      "source_sha256": "fc15fc0fb6728573710a9491562002ceda519e9c164b0bff6157542bcc2b0f7f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/fc15fc0fb6728573_BMS46_M43B19_Q28G_FULL_MERGED_KP_GALLETTO.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/fd78111fa6f0_fd78111fa6f06d61_BMS46_Q28G_GALLETTO32_v35_SCALAR_REVIEW_FIXED_LOADABLE_1_.xdf",
+      "sha256": "fd78111fa6f06d61dfc9a2a37d0d859d0e2b6a2f54dcb11a3968f4f90bfcd63b",
+      "bytes": 456923,
+      "category": "tunerpro",
+      "source_sha256": "fd78111fa6f06d61dfc9a2a37d0d859d0e2b6a2f54dcb11a3968f4f90bfcd63b",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/fd78111fa6f06d61_BMS46_Q28G_GALLETTO32_v35_SCALAR_REVIEW_FIXED_LOADABLE (1).xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/fdef37db19c6_fdef37db19c6c2fa_BMS46_Q28G_v1.05_DTC_FULL_CATALOG.xdf",
+      "sha256": "fdef37db19c6c2fae1966786e30adf02f4073865be40b6e2a48a5c55b9f3a13f",
+      "bytes": 993676,
+      "category": "tunerpro",
+      "source_sha256": "fdef37db19c6c2fae1966786e30adf02f4073865be40b6e2a48a5c55b9f3a13f",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/fdef37db19c6c2fa_BMS46_Q28G_v1.05_DTC_FULL_CATALOG.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/fee50392f0ad_fee50392f0adda22_BMS46_Q28G_STABLE_v0.9.0.xdf",
+      "sha256": "fee50392f0adda228387fcb8d2460461099d2a05e130fb429d8d81d6b1f674d1",
+      "bytes": 576693,
+      "category": "tunerpro",
+      "source_sha256": "fee50392f0adda228387fcb8d2460461099d2a05e130fb429d8d81d6b1f674d1",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "collected-bms46/fee50392f0adda22_BMS46_Q28G_STABLE_v0.9.0.xdf"
+      ]
+    },
+    {
+      "file": "materials/library/tunerpro/ff6427c14bc5_hw2801_V4_Complete.xdf",
+      "sha256": "ff6427c14bc5e90ce8f744995749c0ce8e8b79eaf9e6d43c65826cdbdc5609a0",
+      "bytes": 2939448,
+      "category": "tunerpro",
+      "source_sha256": "ff6427c14bc5e90ce8f744995749c0ce8e8b79eaf9e6d43c65826cdbdc5609a0",
+      "license_status": "NOT_ESTABLISHED_FOR_REDISTRIBUTION",
+      "sources": [
+        "comparison-ecus/MSS54_XDF/Complete XDFs/hw2801_V4_Complete.xdf"
+      ]
+    }
+  ]
+}

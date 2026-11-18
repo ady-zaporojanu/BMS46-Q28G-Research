@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from snapshot import FIELDS, LANGUAGE, SHA256, read_rows
+from validate_materials import validate_materials
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DIRS = {'.github', 'annotations', 'docs', 'extension', 'ghidra_scripts', 'licenses', 'research', 'tests', 'tools'}
@@ -21,6 +22,8 @@ def public_files(root=ROOT):
             continue  # Generated source-archive checksum list, not a source input.
         if rel.parts[0] in LOCAL_DIRS or '__pycache__' in rel.parts:
             continue
+        if rel.parts[0] == 'materials':
+            continue  # Separate manifest-verified dataset, never part of source-only packaging.
         if p.is_symlink():
             raise ValueError(f'Symlink cannot enter source package: {rel}')
         if not p.is_file():
@@ -94,6 +97,7 @@ def validate_snapshot(directory):
 
 
 def validate(root=ROOT):
+    validate_materials(root)
     files = public_files(root)
     errors = validate_snapshot(root / 'annotations/q28g')
     for p in files:
@@ -106,6 +110,9 @@ def validate(root=ROOT):
                     continue
                 target = (p.parent / link.split('#')[0]).resolve()
                 if not target.exists():
+                    material_root = (root / 'materials').resolve()
+                    if not material_root.exists() and material_root in target.parents:
+                        continue  # Source-only archive references the companion dataset.
                     errors.append(f'Broken local Markdown link in {p.relative_to(root)}: {link}')
     if errors:
         raise ValueError('\n'.join(errors[:30]))
@@ -116,4 +123,4 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
     args = parser.parse_args()
-    print(f'PASS: {validate(args.root)} public source files; snapshot identity, structure, links and privacy checks')
+    print(f'PASS: {validate(args.root)} public source files and {validate_materials(args.root)} material files; identity, structure, links and integrity checks')

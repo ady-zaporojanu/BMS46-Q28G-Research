@@ -8,3 +8,10 @@
 *.yml text eol=lf
 *.sinc text eol=lf
 *.slaspec text eol=lf
+
+# Preserve the exact dataset bytes recorded in the material manifest.
+materials/** -text
+*.gzf binary
+*.bin binary
+*.kp binary
+*.ols binary

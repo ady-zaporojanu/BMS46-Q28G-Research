@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<XDFFORMAT version="1.80">
+  <XDFHEADER>
+    <flags>0x1</flags>
+    <fileversion>BMS46-Q28G-FULL-VERIFIED-1</fileversion>
+    <deftitle>BMS46 Q28G full-image verified structures [v0.8.2 axis-scaling audit]</deftitle>
+    <description>Exact Q28G full-image definition for SHA-256 d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d. Contains 239 bounded descriptor tables and the code-demonstrated Q15 factor at 0x9392. Another 617 width-known direct ROM objects are cataloged but excluded because calibration semantics are unconfirmed; 25 address-only bases are excluded because length/type is unresolved. STRUCTURE_CONFIRMED and PROVISIONAL titles are not verified physical semantics. No tuning recommendation.</description>
+    <author>BMS46 reproducible analysis</author>
+    <BASEOFFSET offset="0" subtract="0" />
+    <DEFAULTS datasizeinbits="8" sigdigits="4" outputtype="1" signed="0" lsbfirst="0" float="0" />
+    <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x40000" regioncolor="0x0" regionflags="0x0" name="Q28G full firmware" desc="Read against exact 262144-byte Q28G image only." />
+    <CATEGORY index="0x0" name="Switches / toggles" />
+    <CATEGORY index="0x1" name="Ignition" />
+    <CATEGORY index="0x2" name="Fuel / injection" />
+    <CATEGORY index="0x3" name="Torque / load / throttle" />
+    <CATEGORY index="0x4" name="Idle" />
+    <CATEGORY index="0x5" name="Lambda / O2 / catalyst" />
+    <CATEGORY index="0x6" name="VANOS / DISA / air path" />
+    <CATEGORY index="0x7" name="Knock" />
+    <CATEGORY index="0x8" name="Torque reduction / protections" />
+    <CATEGORY index="0x9" name="Temperature / warmup" />
+    <CATEGORY index="0xA" name="Diagnostics / emissions / DTC" />
+    <CATEGORY index="0xB" name="Misc scalars" />
+    <CATEGORY index="0xC" name="Unknown / legacy" />
+    <CATEGORY index="0xD" name="Deceleration / DFCO" />
+    <CATEGORY index="0xE" name="Limiters / VMax" />
+    <CATEGORY index="0xF" name="Parameters / ECU Information" />
+    <CATEGORY index="0x10" name="Integrity / Native Checksums" />
+  </XDFHEADER>
+  <XDFTABLE uniqueid="0x10E3" flags="0x0">
+    <title>INFERRED_Ignition_Main_High_Octane_98__00A59E</title>
+    <description>bms46_table_3d_u8 at 0x00A59E; semantic status STRUCTURE_CONFIRMED; formula status PARTIAL. Stable ID=CAL_TABLE_00A59E. Consumers=calculate_Engine_Spark_advance. Selection=UNKNOWN. Only formulas explicitly stated as confirmed are engineering units.
+[WORKING-CANDIDATE-XDF] Names prefixed CANDIDATE_ are legacy/public hypotheses only; INFERRED_ names/formulas are code-derived working hypotheses unless explicitly marked code-confirmed. consumer=calculate_Engine_Spark_advance; lookup=lookup_interpolate_byte3D; input1=Engine_RPM; output=UNKNOWN_RAM_00FF8425; legacy-candidate=Ignition 98
+[MINIMAL DIAGNOSTIC XDF] Selected when FF83C0 bit7 is clear; writes FF8425 (Ignition_Normal). Legacy alias: Ignition 98.</description>
+    <CATEGORYMEM index="0" category="2" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" mmedaddress="0xA5AC" />
+      <units>RPM</units>
+      <indexcount>16</indexcount>
+      <decimalpl>0</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X * 40">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" mmedaddress="0xA5BC" />
+      <units>kg/h</units>
+      <indexcount>14</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X * 0.715">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xA5CA" mmedelementsizebits="8" mmedrowcount="14" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>deg BTDC</units>
+      <decimalpl>2</decimalpl>
+      <min>0</min>
+      <max>255</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X * 0.75 - 22.5">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x10E8" flags="0x0">
+    <title>INFERRED_Ignition_Main_Low_Octane_95_Knock_Fallback__00A828</title>
+    <description>bms46_table_3d_u8 at 0x00A828; semantic status STRUCTURE_CONFIRMED; formula status PARTIAL. Stable ID=CAL_TABLE_00A828. Consumers=calculate_Engine_Spark_advance. Selection=UNKNOWN. Only formulas explicitly stated as confirmed are engineering units.
+[WORKING-CANDIDATE-XDF] Names prefixed CANDIDATE_ are legacy/public hypotheses only; INFERRED_ names/formulas are code-derived working hypotheses unless explicitly marked code-confirmed. consumer=calculate_Engine_Spark_advance; lookup=lookup_interpolate_byte3D; input1=Engine_RPM; output=UNKNOWN_RAM_00FF8426
+[MINIMAL DIAGNOSTIC XDF] Selected when FF83C0 bit7 is set; writes FF8426 (Ignition_On_Knock). Legacy alias: Ignition 95.</description>
+    <CATEGORYMEM index="0" category="2" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" mmedaddress="0xA836" />
+      <units>RPM</units>
+      <indexcount>16</indexcount>
+      <decimalpl>0</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X * 40">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="14" mmedmajorstridebits="0" mmedminorstridebits="0" mmedaddress="0xA846" />
+      <units>kg/h</units>
+      <indexcount>14</indexcount>
+      <decimalpl>3</decimalpl>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="X * 0.715">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0xA854" mmedelementsizebits="8" mmedrowcount="14" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>deg BTDC</units>
+      <decimalpl>2</decimalpl>
+      <min>0</min>
+      <max>255</max>
+      <outputtype>1</outputtype>
+      <MATH equation="X * 0.75 - 22.5">
+        <VAR id="X" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+</XDFFORMAT>

@@ -27,3 +27,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 MANIFEST.sha256
+
+# Explicitly published research inputs (all validated against a manifest).
+!materials/library/firmware/*.bin
+!materials/ghidra/*.gzf

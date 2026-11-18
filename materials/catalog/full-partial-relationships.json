@@ -1,0 +1,479 @@
+[
+  {
+    "partial": "library/firmware/e59162cfe5c3_PARTIAL_01119700EF00Q20G.bin",
+    "partial_sha256": "e59162cfe5c3d18edd1aee8f9c65c0dcbd1d27829e6752959f41d0b63a45f4b9",
+    "full": "library/firmware/8d30695c887a_01119700EF00Q20G.bin",
+    "full_sha256": "8d30695c887ad6181c9b8805f8919c26fe2ec71802015c287b8e15d38ca6ee46",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/654229e0546e_PARTIAL_01119700F000O2AG.bin",
+    "partial_sha256": "654229e0546e944c78ca1d67884cf0410fcfdc036305129d174a94a18038244f",
+    "full": "library/firmware/5ea5aab612fd_01119700F000O2AG.bin",
+    "full_sha256": "5ea5aab612fd8ec0f622ef6e94d34dfd1a46647fe691df260aebf8ae40e3ef80",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/654229e0546e_PARTIAL_01119700F000O2AG.bin",
+    "partial_sha256": "654229e0546e944c78ca1d67884cf0410fcfdc036305129d174a94a18038244f",
+    "full": "library/firmware/224f7201079e_TUNED_01119700F000O2AG.bin",
+    "full_sha256": "224f7201079e7666b112a794473bf0929111c03c262e09cfd59c099b487098c9",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/d3c3abb52362_01119700F000Q28G_CANONICAL.bin",
+    "full_sha256": "d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/79aee1f7e6bd_VEHICLE_BMS46_20261115_133549_355_c5ce2439_full_logical.bin",
+    "full_sha256": "79aee1f7e6bd1f132c09ff39700ecf0c8754e0d77dd604d68c8adc8ea932b0b5",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/1de24515e3cf_QuickFlash_full_READ_ERROR_DO_NOT_FLASH.bin",
+    "full_sha256": "1de24515e3cf8dea3dd80696c1fb69924da58e16a0e1e46e29662ac4f3c90b0b",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/71584021d7f5_quickflash_fake_rom.bin",
+    "full_sha256": "71584021d7f5a0206ffe86b667478e45671945412da552b1e82063783695df02",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/6aae117f48a4_SIMULATED_Q28G_full.bin",
+    "full_sha256": "6aae117f48a47a0ac6247a54be1297b68e4db4bf244e37bd2e1d19ee5ca86323",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/36a9e7243d1b_q28g_ews.read_full.00.bin",
+    "full_sha256": "36a9e7243d1b63be5b34b72062fab8940ff7c2d6580ef44be26a0226d59c572b",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/6f1f45f1f9cb_Q28G_R1_OFFLINE_ONLY_NOT_FOR_FLASH.bin",
+    "full_sha256": "6f1f45f1f9cb7c5d0f0481bfb69f39f906c37a9db545c53349f8a54b08d36f69",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/0630d4f932d6_0630d4f932d61787_Q28G_LIVE_TRANSPORT_TEST.bin",
+    "full_sha256": "0630d4f932d61787c4d4d5d8d26d8b17b424472a1535dc04d6a587072befb46a",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/15868ea042a3_15868ea042a3bf1a_Q28G_LIVE_V122_INERT.bin",
+    "full_sha256": "15868ea042a3bf1a7fdddb6ed92a60f333e66f550284e7183008a906aa29e199",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/22f358b4c584_22f358b4c5841d13_VEHICLE_BMS46_1430940_fullread.bin",
+    "full_sha256": "22f358b4c5841d13de588568bcde66a9fb5c74722a304e5a2b18fabbd49f3804",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/2bb7d7282709_2bb7d7282709b731_Q28G_LIVE_V127_MILD_TIMING.bin",
+    "full_sha256": "2bb7d7282709b731db012b49cf3722dd55b50e4e37512b08168b31473165a89d",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/3ba59cce395d_3ba59cce395d5ca3_Q28G_LIVE_V125_MICROFUEL.bin",
+    "full_sha256": "3ba59cce395d5ca304c936e2086d9af74db32e3d35f6218e9eec2327f0b00a9e",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/48cfb397a1c9_48cfb397a1c97ea9_Q28G_LIVE_V128_NEGATIVE.bin",
+    "full_sha256": "48cfb397a1c97ea914637265aa0b546ddcbfaf5d7be936569a5d8f7c442e4d11",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/5045311d30fd_5045311d30fd2143_Q28G_LIVE_V124_WATCHDOG.bin",
+    "full_sha256": "5045311d30fd2143f3b11e74f1e8158dd44fb7bc1fa084b90fe9adc2c007a546",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/51719481ba91_51719481ba912ece_Q28G_LIVE_V129_NEGATIVE_EXTENDED.bin",
+    "full_sha256": "51719481ba912eceec863724a71e8ccba5131a13dd0e9a9009cf99702464fafe",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/60c0b7725a75_60c0b7725a7578e8_Q28G_LIVE_INLINE_V119.bin",
+    "full_sha256": "60c0b7725a7578e8e18d7c79dd74ad1b9b5f8664d3ed50ad6ade29d6a04979ca",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/7fac2cb28b2b_7fac2cb28b2bb34b_Q28G_LIVE_V126_BOUNDED.bin",
+    "full_sha256": "7fac2cb28b2bb34bc13b386dc1d5233b9b946a576ceb4afccff3fe39ebff2173",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/861de473dd67_861de473dd67b125_Q28G_LIVE_V123_DFCO_LATCH.bin",
+    "full_sha256": "861de473dd67b1251719d51b3d2b6a589cc7602e3f77b724af3988aa772a6cf4",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/9597575332d7_9597575332d796ca_Q28G_LIVE_V134F_DOUBLE_PRESS_FUEL_6P25.bin",
+    "full_sha256": "9597575332d796ca9eb6da144d5fbccb0c736fad685fc0f8e0e90101a73e072f",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/a4811c816672_a4811c81667228ca_Q28G_LIVE_V133_AC_DIRECT_POPS.bin",
+    "full_sha256": "a4811c81667228ca8cd882f9cbed8f015d917ff4eb70625b31636a6fafda974a",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/a8d31985d9cd_a8d31985d9cdfb0a_VEHICLE_BMS46_1430940_fullread_-_tuning.bin",
+    "full_sha256": "a8d31985d9cdfb0ad708f1a5f8cca68f5bdf478ce2204f7f20ddd17757f0ca57",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/b3b4399d48db_b3b4399d48db2c73_Q28G_LIVE_V128R1_NEGATIVE_FIXED.bin",
+    "full_sha256": "b3b4399d48db2c734365e4a87777738350801a243cc09f5ecb98ef2748d68896",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/dd03fbdbb6ab_dd03fbdbb6ab69f1_Q28G_LIVE_V134_AC_DOUBLE_PRESS.bin",
+    "full_sha256": "dd03fbdbb6ab69f1a0f8c552a7978dcde54501b9806f87456320a0a7b4c737cf",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/709a4c3e15ea_PARTIAL_01119700F000Q28G.bin",
+    "partial_sha256": "709a4c3e15ea865d6d597a507e894a8d337c5efa0e47ee065dbaf168dbdfbe4b",
+    "full": "library/firmware/f84860cecf9b_f84860cecf9b2d58_Q28G_LIVE_V130_IGNITION_ONLY.bin",
+    "full_sha256": "f84860cecf9b2d5889d5236d1a5b567891291c56a00947b0c14d02fca901e08f",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/44a4633ce39e_PARTIAL_01119700F000Q2AG.bin",
+    "partial_sha256": "44a4633ce39eb0778b8eed62ed55c9ef6d687bace7e681061d6cc0eb8eecbc5a",
+    "full": "library/firmware/a7b193f322a4_01119700F000Q2AG.bin",
+    "full_sha256": "a7b193f322a4749848ca1af35ecc684cf2a94d906d2b14d0c6453f0b3453a37d",
+    "base_address": "0x8010",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+    "partial_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+    "full": "library/firmware/79aee1f7e6bd_VEHICLE_BMS46_20261115_133549_355_c5ce2439_full_logical.bin",
+    "full_sha256": "79aee1f7e6bd1f132c09ff39700ecf0c8754e0d77dd604d68c8adc8ea932b0b5",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+    "partial_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+    "full": "library/firmware/1de24515e3cf_QuickFlash_full_READ_ERROR_DO_NOT_FLASH.bin",
+    "full_sha256": "1de24515e3cf8dea3dd80696c1fb69924da58e16a0e1e46e29662ac4f3c90b0b",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+    "partial_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+    "full": "library/firmware/71584021d7f5_quickflash_fake_rom.bin",
+    "full_sha256": "71584021d7f5a0206ffe86b667478e45671945412da552b1e82063783695df02",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+    "partial_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+    "full": "library/firmware/6aae117f48a4_SIMULATED_Q28G_full.bin",
+    "full_sha256": "6aae117f48a47a0ac6247a54be1297b68e4db4bf244e37bd2e1d19ee5ca86323",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+    "partial_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+    "full": "library/firmware/6f1f45f1f9cb_Q28G_R1_OFFLINE_ONLY_NOT_FOR_FLASH.bin",
+    "full_sha256": "6f1f45f1f9cb7c5d0f0481bfb69f39f906c37a9db545c53349f8a54b08d36f69",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/9ef1d60dca43_VEHICLE_BMS46_20261114_232013_043_f60bf94e_partial.bin",
+    "partial_sha256": "9ef1d60dca43a1d66f52cddb70e3027442255693621373585fcd465bb79a270a",
+    "full": "library/firmware/a8d31985d9cd_a8d31985d9cdfb0a_VEHICLE_BMS46_1430940_fullread_-_tuning.bin",
+    "full_sha256": "a8d31985d9cdfb0ad708f1a5f8cca68f5bdf478ce2204f7f20ddd17757f0ca57",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/d3c3abb52362_01119700F000Q28G_CANONICAL.bin",
+    "full_sha256": "d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/36a9e7243d1b_q28g_ews.read_full.00.bin",
+    "full_sha256": "36a9e7243d1b63be5b34b72062fab8940ff7c2d6580ef44be26a0226d59c572b",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/0630d4f932d6_0630d4f932d61787_Q28G_LIVE_TRANSPORT_TEST.bin",
+    "full_sha256": "0630d4f932d61787c4d4d5d8d26d8b17b424472a1535dc04d6a587072befb46a",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/15868ea042a3_15868ea042a3bf1a_Q28G_LIVE_V122_INERT.bin",
+    "full_sha256": "15868ea042a3bf1a7fdddb6ed92a60f333e66f550284e7183008a906aa29e199",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/22f358b4c584_22f358b4c5841d13_VEHICLE_BMS46_1430940_fullread.bin",
+    "full_sha256": "22f358b4c5841d13de588568bcde66a9fb5c74722a304e5a2b18fabbd49f3804",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/2bb7d7282709_2bb7d7282709b731_Q28G_LIVE_V127_MILD_TIMING.bin",
+    "full_sha256": "2bb7d7282709b731db012b49cf3722dd55b50e4e37512b08168b31473165a89d",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/3ba59cce395d_3ba59cce395d5ca3_Q28G_LIVE_V125_MICROFUEL.bin",
+    "full_sha256": "3ba59cce395d5ca304c936e2086d9af74db32e3d35f6218e9eec2327f0b00a9e",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/48cfb397a1c9_48cfb397a1c97ea9_Q28G_LIVE_V128_NEGATIVE.bin",
+    "full_sha256": "48cfb397a1c97ea914637265aa0b546ddcbfaf5d7be936569a5d8f7c442e4d11",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/5045311d30fd_5045311d30fd2143_Q28G_LIVE_V124_WATCHDOG.bin",
+    "full_sha256": "5045311d30fd2143f3b11e74f1e8158dd44fb7bc1fa084b90fe9adc2c007a546",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/51719481ba91_51719481ba912ece_Q28G_LIVE_V129_NEGATIVE_EXTENDED.bin",
+    "full_sha256": "51719481ba912eceec863724a71e8ccba5131a13dd0e9a9009cf99702464fafe",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/60c0b7725a75_60c0b7725a7578e8_Q28G_LIVE_INLINE_V119.bin",
+    "full_sha256": "60c0b7725a7578e8e18d7c79dd74ad1b9b5f8664d3ed50ad6ade29d6a04979ca",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/7fac2cb28b2b_7fac2cb28b2bb34b_Q28G_LIVE_V126_BOUNDED.bin",
+    "full_sha256": "7fac2cb28b2bb34bc13b386dc1d5233b9b946a576ceb4afccff3fe39ebff2173",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/861de473dd67_861de473dd67b125_Q28G_LIVE_V123_DFCO_LATCH.bin",
+    "full_sha256": "861de473dd67b1251719d51b3d2b6a589cc7602e3f77b724af3988aa772a6cf4",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/9597575332d7_9597575332d796ca_Q28G_LIVE_V134F_DOUBLE_PRESS_FUEL_6P25.bin",
+    "full_sha256": "9597575332d796ca9eb6da144d5fbccb0c736fad685fc0f8e0e90101a73e072f",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/a4811c816672_a4811c81667228ca_Q28G_LIVE_V133_AC_DIRECT_POPS.bin",
+    "full_sha256": "a4811c81667228ca8cd882f9cbed8f015d917ff4eb70625b31636a6fafda974a",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/b3b4399d48db_b3b4399d48db2c73_Q28G_LIVE_V128R1_NEGATIVE_FIXED.bin",
+    "full_sha256": "b3b4399d48db2c734365e4a87777738350801a243cc09f5ecb98ef2748d68896",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/dd03fbdbb6ab_dd03fbdbb6ab69f1_Q28G_LIVE_V134_AC_DOUBLE_PRESS.bin",
+    "full_sha256": "dd03fbdbb6ab69f1a0f8c552a7978dcde54501b9806f87456320a0a7b4c737cf",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/cf291dd1b497_q28g_calibration_8000.bin",
+    "partial_sha256": "cf291dd1b497fdc55fbe165327680d34d75debf86134242e7d98b354c504885f",
+    "full": "library/firmware/f84860cecf9b_f84860cecf9b2d58_Q28G_LIVE_V130_IGNITION_ONLY.bin",
+    "full_sha256": "f84860cecf9b2d5889d5236d1a5b567891291c56a00947b0c14d02fca901e08f",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  },
+  {
+    "partial": "library/firmware/6d7278f2357b_6d7278f2357b4303_1372942308143792231__VEHICLE_BMS46_1430940_partial.bin",
+    "partial_sha256": "6d7278f2357b4303d67ea8be55794923be762295987c99f40223231528a8b842",
+    "full": "library/firmware/a7a7fb152ddd_a7a7fb152dddb7b0_1372942307745337404__VEHICLE_BMS46_1430940_fullread.bin",
+    "full_sha256": "a7a7fb152dddb7b0c3e8e1f32c96a37fea3ba86d9bdedfaf524a5f3d386f0e94",
+    "base_address": "0x8000",
+    "length": 32768,
+    "evidence": "Exact contiguous byte equality; not inferred from filenames"
+  }
+]
