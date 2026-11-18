@@ -1,0 +1,10 @@
+This extension is a derivative of NSA Ghidra's 68000 processor language and
+Brad Ackerman/backerman's CPU32 patch:
+https://github.com/NationalSecurityAgency/ghidra/commit/fafd1bb00aaca30ee546de0485896ba4de1bacab
+
+Local modifications: isolated CPU32_STATUS_V2 language identifier, T0 flag,
+SR/CCR packing/unpacking and RTR data-effect fixes. They do not constitute
+complete CPU32 hardware, exception, peripheral or TBL semantics.
+
+Licensed under Apache License 2.0. See ../../licenses/Apache-2.0.txt in the
+source repository. Original source notices are retained where present.

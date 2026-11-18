@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language_definitions><language processor="68000" endian="big" size="32" variant="CPU32_STATUS_V2" version="1.1" slafile="CPU32.sla" processorspec="68000.pspec" id="68000:BE:32:CPU32_STATUS_V2">
+<description>CPU32 corrected SR/CCR/RTR data effects; incomplete exception/hardware emulation</description><compiler name="default" spec="68000.cspec" id="default"/>
+</language></language_definitions>

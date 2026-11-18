@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "method": "Pack original program, import packed program into a new project, re-export and compare full records (not only annotation subset)",
+  "exact_record_counts": {
+    "functions": 756,
+    "comments": 4523,
+    "symbols": 9928,
+    "datatypes": 37,
+    "defined_data": 3211,
+    "memory": 4,
+    "bookmarks": 47,
+    "all_instructions": 45151,
+    "all_references": 27145
+  },
+  "user_defined_signatures": 23
+}

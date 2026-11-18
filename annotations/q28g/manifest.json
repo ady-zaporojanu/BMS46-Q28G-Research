@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "firmware_id": "01119700F000Q28G",
+  "rom_size": 262144,
+  "rom_sha256": "d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d",
+  "image_base": "00000000",
+  "language": "68000:BE:32:CPU32_STATUS_V2",
+  "ghidra_version": "12.1.2",
+  "counts": {
+    "memory": 4,
+    "comments": 4523,
+    "symbols": 3259,
+    "functions": 756,
+    "datatypes": 37,
+    "defined_data": 3211,
+    "bookmarks": 47,
+    "all_instructions": 45151
+  },
+  "flow_overrides": 2
+}

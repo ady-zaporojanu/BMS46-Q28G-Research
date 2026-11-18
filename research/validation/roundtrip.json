@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Exact text round-trip of comments, global labels, instruction boundaries, memory and flow overrides; documented type/signature canonicalization excluded",
+  "exact_files": {
+    "comments": {
+      "records": 4523,
+      "sha256": "e71d42fbe26725afd8d016037a0aaeb80202545dc5d2d379ff8d6c8c5a1b915d"
+    },
+    "symbols": {
+      "records": 3259,
+      "sha256": "03b82c5503f635ff538a8edb77bd333329a80ceae9ec91f611d1d14bee58afb2"
+    },
+    "all_instructions": {
+      "records": 45151,
+      "sha256": "5b518827d642021800c3f21bdebe0f05204b6442709df29c13d53ab05f832240"
+    },
+    "memory": {
+      "records": 4,
+      "sha256": "16421d0d27948df7a6ad3686ca44d89f84640d2d6bca747e26e0c14b207a8a00"
+    },
+    "flow_overrides": {
+      "records": 2,
+      "sha256": "4b9ef55957ab9962599c5912e492c7652c07a12a5854690270d89261c7cf9f7a"
+    },
+    "bookmarks": {
+      "records": 47,
+      "sha256": "91972b7ca245996e409445a8c0e9ec0d5be9a1e4f887d26e1fa09c53f30fcdc9"
+    }
+  },
+  "serialization": "UTF-8, canonical LF line endings"
+}

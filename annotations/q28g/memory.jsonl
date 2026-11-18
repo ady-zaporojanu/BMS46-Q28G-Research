@@ -1,0 +1,4 @@
+{"end":"0003ffff","execute":true,"initialized":true,"name":"ROM","read":true,"size":262144,"start":"00000000","volatile":false,"write":false}
+{"end":"00fe60ff","execute":false,"initialized":false,"name":"EWS","read":true,"size":256,"start":"00fe6000","volatile":false,"write":true}
+{"end":"00ff9dff","execute":false,"initialized":false,"name":"USER_RAM","read":true,"size":40448,"start":"00ff0000","volatile":false,"write":true}
+{"end":"00ffffff","execute":false,"initialized":false,"name":"INTERNAL","read":true,"size":4096,"start":"00fff000","volatile":true,"write":true}

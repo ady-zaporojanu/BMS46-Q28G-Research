@@ -1,0 +1,59 @@
+{
+  "source_checkpoint": "ghidra_fan_demand_20261117",
+  "prepared": "2026-11-18",
+  "note": "SHA-256 provenance of private source exports; those byte-bearing files are not bundled. Paths and vehicle identities omitted.",
+  "inputs": [
+    {
+      "file": "all_instructions.jsonl",
+      "sha256": "54e60dd1e37f383fd0cb90c28288d1e82b60164fdb87a8e70652f961fbdca63c"
+    },
+    {
+      "file": "all_references.jsonl",
+      "sha256": "545340abce1c6eb6dff5ee4543b3b666fb7d6838bd8438120088687fe34f333c"
+    },
+    {
+      "file": "bookmarks.jsonl",
+      "sha256": "7e15a5aeb453ef6c098dbef7404f721756466461ec0d6d4b6c794baad590c4fa"
+    },
+    {
+      "file": "calls.jsonl",
+      "sha256": "3ab40a1a406f5a9ef40c365aa4e829c08f6b17025cee8f8998ff4d5b6ad1eea8"
+    },
+    {
+      "file": "comments.jsonl",
+      "sha256": "466a28b20daf0f9e46ab3ad6089c7c5e90e18463b80cfc61908589da289a0bff"
+    },
+    {
+      "file": "datatypes.jsonl",
+      "sha256": "09e85413d6768463484eecf41fca2a0d0cdd5a49286bc384848408173a8c04f2"
+    },
+    {
+      "file": "defined_data.jsonl",
+      "sha256": "15fc788b7fbac2ed906173c18136877d02b32e23fd67be5de9150307777c1fbc"
+    },
+    {
+      "file": "functions.jsonl",
+      "sha256": "750d5b4b361d548054846d2851a6e649cad8dd543cfbf25445a6911b574b2ad6"
+    },
+    {
+      "file": "instructions.jsonl",
+      "sha256": "c7b8099e75932ef80941441821a9991ad35481535c273c7f0791b9d1157a7a1c"
+    },
+    {
+      "file": "memory.jsonl",
+      "sha256": "e3023f58701d04c17afdd9d591f902583c22e9cf161b25600b50698be025edc6"
+    },
+    {
+      "file": "program.jsonl",
+      "sha256": "81fbed04f69a48f839f2c4c4396f776669b1ec85de9ed2b56364be143bc9fe38"
+    },
+    {
+      "file": "references.jsonl",
+      "sha256": "ea7ff2edca0afc809f4f472fd5b0e299118476c37a860d6b14bc60f258cb6a76"
+    },
+    {
+      "file": "symbols.jsonl",
+      "sha256": "ab7c4fce87101316f9ca0e114de6369750d908318009f798499338030aeb47dd"
+    }
+  ]
+}

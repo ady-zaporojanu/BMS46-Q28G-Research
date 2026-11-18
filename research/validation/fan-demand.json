@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "cases": {
+    "dispatcher": 1,
+    "decode_slice": 1024,
+    "decode_inhibit": 256,
+    "curve_lookup": 768,
+    "voltage_normalization": 65536,
+    "complete_demand_and_output": 4096,
+    "disabled_or_suppressed": 768,
+    "sequential_steps": 1600
+  },
+  "total": 74049,
+  "rom_sha256": "d3c3abb5236240906a9d8851b31802e0751c233ebe0bba58d2c51f66e137679d",
+  "emulator": "Unicorn 2.1.4 M68020 common instruction subset",
+  "limits": [
+    "No real CAN reception or external controller simulation.",
+    "Decode tests begin after receive/DTC calls; error path not fully executed.",
+    "No TPU microcode, waveform, interrupt timing or physical units tested.",
+    "All calibration bytes are canonical, unmodified.",
+    "Voltage tests use raw FF832C, not volts.",
+    "Sequential steps are task invocations, not milliseconds."
+  ]
+}
